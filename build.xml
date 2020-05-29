@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="deepblue_songbook" default="all" basedir=".">
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <target name="init">
+        <property name="name" value="dbsongbook"/>
+        <property name="src.dir" value="Development"/>
+        <property name="songbooks.dir" value="songbooks"/>
+        <property name="backup.dir" value="backup"/>
+        <property name="temp.dir" value="temp"/>
+    </target>
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <target name="all" depends="init">
+        <antcall target="backup"/>
+        <antcall target="clean"/>
+        <antcall target="buildPDF">
+            <param name="output_type" value="rehearsing"/>
+        </antcall>
+    </target>
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <target name="backup" depends="init">
+        <delete dir="${backup.dir}"/>
+        <mkdir dir="${backup.dir}"/>
+        <copy todir="${backup.dir}" overwrite="true " verbose="true">
+            <fileset dir="${src.dir}">
+                <include name="**\*.xml"/>
+                <include name="**\*.xsl"/>
+            </fileset>
+        </copy>
+    </target>
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <target name="clean" depends="init">
+        <delete dir="${songbooks.dir}"/>
+        <delete dir="${temp.dir}"/>
+    </target>
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <target name="buildPDF" depends="init">
+        <echo message="${output_type}"/>
+        <mkdir dir="${songbooks.dir}"/>
+        <mkdir dir="${temp.dir}"/>
+        <copy file="${src.dir}/dev_SongBook.xml" toDir="${temp.dir}"/>
+        <xslt style="${src.dir}/dev_build_pdf.xsl" in="${temp.dir}/dev_SongBook.xml" basedir="${temp.dir}" destdir="${temp.dir}"
+            extension=".fo">
+            <param name="pdf-content" expression="${output_type}"/>
+        </xslt>
+        <taskdef name="fop" classname="org.apache.fop.tools.anttasks.Fop"/>
+        <fop format="application/pdf" basedir="${temp.dir}" fofile="${temp.dir}/dev_SongBook.fo"
+            outfile="${songbooks.dir}/songbook.pdf" messagelevel="info"> </fop>
+    </target>
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+</project>

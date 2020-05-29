@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns=""/>
+    </meta>
+    <projectTree name="release_songbook.xpr">
+        <file name="Release/SongBook.xml"/>
+        <file name="Release/Songbook.xsd"/>
+        <file name="Release/select_songs.xsl"/>
+        <file name="Release/xsl_select_new.xsl"/>
+        <file name="Release/xsl_select_setlist.xsl"/>
+        <file name="Release/xsl_select_songbook.xsl"/>
+        <file name="Release/xsl_select_songbook_rehearsing.xsl"/>
+        <file name="Release/xsl_xsb2fo.xsl"/>
+    </projectTree>
+</project>

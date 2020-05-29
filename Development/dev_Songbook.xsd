@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="songbook">
+		<xs:annotation>
+			<xs:documentation>Deep Blue song bible</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="revisioninfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="date" type="xs:date"/>
+							<xs:element name="description" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="song" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="title" type="xs:string"/>
+							<xs:element name="info">
+								<xs:complexType>
+									<xs:attribute name="key" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="A"/>
+												<xs:enumeration value="Am"/>
+												<xs:enumeration value="Bb"/>
+												<xs:enumeration value="Bbm"/>
+												<xs:enumeration value="B"/>
+												<xs:enumeration value="Bm"/>
+												<xs:enumeration value="C"/>
+												<xs:enumeration value="Cm"/>
+												<xs:enumeration value="Db"/>
+												<xs:enumeration value="Dbm"/>
+												<xs:enumeration value="D"/>
+												<xs:enumeration value="Dm"/>
+												<xs:enumeration value="Eb"/>
+												<xs:enumeration value="Ebm"/>
+												<xs:enumeration value="E"/>
+												<xs:enumeration value="Em"/>
+												<xs:enumeration value="F"/>
+												<xs:enumeration value="Fm"/>
+												<xs:enumeration value="F#"/>
+												<xs:enumeration value="F#m"/>
+												<xs:enumeration value="Gb"/>
+												<xs:enumeration value="Gbm"/>
+												<xs:enumeration value="G"/>
+												<xs:enumeration value="Gm"/>
+												<xs:enumeration value="Ab"/>
+												<xs:enumeration value="Abm"/>
+												<xs:enumeration value="C#m"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="genre" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="Blues"/>
+												<xs:enumeration value="Soul"/>
+												<xs:enumeration value="R and B"/>
+												<xs:enumeration value="Latin"/>
+												<xs:enumeration value="Rock"/>
+												<xs:enumeration value="Pop"/>
+												<xs:enumeration value="MOR"/>
+												<xs:enumeration value="Motown"/>
+												<xs:enumeration value="Country"/>
+												<xs:enumeration value="Klezmer"/>
+												<xs:enumeration value="Folk"/>
+												<xs:enumeration value="Ballad"/>
+												<xs:enumeration value="Other"/>
+												<xs:enumeration value="Rock And Roll"/>
+												<xs:enumeration value="Jive"/>
+												<xs:enumeration value="Pop"/>
+												<xs:enumeration value="Reggae"/>
+												<xs:enumeration value="Jazz"/>
+												<xs:enumeration value="Traditional"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="style" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="Fast"/>
+												<xs:enumeration value="Slow"/>
+												<xs:enumeration value="Medium"/>
+												<xs:enumeration value="Lurve"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="status" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="ready"/>
+												<xs:enumeration value="resting"/>
+												<xs:enumeration value="retired"/>
+												<xs:enumeration value="rehearsing"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="composer" type="xs:string" use="optional"/>
+									<xs:attribute name="artist" type="xs:string" use="optional"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element ref="annotation" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element name="content">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element ref="annotation" minOccurs="0"
+											maxOccurs="unbounded"/>
+										<xs:element name="section" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+												<xs:element ref="annotation" minOccurs="0"
+												maxOccurs="unbounded"/>
+												<xs:element name="directions" type="xs:string"
+												minOccurs="0" maxOccurs="unbounded"/>
+												<xs:element name="comment" minOccurs="0"
+												maxOccurs="unbounded"/>
+												<xs:element name="chords" type="xs:string"
+												minOccurs="0" maxOccurs="unbounded"/>
+												<xs:element name="lyrics" minOccurs="0">
+												<xs:complexType>
+												<xs:sequence>
+												<xs:element name="span" minOccurs="0"
+												maxOccurs="unbounded">
+												<xs:complexType>
+												<xs:simpleContent>
+												<xs:extension base="xs:string">
+												<xs:attribute name="spantype" use="optional"
+												default="words">
+												<xs:simpleType>
+												<xs:restriction base="xs:string">
+												<xs:enumeration value="words"/>
+												<xs:enumeration value="chords"/>
+												</xs:restriction>
+												</xs:simpleType>
+												</xs:attribute>
+												</xs:extension>
+												</xs:simpleContent>
+												</xs:complexType>
+												</xs:element>
+												</xs:sequence>
+												</xs:complexType>
+												</xs:element>
+												</xs:sequence>
+												<xs:attribute name="sectiontype" use="required">
+												<xs:simpleType>
+												<xs:restriction base="xs:string">
+												<xs:enumeration value="verse"/>
+												<xs:enumeration value="chorus"/>
+												<xs:enumeration value="break"/>
+												<xs:enumeration value="bridge"/>
+												<xs:enumeration value="intro"/>
+												<xs:enumeration value="outro"/>
+												<xs:enumeration value="link"/>
+												<xs:enumeration value="instrumental"/>
+												<xs:enumeration value="instrumental verse"/>
+												<xs:enumeration value="instrumental chorus"/>
+												<xs:enumeration value="figure"/>
+												<xs:enumeration value="stopchorus"/>
+												<xs:enumeration value="A-part"/>
+												<xs:enumeration value="B-part"/>
+												<xs:enumeration value="C-part"/>
+												<xs:enumeration value="D-part"/>
+												<xs:enumeration value="E-part"/>
+												<xs:enumeration value="F-part"/>
+												<xs:enumeration value="G-part"/>
+												<xs:enumeration value="H-part"/>
+												<xs:enumeration value="I-part"/>
+												<xs:enumeration value="J-part"/>
+												<xs:enumeration value="K-part"/>
+												<xs:enumeration value="L-part"/>
+												<xs:enumeration value="M-part"/>
+												<xs:enumeration value="N-part"/>
+												<xs:enumeration value="O-part"/>
+												<xs:enumeration value="P-part"/>
+												<xs:enumeration value="Q-part"/>
+												<xs:enumeration value="R-part"/>
+												<xs:enumeration value="S-part"/>
+												<xs:enumeration value="T-part"/>
+												<xs:enumeration value="U-part"/>
+												<xs:enumeration value="V-part"/>
+												<xs:enumeration value="W-part"/>
+												<xs:enumeration value="X-part"/>
+												<xs:enumeration value="Y-part"/>
+												<xs:enumeration value="Z-part"/>
+												<xs:enumeration value="interlude"/>
+												<xs:enumeration value="vamp"/>
+												<xs:enumeration value="solo"/>
+												<xs:enumeration value="theme"/>
+												<xs:enumeration value="pre-chorus"/>
+												<xs:enumeration value="turnaround"/>
+												<xs:enumeration value="repeat"/>
+												<xs:enumeration value="riff"/>
+												<xs:enumeration value="coda"/>
+												</xs:restriction>
+												</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="numbars" type="xs:integer"
+												use="optional"/>
+												<xs:attribute name="person" use="optional">
+												<xs:simpleType>
+												<xs:restriction base="xs:string">
+												<xs:enumeration value="Hawa"/>
+												<xs:enumeration value="Denise"/>
+												<xs:enumeration value="David"/>
+												<xs:enumeration value="Robin"/>
+												<xs:enumeration value="Phil"/>
+												<xs:enumeration value="Mark"/>
+												<xs:enumeration value="Dawn"/>
+												<xs:enumeration value="Paddy"/>
+												<xs:enumeration value="Simon"/>
+												<xs:enumeration value="Pete"/>
+												<xs:enumeration value="Les"/>
+												<xs:enumeration value="Paul"/>
+												<xs:enumeration value="John"/>
+												<xs:enumeration value="Andrew"/>
+												<xs:enumeration value="Tony"/>
+												<xs:enumeration value="All"/>
+												</xs:restriction>
+												</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="part" use="optional">
+												<xs:simpleType>
+												<xs:restriction base="xs:string">
+												<xs:enumeration value="Horns"/>
+												<xs:enumeration value="Gtr"/>
+												<xs:enumeration value="Gtr + Horns"/>
+												<xs:enumeration value="Gtr + Keys"/>
+												<xs:enumeration value="Gtr+Sax"/>
+												<xs:enumeration value="Rhythm Gtr"/>
+												<xs:enumeration value="Sax"/>
+												<xs:enumeration value="Drums"/>
+												<xs:enumeration value="Percussion"/>
+												<xs:enumeration value="Gtr + Drums"/>
+												<xs:enumeration value="Bass"/>
+												<xs:enumeration value="Keyboard"/>
+												<xs:enumeration value="Sax+k/b"/>
+												<xs:enumeration value="Instrumental"/>
+												<xs:enumeration value="Hammond"/>
+												<xs:enumeration value="Spoken"/>
+												<xs:enumeration value="Harp"/>
+												<xs:enumeration value="Full Band"/>
+												<xs:enumeration value="Fiddle"/>
+												<xs:enumeration value="Fiddle + Horns"/>
+												</xs:restriction>
+												</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="feel" use="optional">
+												<xs:simpleType>
+												<xs:restriction base="xs:string">
+												<xs:enumeration value="cool"/>
+												<xs:enumeration value="hot"/>
+												<xs:enumeration value="stopping"/>
+												<xs:enumeration value="builds"/>
+												<xs:enumeration value="slow"/>
+												<xs:enumeration value="fast"/>
+												</xs:restriction>
+												</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="annotation">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="person">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="Hawa"/>
+								<xs:enumeration value="Denise"/>
+								<xs:enumeration value="David"/>
+								<xs:enumeration value="Robin"/>
+								<xs:enumeration value="Phil"/>
+								<xs:enumeration value="Mark"/>
+								<xs:enumeration value="Dawn"/>
+								<xs:enumeration value="Paddy"/>
+								<xs:enumeration value="Simon"/>
+								<xs:enumeration value="Pete"/>
+								<xs:enumeration value="Les"/>
+								<xs:enumeration value="Paul"/>
+								<xs:enumeration value="John"/>
+								<xs:enumeration value="Andrew"/>
+								<xs:enumeration value="Tony"/>
+								<xs:enumeration value="All"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="part">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="Horn Section"/>
+								<xs:enumeration value="Rhythm Section"/>
+								<xs:enumeration value="Vocal Section"/>
+								<xs:enumeration value="Lead Guitar"/>
+								<xs:enumeration value="Rhythm Guitar"/>
+								<xs:enumeration value="Lead Vocals"/>
+								<xs:enumeration value="Backing Vocals"/>
+								<xs:enumeration value="Lead Sax"/>
+								<xs:enumeration value="Piano"/>
+								<xs:enumeration value="Organ"/>
+								<xs:enumeration value="Drums"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="isimportant" type="xs:boolean"/>
+					<xs:attribute name="scope">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="personal"/>
+								<xs:enumeration value="all"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="type">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="howstart"/>
+								<xs:enumeration value="general"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
