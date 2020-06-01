@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<songbook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dev_Songbook.xsd">
+<songbook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="dev_Songbook.xsd">
    <revisioninfo>
       <date>2010-01-28</date>
       <description>10th anniversary gig</description>
@@ -4995,7 +4996,8 @@
             </lyrics>
          </section>
          <section sectiontype="outro">
-            <comment>when singers shut up entire band plays the stop phrases, with drum fills. Stop dead on last chord.</comment>
+            <comment>when singers shut up entire band plays the stop phrases, with drum fills. Stop
+               dead on last chord.</comment>
          </section>
       </content>
    </song>
@@ -6914,7 +6916,8 @@
    </song>
    <song>
       <title>Pride And Joy</title>
-      <info key="E" status="resting" artist="Stevie Ray Vaughan" style="Medium" genre="Rock And Roll"/>
+      <info key="E" status="resting" artist="Stevie Ray Vaughan" style="Medium"
+         genre="Rock And Roll"/>
       <content>
          <section sectiontype="intro">
             <chords>E, A7, BE, A7, B  </chords>
@@ -9060,7 +9063,8 @@
       <info key="C" artist="Abba" genre="Pop" status="retired" style="Fast"/>
       <content>
          <section sectiontype="intro" numbars="16">
-            <comment>4 bars Simon (4/4), then Les (swing), then Pete (chord-per-bar), then Tony (shuffle)</comment>
+            <comment>4 bars Simon (4/4), then Les (swing), then Pete (chord-per-bar), then Tony
+               (shuffle)</comment>
             <chords>C | C | C | C | x 4</chords>
          </section>
          <section sectiontype="verse">
@@ -9696,7 +9700,8 @@
    </song>
    <song>
       <title>Aint no mountain high enough</title>
-      <info key="F" artist="Marvin Gaye and Tammi Terrell" genre="R and B" status="rehearsing" style="Fast"/>
+      <info key="F" artist="Marvin Gaye and Tammi Terrell" genre="R and B" status="rehearsing"
+         style="Fast"/>
       <content>
          <section sectiontype="intro" numbars="16">
             <chords>F Dm7 | Em7 Am x 3</chords>
@@ -13956,7 +13961,8 @@
    </song>
    <song>
       <title>The Tears Of A Clown</title>
-      <info key="C" style="Fast" artist="Smokey Robinson and The Miracles" genre="Motown" status="rehearsing"/>
+      <info key="C" style="Fast" artist="Smokey Robinson and The Miracles" genre="Motown"
+         status="rehearsing"/>
       <content>
          <section sectiontype="intro" numbars="4">
             <chords/>
@@ -14366,7 +14372,8 @@
    </song>
    <song>
       <title>Rock Around The Clock</title>
-      <info key="A" style="Fast" artist="Bill Haley and the Comets" genre="Rock And Roll" status="rehearsing"/>
+      <info key="A" style="Fast" artist="Bill Haley and the Comets" genre="Rock And Roll"
+         status="rehearsing"/>
       <content>
          <section sectiontype="intro">
             <lyrics>
@@ -15080,7 +15087,8 @@
    </song>
    <song>
       <title>If Thats What You Wanted</title>
-      <info key="G" style="Fast" artist="Frankie Beverly And The Butlers" genre="Soul" status="rehearsing"/>
+      <info key="G" style="Fast" artist="Frankie Beverly And The Butlers" genre="Soul"
+         status="rehearsing"/>
       <content>
          <section sectiontype="intro">
             <chords>G | Dm | F | C</chords>
@@ -17364,7 +17372,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>New York, New York (D)</title>
       <info key="D" style="Medium" artist="Sam Bailey" genre="MOR" status="rehearsing"/>
@@ -17442,7 +17449,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>New York, New York (B)</title>
       <info key="B" style="Medium" artist="Sam Bailey" genre="MOR" status="rehearsing"/>
@@ -17520,6 +17526,88 @@
                <span spantype="words">New York, New York (ad lib)</span>
             </lyrics>
          </section>
+      </content>
+   </song>
+
+   <song>
+      <title>September</title>
+      <info key="A" style="Fast" artist="Earth, Wind and Fire" genre="Pop" status="ready"/>
+      <content>
+         <section sectiontype="intro" part="Bass" numbars="2"/>
+
+         <section sectiontype="intro" part="Gtr" numbars="2">
+            <chords>Gmaj7/A</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">Dmaj7 Dmaj7 C#m7 Bm7 | C#m7 Bm7 F#m7 F#m7</span>
+               <span spantype="words">Do you remember, the 21st night</span>
+               <span spantype="words">of September, love was changing the minds</span>
+               <span spantype="words">of pretenders while chasing the clouds</span>
+               <span spantype="chords">Gmaj7/A</span>
+               <span spantype="words">away</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Our hearts were ringing in the key that our souls</span>
+               <span spantype="words">were singing as we danced in the night</span>
+               <span spantype="words">Remember how the stars stole the night</span>
+               <span spantype="words">away</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">Bm7 E7 | C#m7 F#m7</span>
+               <span spantype="words">Ba de ya - say do you remember</span>
+               <span spantype="words">Ba de ya - dancing in September</span>
+               <span spantype="words">Ba de ya - never was a cloudy</span>
+               <span spantype="chords">Gmaj7/A</span>
+               <span spantype="words">Day</span>
+               <span spantype="chords">Bm7 E7 | C#m7 F#m7</span>
+               <span spantype="words">Ba duda, ba duda, ba duda, badu</span>
+               <span spantype="words">Ba duda, badu, ba duda, badu</span>
+               <span spantype="words">Ba duda, badu, ba duda, badu</span>
+               <span spantype="chords">Gmaj7/A</span>
+               <span spantype="words">duda</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">My thoughts are with you holding hands with your heart</span>
+               <span spantype="words">to see you Only blue talk and love</span>
+               <span spantype="words">Remember how we knew love was here to</span>
+               <span spantype="words">stay</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Now December found the love we shared</span>
+               <span spantype="words">in September only blue talk and love</span>
+               <span spantype="words">Remember the true love we share</span>
+               <span spantype="words">today</span>
+            </lyrics>
+         </section>
+         <section sectiontype="interlude" numbars="24" part="Gtr + Horns" feel="hot">
+            <chords>Dmaj7| Dmaj7| C#m7| C#m7| Bm7| Bm7| F#m7| F#m7| x 3</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">My thoughts are with you holding hands with your heart</span>
+               <span spantype="words">to see you Only blue talk and love</span>
+               <span spantype="words">Remember how we knew love was here to</span>
+               <span spantype="words">stay</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Now December found the love we shared</span>
+               <span spantype="words">in September only blue talk and love</span>
+               <span spantype="words">Remember the true love we share</span>
+               <span spantype="words">today</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
       </content>
    </song>
 

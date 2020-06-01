@@ -5,15 +5,14 @@
 
         <!-- 2019-07-21 Newnham Social Club gig -->
 
-        <xsl:apply-templates select="//song[title = 'New York, New York (B)']"/>
+        <xsl:apply-templates select="//song[title = 'September']"/>
+
+        <!-- 
         <xsl:apply-templates select="//song[title = 'Johnny B. Goode']"/>
         <xsl:apply-templates select="//song[title = 'Great Balls Of Fire']"/>
         <xsl:apply-templates select="//song[title = 'Rock and Roll Music (Deep  Blue version)']"/>
         <xsl:apply-templates select="//song[title = 'Rockin Around the Christmas Tree']"/>
         <xsl:apply-templates select="//song[title = 'Wonderwall']"/>
-
-        <!-- 
-
         <xsl:apply-templates select="//song[title = 'Help Me Make It Through The Night']"/>
         <xsl:apply-templates select="//song[title = 'Master Blaster (Am)']"/>
         <xsl:apply-templates select="//song[title = 'Valerie']"/>
