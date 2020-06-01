@@ -6,6 +6,7 @@
         <!-- 2019-07-21 Newnham Social Club gig -->
 
         <xsl:apply-templates select="//song[title = 'September']"/>
+        <xsl:apply-templates select="//song[title = 'Upside Down']"/>
 
         <!-- 
         <xsl:apply-templates select="//song[title = 'Johnny B. Goode']"/>

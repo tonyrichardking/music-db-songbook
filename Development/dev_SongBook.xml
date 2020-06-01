@@ -17528,10 +17528,9 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>September</title>
-      <info key="A" style="Fast" artist="Earth, Wind and Fire" genre="Pop" status="ready"/>
+      <info key="D" style="Fast" artist="Earth, Wind and Fire" genre="Pop" status="ready"/>
       <content>
          <section sectiontype="intro" part="Bass" numbars="2"/>
 
@@ -17610,6 +17609,198 @@
          <section sectiontype="chorus"/>
       </content>
    </song>
+
+   <song>
+      <title>Upside Down</title>
+      <info key="A" style="Medium" artist="Diana Ross" genre="Pop" status="rehearsing"/>
+      <content>
+         <section sectiontype="intro">
+            <chords>Gm7 F | F Gm7 | Bb C | F Gm7</chords>
+         </section>
+         <section sectiontype="intro">
+            <lyrics>
+               <span spantype="chords">Gm7 C7 | F Gm7</span>
+               <span spantype="words">I said upside down You're turning me, you're giving love instinctively</span>
+               <span spantype="chords">Gm7 C7 | F Gm7</span>
+               <span spantype="words">Around and round you're turning me...</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">Gm7 | C7</span>
+               <span spantype="words">Upside down, boy, you turn me</span>
+               <span spantype="chords">F | Gm7</span>
+               <span spantype="words">Inside out and round and round</span>
+               <span spantype="chords">Gm7 | C7</span>
+               <span spantype="words">Upside down, boy, you turn me</span>
+               <span spantype="chords">F | Gm7</span>
+               <span spantype="words">Inside out, and round and round</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">Bbm7 | Bbm7</span>
+               <span spantype="words">Instinctively you give to me, the love that I need</span>
+               <span spantype="words">I cherish the moments with you</span>
+               <span spantype="words">Respectfully I say to thee, I'm aware that you're cheatin'</span>
+               <span spantype="words">When no one makes me feel like you do</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">I know you got charm and appeal, you always play the field</span>
+               <span spantype="words">I'm crazy to think you're all mine</span>
+               <span spantype="words">As long as the sun continues to shine,</span>
+               <span spantype="words">there's a place in my heart for you, that's the bottomline</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">Gm7 C7 | F Gm7</span>
+               <span spantype="words">I said upside down You're turning me, you're giving love instinctively</span>
+               <span spantype="chords">Gm7 C7 | F Gm7</span>
+               <span spantype="words">Around and round you're turning me...</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <!-- 
+   Bbm7
+   Instinctively you give to me
+   
+   The love that I need
+   
+   I cherish the moments with you
+   
+   Respectfully I say to thee
+   
+   I'am aware that you're cheating
+   
+   When no one makes me feel like you do
+   
+   Gm7    C
+   Upside down
+   F        Gm7
+   Boy, you turn me
+   Bb      C
+   Inside out
+   F          Gm7
+   And round and round
+   Gm7     C
+   Upside down
+   
+   F         Gm7
+   Boy, you turn me
+   Bb     C
+   Inside out
+   F         Gm7
+   And round and round
+   Bm7
+   I know you got charm and appeal
+   
+   You always play the field
+   
+   I'm crazy you are mine
+   
+   As long as the sun continues to shine
+   
+   There's a place in my heart for you
+   
+   That's the bottom line
+   
+   Gm7     C
+   Upside down
+   F         Gm7
+   Boy, you turn me
+   Bb      C
+   Inside out
+   F          Gm7
+   And round and round
+   
+   Gm7     C
+   Upside down
+   F         Gm7
+   Boy, you turn me
+   Bb      C
+   Inside out
+   F          Gm7
+   And round and round
+   
+   
+   
+   Bbm7
+   Instinctively you give to me
+   
+   
+   The love that I need
+   
+   I cherish the moments with you
+   
+   Respectfully I say to thee
+   
+   I'm aware that you're cheating
+   
+   But no one makes me feel like you do
+   Gm7    C
+   Upside down
+   F        Gm7
+   Boy, you turn me
+   Bb     C
+   Inside out
+   F          Gm7
+   And round and round
+   Gm7    C
+   Upside down
+   F        Gm7
+   Boy, you turn me
+   Bb      C
+   Inside out
+   F         Gm7
+   And round and round
+   
+   Upside down
+   
+   Boy, you turn me
+   
+   Inside out
+   
+   And round and round
+   Gm7     C
+   Upside down
+   F         Gm7
+   Boy, you turn me
+   Bb      C
+   Inside out
+   F         Gm7
+   And round and round
+   
+   GM7                 C
+   Upside down you're turning me
+   F            Gm7
+   You're giving love instinctively
+   Bb                    C
+   round and round you're turning me
+   F              Gm7
+   I see to thee respectfully
+   Gm7                C
+   Upside down you're turning me
+   F              Gm7
+   You're giving love instinctively
+   Bb                     C
+   round and round you're turning me
+   F              Gm7
+   I say to thee respectfully
+   Gm7                 C
+   I said a upside down you're turning me
+   F                Gm7
+   You're giving love instinctively
+   Bb                      C
+   round and round you're turning me.
+   -->
 
    <song>
       <title>Blank</title>
