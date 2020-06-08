@@ -7,6 +7,7 @@
 
         <xsl:apply-templates select="//song[title = 'September']"/>
         <xsl:apply-templates select="//song[title = 'Upside Down']"/>
+        <xsl:apply-templates select="//song[title = 'Always There']"/>
 
         <!-- 
         <xsl:apply-templates select="//song[title = 'Johnny B. Goode']"/>

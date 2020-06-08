@@ -17668,139 +17668,93 @@
       </content>
    </song>
 
-   <!-- 
-   Bbm7
-   Instinctively you give to me
-   
-   The love that I need
-   
-   I cherish the moments with you
-   
-   Respectfully I say to thee
-   
-   I'am aware that you're cheating
-   
-   When no one makes me feel like you do
-   
-   Gm7    C
-   Upside down
-   F        Gm7
-   Boy, you turn me
-   Bb      C
-   Inside out
-   F          Gm7
-   And round and round
-   Gm7     C
-   Upside down
-   
-   F         Gm7
-   Boy, you turn me
-   Bb     C
-   Inside out
-   F         Gm7
-   And round and round
-   Bm7
-   I know you got charm and appeal
-   
-   You always play the field
-   
-   I'm crazy you are mine
-   
-   As long as the sun continues to shine
-   
-   There's a place in my heart for you
-   
-   That's the bottom line
-   
-   Gm7     C
-   Upside down
-   F         Gm7
-   Boy, you turn me
-   Bb      C
-   Inside out
-   F          Gm7
-   And round and round
-   
-   Gm7     C
-   Upside down
-   F         Gm7
-   Boy, you turn me
-   Bb      C
-   Inside out
-   F          Gm7
-   And round and round
-   
-   
-   
-   Bbm7
-   Instinctively you give to me
-   
-   
-   The love that I need
-   
-   I cherish the moments with you
-   
-   Respectfully I say to thee
-   
-   I'm aware that you're cheating
-   
-   But no one makes me feel like you do
-   Gm7    C
-   Upside down
-   F        Gm7
-   Boy, you turn me
-   Bb     C
-   Inside out
-   F          Gm7
-   And round and round
-   Gm7    C
-   Upside down
-   F        Gm7
-   Boy, you turn me
-   Bb      C
-   Inside out
-   F         Gm7
-   And round and round
-   
-   Upside down
-   
-   Boy, you turn me
-   
-   Inside out
-   
-   And round and round
-   Gm7     C
-   Upside down
-   F         Gm7
-   Boy, you turn me
-   Bb      C
-   Inside out
-   F         Gm7
-   And round and round
-   
-   GM7                 C
-   Upside down you're turning me
-   F            Gm7
-   You're giving love instinctively
-   Bb                    C
-   round and round you're turning me
-   F              Gm7
-   I see to thee respectfully
-   Gm7                C
-   Upside down you're turning me
-   F              Gm7
-   You're giving love instinctively
-   Bb                     C
-   round and round you're turning me
-   F              Gm7
-   I say to thee respectfully
-   Gm7                 C
-   I said a upside down you're turning me
-   F                Gm7
-   You're giving love instinctively
-   Bb                      C
-   round and round you're turning me.
-   -->
+
+   <song>
+      <title>Always There</title>
+      <info key="Fm" style="Fast" artist="Incognito" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation>https://www.youtube.com/watch?v=I4weGwDt13Q</annotation>
+         <section sectiontype="intro">
+            <chords>Fm7 | Cm/F# | Ebm7 | Dbmaj7 | x2</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">Fm7 | Cm/F# | Ebm7 | Dbmaj7 </span>
+               <span spantype="words">Such a good feeling</span>
+               <span spantype="words">That's where I wanna be (Yeah)</span>
+               <span spantype="words">Locked in your prison</span>
+               <span spantype="words">Of total ecstacy (All right, all right)</span>
+               <span spantype="chords">Fm7 | Cm/F# | Ebm7 Ab | Dbmaj7 </span>
+               <span spantype="words">You're so strong and you're so together (Baby)</span>
+               <span spantype="words">Next you there is nothing better</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">Fm7 | Cm/F# | Ebm7 | Dbmaj7</span>
+               <span spantype="words">Always there (To please you), Always there (When I need you)</span>
+               <span spantype="words">Always there (To love you), Always there (Thinkin' of you)</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">And if you wanna</span>
+               <span spantype="words">If you wanna do it too</span>
+               <span spantype="words">There's nothing better</span>
+               <span spantype="words">than being here with you</span>
+               <span spantype="words">'Cause your love is a precious treasure (Baby)</span>
+               <span spantype="words">Only you can bring me joy and pleasure</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="bridge">
+            <lyrics>
+               <span spantype="chords">Fm7 | Cm/F# | Ebm7 | Dbmaj7</span>
+               <span spantype="words">Always there</span>
+               <span spantype="words">Always there (yeah, yeah, yeah, yeah)</span>
+               <span spantype="words">Always there</span>
+               <span spantype="words">Always there (yeah, yeah, yeah, yeah)</span>
+            </lyrics>
+         </section>
+         <section sectiontype="instrumental chorus"/>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Such a good feeling</span>
+               <span spantype="words">That's where I wanna be (Yeah)</span>
+               <span spantype="words">Locked in your prison</span>
+               <span spantype="words">Of total ecstacy (All right, all right)</span>
+               <span spantype="words">You're so strong and you're so together (Baby)</span>
+               <span spantype="words">Next you there is nothing better</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">Fm7 | Cm/F# | Ebm7 | Dbmaj7</span>
+               <span spantype="words">Always there</span>
+               <span spantype="words">Always there (yeah, yeah, yeah, yeah)</span>
+               <span spantype="words">Always there (To please you), Always there (When I need you)</span>
+               <span spantype="words">Always there (To love you), Always there (Thinkin' of you)</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+
+
+   <!--
+
+Always there (To please you)
+Always there (When I need you)
+Always there (To love you)
+Always there (Thinkin' of you)
+
+Always there
+Always there (Yeah, yeah, yeah, yeah)
+Always there
+Always there (Yeah, yeah, yeah, yeah)
+-->
+
 
    <song>
       <title>Blank</title>
@@ -17829,4 +17783,5 @@
          </section>
       </content>
    </song>
+
 </songbook>
