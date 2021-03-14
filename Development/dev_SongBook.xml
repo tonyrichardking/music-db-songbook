@@ -621,6 +621,62 @@
          </section>
       </content>
    </song>
+
+   <song>
+      <title>Oye Como Va (Tito Puente version)</title>
+      <info key="Am" status="ready" style="Medium" genre="Latin" artist="Tito Puente"/>
+      <content>
+         <annotation>https://www.youtube.com/watch?v=zZQh4IL7unM</annotation>
+         <section sectiontype="intro" part="Keyboard" numbars="8">
+            <chords>Am | Dm | Am | Dm</chords>
+         </section>
+         <section sectiontype="solo" part="Gtr" numbars="8"/>
+         <section sectiontype="figure" numbars="4">
+            <lyrics>
+               <span spantype="words">1-2-3-6</span>
+               <span spantype="words">1-1-2-1-2---1</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Oye como va mi ritmo</span>
+               <span spantype="words">Bueno pa gozar mulata</span>
+               <span spantype="words">Oye como va mi ritmo</span>
+               <span spantype="words">Bueno pa gozar mulata</span>
+            </lyrics>
+         </section>
+         <section sectiontype="figure" numbars="2">
+            <lyrics>
+               <span spantype="words">1-2-3-6</span>
+            </lyrics>
+         </section>
+         <section sectiontype="solo" part="Gtr"/>
+         <section sectiontype="figure" numbars="2"/>
+         <section sectiontype="solo" part="Keyboard"/>
+         <section sectiontype="figure">
+            <lyrics>
+               <span spantype="words">1-2-3-6</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Oye como va mi ritmo</span>
+               <span spantype="words">Bueno pa gozar mulata</span>
+               <span spantype="words">Oye como va mi ritmo</span>
+               <span spantype="words">Bueno pa gozar mulata</span>
+            </lyrics>
+         </section>
+         <section sectiontype="figure" numbars="4"/>
+         <section sectiontype="solo" part="Gtr"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="words">1-2-3-6</span>
+               <span spantype="words">1-1-2-1-2 Uhhhh! / Oy Vay! / Hey!</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
    <song>
       <title>Oye Como Va</title>
       <info key="Am" status="ready" style="Medium" genre="Latin" artist="Santana"/>
@@ -1531,6 +1587,7 @@
       <title>Sweet Home Chicago</title>
       <info key="E" status="ready" artist="Blues Brothers" genre="R and B" style="Medium"/>
       <content>
+         <annotation>https://www.youtube.com/watch?v=-_KkgPRo4wA</annotation>
          <section sectiontype="intro" part="Gtr" numbars="4"/>
 
          <section sectiontype="verse">
@@ -12327,11 +12384,11 @@
          <section sectiontype="A-part">
             <lyrics>
                <span spantype="chords">Bbm | Gb | Ebm | Ab</span>
-               <span spantype="words">Im telech mi yechabek oti kacha </span>
+               <span spantype="words">Im telech mi yechabek oti kacha</span>
                <span spantype="chords">Bbm | Gb | Ebm | Ab</span>
-               <span spantype="words">mi yishma oti besof hayom </span>
+               <span spantype="words">mi yishma oti besof hayom</span>
                <span spantype="chords">Bbm | Gb | Ebm | Ab</span>
-               <span spantype="words">mi yenachem veyargi'a </span>
+               <span spantype="words">mi yenachem veyargi'a</span>
                <span spantype="chords">Gb | Ebm | Ab | Bbm</span>
                <span spantype="words">rak ata yode'a</span>
             </lyrics>
@@ -12339,20 +12396,20 @@
          <section sectiontype="B-part">
             <lyrics>
                <span spantype="chords">Db | Gb | Ebm | Ab</span>
-               <span spantype="words">Ve’im telech lemi achake bachalon </span>
+               <span spantype="words">Ve’im telech lemi achake bachalon</span>
                <span spantype="chords">Gb | Ebm | Gb | Ab</span>
-               <span spantype="words">besimla shel chag </span>
+               <span spantype="words">besimla shel chag</span>
                <span spantype="chords">Db | Gb | Ebm | Ab</span>
-               <span spantype="words">sheyagi'a, yechabek oti kacha, </span>
+               <span spantype="words">sheyagi'a, yechabek oti kacha,</span>
                <span spantype="chords">Gb | Ebm | Ab | Bbm</span>
                <span spantype="words">kmo she’ata magia</span>
             </lyrics>
          </section>
          <section sectiontype="A-part">
             <lyrics>
-               <span spantype="words">K’shetelech lashemesh etze, </span>
-               <span spantype="words">basade hamuzhav, boker va’erev </span>
-               <span spantype="words">yare'ach ya'ir et panai </span>
+               <span spantype="words">K’shetelech lashemesh etze,</span>
+               <span spantype="words">basade hamuzhav, boker va’erev</span>
+               <span spantype="words">yare'ach ya'ir et panai</span>
                <span spantype="words">shecholmot kol hayom alecha</span>
             </lyrics>
          </section>
@@ -12360,10 +12417,10 @@
          <section sectiontype="B-part" part="Instrumental"/>
          <section sectiontype="A-part">
             <lyrics>
-               <span spantype="words">Uch'shetavo </span>
-               <span spantype="words">tisa oti bishtei yadecha, </span>
-               <span spantype="words">misade lanahar, </span>
-               <span spantype="words">tirchotz et panai vetagid li milim </span>
+               <span spantype="words">Uch'shetavo</span>
+               <span spantype="words">tisa oti bishtei yadecha,</span>
+               <span spantype="words">misade lanahar,</span>
+               <span spantype="words">tirchotz et panai vetagid li milim</span>
                <span spantype="words">l'mo sherak ata yode'a</span>
             </lyrics>
          </section>
@@ -12382,11 +12439,11 @@
          <section sectiontype="A-part">
             <lyrics>
                <span spantype="chords">Am | F | Dm | G</span>
-               <span spantype="words">Im telech mi yechabek oti kacha </span>
+               <span spantype="words">Im telech mi yechabek oti kacha</span>
                <span spantype="chords">Am | F | Dm | G</span>
-               <span spantype="words">mi yishma oti besof hayom </span>
+               <span spantype="words">mi yishma oti besof hayom</span>
                <span spantype="chords">Am | F | Dm | G</span>
-               <span spantype="words">mi yenachem veyargi'a </span>
+               <span spantype="words">mi yenachem veyargi'a</span>
                <span spantype="chords">F | Dm | G | Am</span>
                <span spantype="words">rak ata yode'a</span>
             </lyrics>
@@ -12394,20 +12451,20 @@
          <section sectiontype="B-part">
             <lyrics>
                <span spantype="chords">C | F | Dm | G</span>
-               <span spantype="words">Ve’im telech lemi achake bachalon </span>
+               <span spantype="words">Ve’im telech lemi achake bachalon</span>
                <span spantype="chords">F | Dm | F | G</span>
-               <span spantype="words">besimla shel chag </span>
+               <span spantype="words">besimla shel chag</span>
                <span spantype="chords">C | F | Dm | G</span>
-               <span spantype="words">sheyagi'a, yechabek oti kacha, </span>
+               <span spantype="words">sheyagi'a, yechabek oti kacha,</span>
                <span spantype="chords">F | Dm | G | Am</span>
                <span spantype="words">kmo she’ata magia</span>
             </lyrics>
          </section>
          <section sectiontype="A-part">
             <lyrics>
-               <span spantype="words">K’shetelech lashemesh etze, </span>
-               <span spantype="words">basade hamuzhav, boker va’erev </span>
-               <span spantype="words">yare'ach ya'ir et panai </span>
+               <span spantype="words">K’shetelech lashemesh etze,</span>
+               <span spantype="words">basade hamuzhav, boker va’erev</span>
+               <span spantype="words">yare'ach ya'ir et panai</span>
                <span spantype="words">shecholmot kol hayom alecha</span>
             </lyrics>
          </section>
@@ -12415,10 +12472,10 @@
          <section sectiontype="B-part" part="Instrumental"/>
          <section sectiontype="A-part">
             <lyrics>
-               <span spantype="words">Uch'shetavo </span>
-               <span spantype="words">tisa oti bishtei yadecha, </span>
-               <span spantype="words">misade lanahar, </span>
-               <span spantype="words">tirchotz et panai vetagid li milim </span>
+               <span spantype="words">Uch'shetavo</span>
+               <span spantype="words">tisa oti bishtei yadecha,</span>
+               <span spantype="words">misade lanahar,</span>
+               <span spantype="words">tirchotz et panai vetagid li milim</span>
                <span spantype="words">l'mo sherak ata yode'a</span>
             </lyrics>
          </section>
@@ -13554,27 +13611,27 @@
          <section sectiontype="verse">
             <lyrics>
                <span spantype="chords">C Am| F G</span>
-               <span spantype="words">Try to imagine a house that’s not a home. </span>
-               <span spantype="words">Try to imagine a Christmas all alone. </span>
-               <span spantype="words">That’s where I’ll be since you left me my tears could melt the snow. </span>
+               <span spantype="words">Try to imagine a house that’s not a home.</span>
+               <span spantype="words">Try to imagine a Christmas all alone.</span>
+               <span spantype="words">That’s where I’ll be since you left me my tears could melt the snow.</span>
                <span spantype="words">What can I do without you I’ve got no place, no place to go</span>
             </lyrics>
          </section>
          <section sectiontype="chorus">
             <lyrics>
                <span spantype="chords">C Am| F G</span>
-               <span spantype="words">It’ll be lonely this Christmass without you to hold </span>
-               <span spantype="words">It’ll be lonely this Christmass lonely and cold. </span>
-               <span spantype="words">It’ll be cold so cold without you to hold </span>
+               <span spantype="words">It’ll be lonely this Christmass without you to hold</span>
+               <span spantype="words">It’ll be lonely this Christmass lonely and cold.</span>
+               <span spantype="words">It’ll be cold so cold without you to hold</span>
                <span spantype="chords">C F | C G</span>
                <span spantype="words">This Christmas</span>
             </lyrics>
          </section>
          <section sectiontype="verse">
             <lyrics>
-               <span spantype="words">Each time I remember the day you went away. </span>
-               <span spantype="words">And how I would listen to the things you had to say. </span>
-               <span spantype="words">I just break down, as I look around and the only things I see </span>
+               <span spantype="words">Each time I remember the day you went away.</span>
+               <span spantype="words">And how I would listen to the things you had to say.</span>
+               <span spantype="words">I just break down, as I look around and the only things I see</span>
                <span spantype="words">Are emptiness and loneliness and an unlit Christmas Tree</span>
             </lyrics>
          </section>
@@ -13582,9 +13639,9 @@
          <section sectiontype="verse">
             <directions>Spoken</directions>
             <lyrics>
-               <span spantype="words">You remember last year, when you and I were together </span>
-               <span spantype="words">We never thought there’d be an end. And I remember looking at you then </span>
-               <span spantype="words">And I remember thinking that Christmas must have been made for us </span>
+               <span spantype="words">You remember last year, when you and I were together</span>
+               <span spantype="words">We never thought there’d be an end. And I remember looking at you then</span>
+               <span spantype="words">And I remember thinking that Christmas must have been made for us</span>
                <span spantype="words">’Cos darlin’, this is the time that you really need love. When it means so very very much.</span>
             </lyrics>
          </section>
@@ -14037,7 +14094,7 @@
          </section>
          <section sectiontype="chorus">
             <lyrics>
-               <span spantype="words">So darling, darling  stand by me, oh stand by me</span>
+               <span spantype="words">So darling, darling stand by me, oh stand by me</span>
                <span spantype="words">Oh stand, stand by me, stand by me</span>
             </lyrics>
          </section>
@@ -14168,17 +14225,17 @@
          <section sectiontype="intro" numbars="4"/>
          <section sectiontype="verse">
             <lyrics>
-               <span spantype="words">Rock me baby, rock me all night long </span>
-               <span spantype="words">Rock me baby, honey, rock me all night long </span>
-               <span spantype="words">I want you to rock me baby, </span>
+               <span spantype="words">Rock me baby, rock me all night long</span>
+               <span spantype="words">Rock me baby, honey, rock me all night long</span>
+               <span spantype="words">I want you to rock me baby,</span>
                <span spantype="words">like my back ain't got no bone</span>
             </lyrics>
          </section>
          <section sectiontype="verse">
             <lyrics>
                <span spantype="words">Roll me baby, like you roll a wagon wheel</span>
-               <span spantype="words"> I want you to roll me baby, like you roll a wagon wheel </span>
-               <span spantype="words">Want you to roll me baby, </span>
+               <span spantype="words">I want you to roll me baby,like you roll a wagon wheel</span>
+               <span spantype="words">Want you to roll me baby,</span>
                <span spantype="words">you don't know how it makes me feel</span>
             </lyrics>
          </section>
@@ -14187,8 +14244,8 @@
          <section sectiontype="verse" part="Rhythm Gtr"/>
          <section sectiontype="verse">
             <lyrics>
-               <span spantype="words">Rock me baby, honey, rock me slow </span>
-               <span spantype="words">Yeah, rock me pretty baby, baby rock me slow </span>
+               <span spantype="words">Rock me baby, honey, rock me slow</span>
+               <span spantype="words">Yeah, rock me pretty baby, baby rock me slow</span>
                <span spantype="words">Want you to rock me baby,</span>
                <span spantype="words">till I want no more</span>
             </lyrics>
@@ -14303,6 +14360,7 @@
       <title>To Make You Feel My Love</title>
       <info key="Bb" style="Slow" artist="Adele" genre="Soul" status="rehearsing"/>
       <content>
+         <annotation>https://www.youtube.com/watch?v=9UC0l8N8Ua4</annotation>
          <section sectiontype="intro" numbars="4">
             <chords>Bb | F/A | Ab | Eb | Ebm7 | Bb | C7 Eb/F | Bb</chords>
          </section>
@@ -17104,8 +17162,9 @@
    </song>
    <song>
       <title>Aint Nobody</title>
-      <info key="Ebm" style="Fast" artist="Chaka Khan" genre="Pop" status="rehearsing"/>
+      <info key="Ebm" style="Fast" artist="Chaka Khan" genre="Disco/Funk" status="rehearsing"/>
       <content>
+         <annotation>https://www.youtube.com/watch?v=Piussvfo2GI</annotation>
          <section sectiontype="intro" part="Gtr + Horns">
             <chords>Ebm | Ebm | Ebm | Ebm</chords>
             <chords>Ebm | Ebm | Ebm | Ebm</chords>
@@ -17180,22 +17239,22 @@
    </song>
    <song>
       <title>Get Lucky</title>
-      <info key="Bm" style="Fast" artist="Chic" genre="Pop" status="rehearsing"/>
+      <info key="Bm" style="Fast" artist="Chic" genre="Disco/Funk" status="rehearsing"/>
       <content>
          <annotation>https://www.youtube.com/watch?v=VIpd35yWDqk</annotation>
          <section sectiontype="intro" numbars="8">
-            <chords>Bm | D | F#m | E</chords>
+            <chords>Bm7 | Dsus2 | F#m7 | Esus2</chords>
          </section>
          <section sectiontype="verse" feel="slow">
             <lyrics>
-               <span spantype="chords">Bm | D | F#m | E</span>
+               <span spantype="chords">Bm7 | Dsus2 | F#m7 | Esus2</span>
                <span spantype="words">Like the legend of the phoenix All ends were beginnings</span>
                <span spantype="words">What keeps the planet spinning The force from the beginning</span>
             </lyrics>
          </section>
          <section sectiontype="pre-chorus" feel="slow">
             <lyrics>
-               <span spantype="chords">Bm | D | F#m | E</span>
+               <span spantype="chords">Bm7 | Dsus2 | F#m7 | Esus2</span>
                <span spantype="words">We've come too far to give up who we are</span>
                <span spantype="words">So let's raise the bar and our cups to the stars</span>
             </lyrics>
@@ -17205,14 +17264,14 @@
             <comment>Bass and drums next 4 bars</comment>
             <comment>Last 4 bars full-on</comment>
             <lyrics>
-               <span spantype="chords">Bm | D | F#m | E</span>
+               <span spantype="chords">Bm7 | Dsus2 | F#m7 | Esus2</span>
                <span spantype="words">She's up all night 'til the sun I'm up all night to get some. She's up all night for good fun I'm up all night to get lucky.</span>
                <span spantype="words">We're up all night 'til the sun We're up all night to get some. We're up all night for good fun We're up all night to get lucky.</span>
                <span spantype="words">We're up all night to get lucky We're up all night to get lucky. We're up all night to get lucky We're up all night to get lucky.</span>
             </lyrics>
          </section>
          <section sectiontype="break" part="Horns" numbars="4">
-            <chords>Bm | D | F#m | E</chords>
+            <chords>Bm7 | Dsus2 | F#m7 | E7</chords>
          </section>
          <section sectiontype="verse">
             <lyrics>
@@ -17224,15 +17283,15 @@
          <section sectiontype="chorus"/>
          <section sectiontype="vamp" numbars="16">
             <lyrics>
-               <span spantype="chords">Bm | D | F#m | E</span>
+               <span spantype="chords">Bm7 | Dsus2 | F#m7 | Em7</span>
                <span spantype="words">We're up all night to get lucky (repeat)</span>
             </lyrics>
          </section>
          <section sectiontype="solo" part="Gtr + Horns" numbars="16" feel="hot">
-            <chords>Bm | D | F#m | E</chords>
+            <chords>Bm7 | Dsus2 | F#m7| Esus2</chords>
          </section>
          <section sectiontype="break" numbars="8" feel="slow">
-            <chords>Bm | D | F#m | E</chords>
+            <chords>Bm7 | Dsus2 | F#m 7| Esus2</chords>
          </section>
          <section sectiontype="verse" feel="slow">
             <lyrics>
@@ -17244,7 +17303,7 @@
          <section sectiontype="chorus" feel="builds"/>
          <section sectiontype="outro" feel="hot">
             <lyrics>
-               <span spantype="chords">Bm | D | F#m | E</span>
+               <span spantype="chords">Bm7 | Dsus2 | F#m7 | Esus2</span>
                <span spantype="words">We're up all night to get lucky (repeat)</span>
             </lyrics>
          </section>
@@ -17252,7 +17311,7 @@
    </song>
    <song>
       <title>Lost In Music</title>
-      <info key="D" style="Fast" artist="Nile Rodgers" genre="Pop" status="rehearsing"/>
+      <info key="D" style="Fast" artist="Nile Rodgers" genre="Disco/Funk" status="rehearsing"/>
       <content>
          <annotation>https://www.youtube.com/watch?v=X3mbTNE8V8U</annotation>
          <section sectiontype="intro" part="Gtr + Horns">
@@ -17530,8 +17589,9 @@
    </song>
    <song>
       <title>September</title>
-      <info key="D" style="Fast" artist="Earth, Wind and Fire" genre="Pop" status="ready"/>
+      <info key="D" style="Fast" artist="Earth, Wind and Fire" genre="Disco/Funk" status="ready"/>
       <content>
+         <annotation>https://www.youtube.com/watch?v=D5XmUnYW5Ks</annotation>
          <section sectiontype="intro" part="Bass" numbars="2"/>
 
          <section sectiontype="intro" part="Gtr" numbars="2">
@@ -17610,30 +17670,27 @@
       </content>
    </song>
 
+   <!-- New songs 3/8/2020 -->
+
    <song>
       <title>Upside Down</title>
-      <info key="A" style="Medium" artist="Diana Ross" genre="Pop" status="rehearsing"/>
+      <info key="Gm" style="Fast" artist="Diana Ross" genre="Disco/Funk" status="rehearsing"/>
       <content>
+         <annotation>https://www.youtube.com/watch?v=jhMHmYrJBqw</annotation>
          <section sectiontype="intro">
-            <chords>Gm7 F | F Gm7 | Bb C | F Gm7</chords>
-         </section>
-         <section sectiontype="intro">
+            <chords>C C F F | Gm Gm Bb B | x2</chords>
             <lyrics>
-               <span spantype="chords">Gm7 C7 | F Gm7</span>
+               <span spantype="chords">C C F F | Gm Gm Bb B</span>
                <span spantype="words">I said upside down You're turning me, you're giving love instinctively</span>
-               <span spantype="chords">Gm7 C7 | F Gm7</span>
                <span spantype="words">Around and round you're turning me...</span>
             </lyrics>
          </section>
          <section sectiontype="chorus">
             <lyrics>
-               <span spantype="chords">Gm7 | C7</span>
+               <span spantype="chords">C C F F | Gm Gm Bb B</span>
                <span spantype="words">Upside down, boy, you turn me</span>
-               <span spantype="chords">F | Gm7</span>
                <span spantype="words">Inside out and round and round</span>
-               <span spantype="chords">Gm7 | C7</span>
                <span spantype="words">Upside down, boy, you turn me</span>
-               <span spantype="chords">F | Gm7</span>
                <span spantype="words">Inside out, and round and round</span>
             </lyrics>
          </section>
@@ -17656,42 +17713,49 @@
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Instinctively you give to me, the love that I need</span>
+               <span spantype="words">I cherish the moments with you</span>
+               <span spantype="words">Respectfully I say to thee, I'm aware that you're cheatin'</span>
+               <span spantype="words">When no one makes me feel like you do</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
          <section sectiontype="chorus"/>
          <section sectiontype="outro">
             <lyrics>
-               <span spantype="chords">Gm7 C7 | F Gm7</span>
+               <span spantype="chords">C C F F | Gm Gm Bb B</span>
                <span spantype="words">I said upside down You're turning me, you're giving love instinctively</span>
-               <span spantype="chords">Gm7 C7 | F Gm7</span>
                <span spantype="words">Around and round you're turning me...</span>
             </lyrics>
          </section>
       </content>
    </song>
 
-
    <song>
       <title>Always There</title>
-      <info key="Fm" style="Fast" artist="Incognito" genre="Pop" status="rehearsing"/>
+      <info key="Fm" style="Fast" artist="Incognito" genre="Disco/Funk" status="rehearsing"/>
       <content>
          <annotation>https://www.youtube.com/watch?v=I4weGwDt13Q</annotation>
-         <section sectiontype="intro">
-            <chords>Fm7 | Cm/F# | Ebm7 | Dbmaj7 | x2</chords>
+         <section sectiontype="intro" part="Gtr + Horns" numbars="8">
+            <chords>Fm7 Cm/F# | Ebm7 Dbmaj7 | x4</chords>
          </section>
          <section sectiontype="verse">
             <lyrics>
-               <span spantype="chords">Fm7 | Cm/F# | Ebm7 | Dbmaj7 </span>
+               <span spantype="chords">Fm7 Cm/F# | Ebm7 Dbmaj7 </span>
                <span spantype="words">Such a good feeling</span>
                <span spantype="words">That's where I wanna be (Yeah)</span>
                <span spantype="words">Locked in your prison</span>
                <span spantype="words">Of total ecstacy (All right, all right)</span>
-               <span spantype="chords">Fm7 | Cm/F# | Ebm7 Ab | Dbmaj7 </span>
-               <span spantype="words">You're so strong and you're so together (Baby)</span>
+               <span spantype="chords">Fm7 Cm/F# | Ebm Ab Db Db</span>
+               <span spantype="words">You're so strong and you're so together baby</span>
                <span spantype="words">Next you there is nothing better</span>
             </lyrics>
          </section>
          <section sectiontype="chorus">
             <lyrics>
-               <span spantype="chords">Fm7 | Cm/F# | Ebm7 | Dbmaj7</span>
+               <span spantype="chords">Fm7 Cm/F# | Ebm7 Dbmaj7</span>
                <span spantype="words">Always there (To please you), Always there (When I need you)</span>
                <span spantype="words">Always there (To love you), Always there (Thinkin' of you)</span>
             </lyrics>
@@ -17702,14 +17766,14 @@
                <span spantype="words">If you wanna do it too</span>
                <span spantype="words">There's nothing better</span>
                <span spantype="words">than being here with you</span>
-               <span spantype="words">'Cause your love is a precious treasure (Baby)</span>
+               <span spantype="words">'Cause your love is a precious treasure baby</span>
                <span spantype="words">Only you can bring me joy and pleasure</span>
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
          <section sectiontype="bridge">
             <lyrics>
-               <span spantype="chords">Fm7 | Cm/F# | Ebm7 | Dbmaj7</span>
+               <span spantype="chords">Fm7 Cm/F# | Ebm7 Dbmaj7</span>
                <span spantype="words">Always there</span>
                <span spantype="words">Always there (yeah, yeah, yeah, yeah)</span>
                <span spantype="words">Always there</span>
@@ -17717,20 +17781,33 @@
             </lyrics>
          </section>
          <section sectiontype="instrumental chorus"/>
+         <section sectiontype="instrumental chorus">
+            <directions>Breakdown</directions>
+         </section>
+         <section sectiontype="instrumental chorus"/>
+         <section sectiontype="bridge">
+            <lyrics>
+               <span spantype="words">Always there (To please you), Always there (When I need you)</span>
+               <span spantype="words">Always there (To love you), Always there (Thinkin' of you)</span>
+            </lyrics>
+         </section>
          <section sectiontype="verse">
             <lyrics>
                <span spantype="words">Such a good feeling</span>
                <span spantype="words">That's where I wanna be (Yeah)</span>
                <span spantype="words">Locked in your prison</span>
                <span spantype="words">Of total ecstacy (All right, all right)</span>
-               <span spantype="words">You're so strong and you're so together (Baby)</span>
+               <span spantype="words">You're so strong and you're so together baby</span>
                <span spantype="words">Next you there is nothing better</span>
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
          <section sectiontype="outro">
+            <directions>Repeat ad-lib</directions>
             <lyrics>
-               <span spantype="chords">Fm7 | Cm/F# | Ebm7 | Dbmaj7</span>
+               <span spantype="chords">Fm7 Cm/F# | Ebm7 Dbmaj7</span>
+               <span spantype="words">Always there</span>
+               <span spantype="words">Always there (yeah, yeah, yeah, yeah)</span>
                <span spantype="words">Always there</span>
                <span spantype="words">Always there (yeah, yeah, yeah, yeah)</span>
                <span spantype="words">Always there (To please you), Always there (When I need you)</span>
@@ -17740,21 +17817,534 @@
       </content>
    </song>
 
+   <song>
+      <title>Im Coming Out</title>
+      <info key="A" style="Fast" artist="Diana Ross" genre="Disco/Funk" status="rehearsing"/>
+      <content>
+         <annotation>https://www.youtube.com/watch?v=jhMHmYrJBqw</annotation>
+         <section sectiontype="intro">
+            <chords/>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+      </content>
+   </song>
 
+   <song>
+      <title>We Are Family</title>
+      <info key="A" style="Fast" artist="Sister Sledge" genre="Disco/Funk" status="rehearsing"/>
+      <content>
+         <annotation>https://www.youtube.com/watch?v=rEEpQvF3Q4c</annotation>
+         <section sectiontype="intro">
+            <chords/>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+      </content>
+   </song>
 
-   <!--
+   <song>
+      <title>Sweet Child Of Mine</title>
+      <info key="A" style="Fast" artist="Guns and Roses" genre="Disco/Funk" status="rehearsing"/>
+      <content>
+         <annotation>https://www.youtube.com/watch?v=cl7a9YztLN4</annotation>
+         <section sectiontype="intro" numbars="8">
+            <chords>Db | Db | Bsus2 | Bsus2 | F# | F# | Db | Db</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">Db | Db</span>
+               <span spantype="words">She's got a smile that it seems to me</span>
+               <span spantype="chords">Bsus2 | Bsus2</span>
+               <span spantype="words">Reminds me of childhood memories</span>
+               <span spantype="chords">F# | F#</span>
+               <span spantype="words">Where everything was as fresh</span>
+               <span spantype="chords">Db | Db</span>
+               <span spantype="words">As the bright blue sky</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Now and then when I see her face</span>
+               <span spantype="words">It takes me away to that special place</span>
+               <span spantype="words">And if I stared too long</span>
+               <span spantype="words">I'd probably break down and cry</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">F# Bb | B Bbm7 | Db | Db</span>
+               <span spantype="words">Oh sweet child o' mine</span>
+               <span spantype="chords">F# Bb | E Ebm7 | Db | Db</span>
+               <span spantype="words">Oh sweet love of mine</span>
+            </lyrics>
+         </section>
+         <section sectiontype="figure" part="Gtr" numbars="2"/>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">She's got eyes of the bluest skies</span>
+               <span spantype="words">As if they thought of rain</span>
+               <span spantype="words">I'd hate to look into those eyes</span>
+               <span spantype="words">And see an ounce of pain</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Her hair reminds me of a warm safe place</span>
+               <span spantype="words">Where as a child I'd hide</span>
+               <span spantype="words">And pray for the thunder and the rain</span>
+               <span spantype="words">To quietly pass me by</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="instrumental verse" part="Horns"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="instrumental verse" part="Gtr"/>
+         <section sectiontype="instrumental verse" part="Full Band"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">F# Bb | B Bbm7 | Db | Db</span>
+               <span spantype="words">Oh sweet child o' mine</span>
+               <span spantype="chords">F# Bb | E Ebm7 | Db | Db</span>
+               <span spantype="words">Oh sweet love of mine</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
 
-Always there (To please you)
-Always there (When I need you)
-Always there (To love you)
-Always there (Thinkin' of you)
+   <song>
+      <title>Thinking Of You</title>
+      <info key="A" style="Fast" artist="Sister Sledge" genre="Disco/Funk" status="rehearsing"/>
+      <content>
+         <annotation>https://www.youtube.com/watch?v=WWhwgYa4imU</annotation>
+         <section sectiontype="intro">
+            <chords/>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+      </content>
+   </song>
 
-Always there
-Always there (Yeah, yeah, yeah, yeah)
-Always there
-Always there (Yeah, yeah, yeah, yeah)
--->
+   <song>
+      <title>I Want Your Love</title>
+      <info key="Am" style="Fast" artist="Chic" genre="Disco/Funk" status="rehearsing"/>
+      <content>
+         <annotation>https://www.youtube.com/watch?v=fv-Zt04HeZo</annotation>
+         <annotation>https://www.youtube.com/watch?v=mGOBMajtQw8</annotation>
+         <section sectiontype="intro" numbars="8">
+            <chords>Am7 | Am7 Em7 | Fmaj7 | Dm9 Em7</chords>
+         </section>
+         <section sectiontype="intro">
+            <lyrics>
+               <span spantype="chords">Am7 | Am7 Em7 | Fmaj7 | Dm9 Em7</span>
+               <span spantype="words">I want your love, I want your love</span>
+               <span spantype="words">I want your love, I want your love</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">Am7 x 4</span>
+               <span spantype="words">Do you feel like you ever want, to try my love and see how well it fits</span>
+               <span spantype="words">Baby, can't you see when you look at me, I can't kick this feeling when it hits</span>
+               <span spantype="words">All alone in my bed at night, I grab my pillow and squeeze it tight</span>
+               <span spantype="words">I think of you and I dream of you, All of the time, what am I gonna do</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">Am7 | Am7 Em7 | Fmaj7 | Dm9 Em7</span>
+               <span spantype="words">I want your love, I want your love</span>
+               <span spantype="words">I want your love, I want your love</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Sometimes, don't you feel, Like you never really had a love that's real</span>
+               <span spantype="words">Well, here I am, and who's to say, A better love you won't find today</span>
+               <span spantype="words">Just one chance and I will show you love, Like no other, two steps above</span>
+               <span spantype="words">On your ladder I'll be a peg, I want your loving, please don't make me beg</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="bridge">
+            <lyrics>
+               <span spantype="chords">Am7 | Am7 Em7 | Fmaj7 | Dm9 Em7</span>
+               <span spantype="words">I want your love, I need your love</span>
+               <span spantype="words">I'll share my dreams and make you see, How really bad your love I need</span>
+               <span spantype="words">I want your love, I need your love, just like the birds in the sky above</span>
+               <span spantype="words">I'll share my dreams and make you see, How really bad your love I need</span>
+            </lyrics>
+         </section>
+         <section sectiontype="instrumental" numbars="16">
+            <chords>Am7 x 4</chords>
+         </section>
+         <section sectiontype="instrumental" numbars="16"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="instrumental" numbars="16"/>
+         <section sectiontype="instrumental" numbars="16"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words">I want your love, I want your love</span>
+               <span spantype="words">Right now</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
 
+   <song>
+      <title>Lose Yourself to Dance</title>
+      <info key="A" style="Fast" artist="Daft Punk" genre="Disco/Funk" status="rehearsing"/>
+      <content>
+         <section sectiontype="intro">
+            <chords/>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <song>
+      <title>I Saw Her Standing There</title>
+      <info key="E" style="Fast" artist="The Beatles" genre="Pop" status="rehearsing"/>
+      <content>
+         <section sectiontype="intro">
+            <chords>E | E | E | E</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">E | E | A7 | E</span>
+               <span spantype="words">Well she was just seventeen and you know what I mean</span>
+               <span spantype="chords">E7 | E7 | B7 | B7</span>
+               <span spantype="words">And the way she looked was way beyond compare</span>
+               <span spantype="chords">E | E7/G# | A | Am/C</span>
+               <span spantype="words">So how could I dance with another oh</span>
+               <span spantype="chords">E | B7 | E7 | E7</span>
+               <span spantype="words">When I saw her standing there</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Well she looked at me and I, I could see</span>
+               <span spantype="words">That before too long I'd fall in love with her</span>
+               <span spantype="words">She wouldn't dance with another, ooh</span>
+               <span spantype="words">When I saw her standing there</span>
+            </lyrics>
+         </section>
+         <section sectiontype="bridge">
+            <lyrics>
+               <span spantype="chords">A | A | A | A</span>
+               <span spantype="words">Well my heart went boom, when I crossed that room</span>
+               <span spantype="chords">A | A | B7 | B7</span>
+               <span spantype="words">And I held her hand in mine</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Well we danced through the night, and we held each other tight</span>
+               <span spantype="words">And before too long I fell in love with her</span>
+               <span spantype="words">Now I'll never dance with another, oh</span>
+               <span spantype="words">Since I saw her standing there</span>
+            </lyrics>
+         </section>
+         <section sectiontype="instrumental verse" part="Horns"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Well we danced through the night, and we held each other tight</span>
+               <span spantype="words">And before too long I fell in love with her</span>
+               <span spantype="words">Now I'll never dance with another, oh</span>
+               <span spantype="words">Since I saw her standing there</span>
+            </lyrics>
+         </section>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">E | B7 | E7 | E7</span>
+               <span spantype="words">Since I saw her standing there</span>
+               <span spantype="chords">E7 | B7 | A7 | E7 E7 E9</span>
+               <span spantype="words">Since I saw her standing there</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <song>
+      <title>Whats Going On</title>
+      <info key="A" style="Fast" artist="4 Non Blondes" genre="Pop" status="rehearsing"/>
+      <content>
+         <section sectiontype="intro">
+            <chords>A | Bm | D | Asus2 x2</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">A | Bm</span>
+               <span spantype="words">25 years of my life and still, I'm trying to get up that great big hill</span>
+               <span spantype="chords">D | Asus2</span>
+               <span spantype="words">Of hope, for a destination</span>
+               <span spantype="chords">A | Bm</span>
+               <span spantype="words">I realized quickly when I knew I should, that the world was made up of this brotherhood </span>
+               <span spantype="chords">D | Asus2</span>
+               <span spantype="words">Of man, for whatever that means</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">And so I cry sometimes when I'm lying in bed, just to get it all out What's in my head </span>
+               <span spantype="words">And I, I am feeling... a little peculiar.</span>
+               <span spantype="words">And so I wake in the morning and I step outside, and I take a deep breath and I get real high</span>
+               <span spantype="words">And I scream from the top of my lungs What's going on?</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">A | Bm</span>
+               <span spantype="words">And I say: Hey yeah yeaaah! Hey yeah yeah.</span>
+               <span spantype="chords">D | Asus2</span>
+               <span spantype="words">I said hey, what's going on?  </span>
+               <span spantype="chords">A | Bm</span>
+               <span spantype="words">And I say: Hey yeah yeaaah! Hey yeah yeah.</span>
+               <span spantype="chords">D | Asus2</span>
+               <span spantype="words">I said hey, what's going on?</span>
+            </lyrics>
+         </section>
+         <section sectiontype="bridge">
+            <lyrics>
+               <span spantype="chords">A | Bm | D | Asus2</span>
+               <span spantype="words">Uhh, uh, uhuhuh uhuhuh</span>
+               <span spantype="chords">A | Bm | D | Asus2</span>
+               <span spantype="words">Uhh, uh, uhuhuh uhuhuh</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">And I try oh my God do I try I try </span>
+               <span spantype="words">All the time, in this institution</span>
+               <span spantype="words">And I pray oh my God do I pray</span>
+               <span spantype="words">I pray every single day, for a revolution.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">And so I cry sometimes when I'm lying bed, just to get it all out what's in my head</span>
+               <span spantype="words">And I, I am feeling... a little peculiar</span>
+               <span spantype="words">And so I wake in the morning and I step outside, and I take a deep breath and I get real high</span>
+               <span spantype="words">And I scream from the top of my lungs What's going on?</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="bridge"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">A | Bm</span>
+               <span spantype="words">25 years of my life and still I'm trying to get up that great big hill</span>
+               <span spantype="chords">D | Asus2</span>
+               <span spantype="words">of hope For a destination</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <song>
+      <title>All I Wanna Do</title>
+      <info key="A" style="Fast" artist="Sheryl Crow" genre="Pop" status="rehearsing"/>
+      <content>
+         <section sectiontype="intro">
+            <chords/>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <song>
+      <title>Sisters are doin it for themselves</title>
+      <info key="Fm" style="Fast" artist="Eurythmics" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation>https://www.youtube.com/watch?v=drGx7JkFSp4</annotation>
+         <section sectiontype="intro" numbars="8">
+            <chords>Fm | Fm Fm C Eb x 4</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">Fm | Fm Fm C Eb x 2</span>
+               <span spantype="words">Now there was a time when they used to say</span>
+               <span spantype="words">That behind every - "great man".  There had to be a - "great woman".</span>
+               <span spantype="words">But in these times of change you know That it's no longer true.</span>
+               <span spantype="chords">Fm | Fm Fm C Eb | C7 | Eb</span>
+               <span spantype="words">So we're comin' out of the kitchen 'Cause there's somethin' we forgot to say to you (we say)</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">Ab | Bb C7 | Fm | Fm</span>
+               <span spantype="words">Sisters are doin' it for themselves.</span>
+               <span spantype="chords">Ab | Bb C7 | Fm | Fm</span>
+               <span spantype="words">Standin' on their own two feet. And ringin' on their own bells.</span>
+               <span spantype="chords">Ab | Bb C7 | Fm | Fm C7 C7 C7 C7</span>
+               <span spantype="words">Sisters are doin' it for themselves.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Now this is a song to celebrate</span>
+               <span spantype="words">The conscious liberation of the female state!</span>
+               <span spantype="words">Mothers - daughters and their daughters too.</span>
+               <span spantype="words">Woman to woman We're singin' with you.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">The "inferior sex" got a new exterior</span>
+               <span spantype="words">We got doctors, lawyers, politicians too.</span>
+               <span spantype="words">Everybody - take a look around.</span>
+               <span spantype="words">Can you see - can you see - can you see There's a woman right next to you.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="bridge">
+            <lyrics>
+               <span spantype="chords">Db | Db | Bb | Bb</span>
+               <span spantype="words">Now we ain't makin' stories, And we ain't layin' plans</span>
+               <span spantype="chords">Db | Db | Bb | Bb C7 C7 C7</span>
+               <span spantype="words">'Don't you know that a man still loves a woman, And a woman still loves a man (Just the same though)</span>
+            </lyrics>
+         </section>
+         <section sectiontype="solo" numbars="16"/>
+         <section sectiontype="bridge">
+            <lyrics>
+               <span spantype="chords">Ab | Bb C7 | Fm | Fm C7 C7 C7 C7</span>
+               <span spantype="words">Sisters are doin' it for themselves.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words"> Now there was a time when they used to say</span>
+               <span spantype="words">That behind every - "great man."  There had to be a - "great woman."</span>
+               <span spantype="words">But in these times of change you know That it's no longer true.</span>
+               <span spantype="words">So we're comin' out of the kitchen 'Cause there's somethin' we forgot to say to you (we say)</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="words">Sisters are doin' it for themselves.</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <song>
+      <title>Lovely Day</title>
+      <info key="A" style="Fast" artist="Bill Withers" genre="Pop" status="rehearsing"/>
+      <content>
+         <section sectiontype="intro">
+            <chords/>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+      </content>
+   </song>
 
    <song>
       <title>Blank</title>

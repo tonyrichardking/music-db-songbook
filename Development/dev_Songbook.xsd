@@ -75,6 +75,7 @@
 												<xs:enumeration value="Reggae"/>
 												<xs:enumeration value="Jazz"/>
 												<xs:enumeration value="Traditional"/>
+												<xs:enumeration value="Disco/Funk"/>
 											</xs:restriction>
 										</xs:simpleType>
 									</xs:attribute>
@@ -194,6 +195,7 @@
 												<xs:enumeration value="repeat"/>
 												<xs:enumeration value="riff"/>
 												<xs:enumeration value="coda"/>
+												<xs:enumeration value="breakdown"/>
 												</xs:restriction>
 												</xs:simpleType>
 												</xs:attribute>
