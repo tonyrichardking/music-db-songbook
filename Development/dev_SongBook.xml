@@ -1587,9 +1587,8 @@
       <title>Sweet Home Chicago</title>
       <info key="E" status="ready" artist="Blues Brothers" genre="R and B" style="Medium"/>
       <content>
-         <annotation>https://www.youtube.com/watch?v=-_KkgPRo4wA</annotation>
+         <annotation>https://www.youtube.com/watch?v=euJ22UqLD5Y</annotation>
          <section sectiontype="intro" part="Gtr" numbars="4"/>
-
          <section sectiontype="verse">
             <comment>Blues in E</comment>
             <lyrics>
@@ -1629,8 +1628,8 @@
                <span spantype="words">Sweet home Chicago</span>
             </lyrics>
          </section>
-         <section sectiontype="break" part="Gtr"/>
-         <section sectiontype="break" part="Gtr"/>
+         <section sectiontype="break" feel="hot" part="Gtr"/>
+         <section sectiontype="break" feel="cool" part="Gtr"/>
          <section sectiontype="stopchorus">
             <lyrics>
                <span spantype="words">Six and three is nine</span>
@@ -1657,12 +1656,8 @@
          <section sectiontype="riff" part="Horns" numbars="12">
             <directions>Loud</directions>
          </section>
-         <section sectiontype="riff" part="Horns" numbars="12">
-            <directions>Soft</directions>
-         </section>
-         <section sectiontype="riff" part="Horns" numbars="12">
-            <directions>Loud</directions>
-         </section>
+         <section sectiontype="riff" part="Horns" feel="cool" numbars="12"> </section>
+         <section sectiontype="riff" part="Horns" feel="hot" numbars="12"> </section>
       </content>
    </song>
    <song>
@@ -11230,6 +11225,7 @@
       <title>Valerie</title>
       <info key="Eb" style="Medium" artist="Amy Winehouse" genre="Pop" status="ready"/>
       <content>
+         <annotation>https://www.youtube.com/watch?v=bixuI_GV5I0</annotation>
          <section sectiontype="intro" numbars="8">
             <chords>Emaj7 | Emaj7 | Emaj7 | Emaj7</chords>
          </section>
@@ -11270,7 +11266,7 @@
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
-         <section sectiontype="verse">
+         <section sectiontype="verse" feel="breakdown">
             <comment>Repeat verse 1</comment>
          </section>
          <section sectiontype="chorus"/>
@@ -15657,6 +15653,7 @@
       <title>Happy</title>
       <info key="F" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
       <content>
+         <annotation>https://www.youtube.com/watch?v=ZbZSe6N_BXs</annotation>
          <section sectiontype="intro">
             <chords>F</chords>
          </section>
@@ -16647,6 +16644,7 @@
       <title>Human</title>
       <info key="Dm" status="rehearsing" artist="Rag n Bone Man &amp; Jamie Hartman"/>
       <content>
+         <annotation>https://www.youtube.com/watch?v=L3wKzyIN1yk</annotation>
          <section sectiontype="intro">
             <comment>Bass groove 4x or until Hawa gives you the nod</comment>
             <comment>Tambourine/Claps/Beats on 2 and 4</comment>
@@ -17164,7 +17162,7 @@
       <title>Aint Nobody</title>
       <info key="Ebm" style="Fast" artist="Chaka Khan" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation>https://www.youtube.com/watch?v=Piussvfo2GI</annotation>
+         <annotation>https://www.youtube.com/watch?v=B6ORrfOo-R8</annotation>
          <section sectiontype="intro" part="Gtr + Horns">
             <chords>Ebm | Ebm | Ebm | Ebm</chords>
             <chords>Ebm | Ebm | Ebm | Ebm</chords>
@@ -17314,8 +17312,8 @@
       <info key="D" style="Fast" artist="Nile Rodgers" genre="Disco/Funk" status="rehearsing"/>
       <content>
          <annotation>https://www.youtube.com/watch?v=X3mbTNE8V8U</annotation>
-         <section sectiontype="intro" part="Gtr + Horns">
-            <comment>Cool ad-lib soloing</comment>
+         <section sectiontype="intro" feel="builds">
+            <comment>Solos - 16 bars each</comment>
             <chords>Dm7 | Dm7 | G | G | Bbmaj7 | Bbmaj7 | C | C</chords>
          </section>
          <section sectiontype="intro" part="Gtr">
@@ -17355,9 +17353,8 @@
                <span spantype="words">All that I can say: I won't give up my music Not me Not now No way No how.</span>
             </lyrics>
          </section>
-         <section sectiontype="chorus">
-            <comment>Repeat ad-lib; Hawa to signal last time</comment>
-         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus" feel="hot"/>
          <section sectiontype="outro">
             <lyrics>
                <span spantype="words">We're-lost-in-mus-ic.</span>
@@ -17370,11 +17367,11 @@
       <info key="Cm" style="Lurve" artist="Adele" genre="Pop" status="rehearsing"/>
       <content>
          <annotation>https://www.youtube.com/watch?v=mfafKFMXBqg</annotation>
-         <section sectiontype="intro">
+         <section sectiontype="intro" part="Gtr">
             <chords>Cm x 4</chords>
             <chords>Cm | Bb | Ab | Gm x 2</chords>
          </section>
-         <section sectiontype="verse">
+         <section sectiontype="verse" part="Gtr">
             <lyrics>
                <span spantype="chords">Cm | Bb | Ab | Gm</span>
                <span spantype="words">Whenever I'm alone with you</span>
@@ -17383,7 +17380,7 @@
                <span spantype="words">You make me feel like I am whole again</span>
             </lyrics>
          </section>
-         <section sectiontype="break" numbars="8">
+         <section sectiontype="break" numbars="8" part="Full Band">
             <chords>Cm | Bb | Ab | Gm x 2</chords>
          </section>
          <section sectiontype="verse">
@@ -17589,7 +17586,7 @@
    </song>
    <song>
       <title>September</title>
-      <info key="D" style="Fast" artist="Earth, Wind and Fire" genre="Disco/Funk" status="ready"/>
+      <info key="A" style="Fast" artist="Earth, Wind and Fire" genre="Disco/Funk" status="ready"/>
       <content>
          <annotation>https://www.youtube.com/watch?v=D5XmUnYW5Ks</annotation>
          <section sectiontype="intro" part="Bass" numbars="2"/>
@@ -17732,7 +17729,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Always There</title>
       <info key="Fm" style="Fast" artist="Incognito" genre="Disco/Funk" status="rehearsing"/>
@@ -17816,7 +17812,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Im Coming Out</title>
       <info key="A" style="Fast" artist="Diana Ross" genre="Disco/Funk" status="rehearsing"/>
@@ -17845,7 +17840,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>We Are Family</title>
       <info key="A" style="Fast" artist="Sister Sledge" genre="Disco/Funk" status="rehearsing"/>
@@ -17874,7 +17868,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Sweet Child Of Mine</title>
       <info key="A" style="Fast" artist="Guns and Roses" genre="Disco/Funk" status="rehearsing"/>
@@ -17945,7 +17938,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Thinking Of You</title>
       <info key="A" style="Fast" artist="Sister Sledge" genre="Disco/Funk" status="rehearsing"/>
@@ -17974,7 +17966,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>I Want Your Love</title>
       <info key="Am" style="Fast" artist="Chic" genre="Disco/Funk" status="rehearsing"/>
@@ -18042,7 +18033,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Lose Yourself to Dance</title>
       <info key="A" style="Fast" artist="Daft Punk" genre="Disco/Funk" status="rehearsing"/>
@@ -18070,11 +18060,11 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>I Saw Her Standing There</title>
       <info key="E" style="Fast" artist="The Beatles" genre="Pop" status="rehearsing"/>
       <content>
+         <annotation>https://www.youtube.com/watch?v=oxwAB3SECtc</annotation>
          <section sectiontype="intro">
             <chords>E | E | E | E</chords>
          </section>
@@ -18102,7 +18092,7 @@
             <lyrics>
                <span spantype="chords">A | A | A | A</span>
                <span spantype="words">Well my heart went boom, when I crossed that room</span>
-               <span spantype="chords">A | A | B7 | B7</span>
+               <span spantype="chords">A | A | B7 | B7 | B7 | B7</span>
                <span spantype="words">And I held her hand in mine</span>
             </lyrics>
          </section>
@@ -18115,7 +18105,7 @@
             </lyrics>
          </section>
          <section sectiontype="instrumental verse" part="Horns"/>
-         <section sectiontype="chorus"/>
+         <section sectiontype="bridge"/>
          <section sectiontype="verse">
             <lyrics>
                <span spantype="words">Well we danced through the night, and we held each other tight</span>
@@ -18128,13 +18118,14 @@
             <lyrics>
                <span spantype="chords">E | B7 | E7 | E7</span>
                <span spantype="words">Since I saw her standing there</span>
-               <span spantype="chords">E7 | B7 | A7 | E7 E7 E9</span>
                <span spantype="words">Since I saw her standing there</span>
+               <span spantype="chords">E | B7 | A7 | A7</span>
+               <span spantype="words">Since I saw her standing there</span>
+               <span spantype="chords">E7</span>
             </lyrics>
          </section>
       </content>
    </song>
-
    <song>
       <title>Whats Going On</title>
       <info key="A" style="Fast" artist="4 Non Blondes" genre="Pop" status="rehearsing"/>
@@ -18211,7 +18202,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>All I Wanna Do</title>
       <info key="A" style="Fast" artist="Sheryl Crow" genre="Pop" status="rehearsing"/>
@@ -18239,7 +18229,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Sisters are doin it for themselves</title>
       <info key="Fm" style="Fast" artist="Eurythmics" genre="Pop" status="rehearsing"/>
@@ -18317,7 +18306,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Lovely Day</title>
       <info key="A" style="Fast" artist="Bill Withers" genre="Pop" status="rehearsing"/>
@@ -18345,11 +18333,95 @@
          </section>
       </content>
    </song>
-
+   <song>
+      <title>Set Fire To The Rain</title>
+      <info key="Dm" style="Medium" artist="Adele" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation>https://www.youtube.com/watch?v=Ri7-vnrJD3k</annotation>
+         <section sectiontype="intro" part="Keyboard">
+            <chords>Dm | F | C | Gm</chords>
+         </section>
+         <section sectiontype="verse" part="Keys + Drums">
+            <lyrics>
+               <span spantype="chords">Dm | F | C | Gm</span>
+               <span spantype="words">I let it fall, my heart, and as it fell you rose to claim it</span>
+               <span spantype="chords">Dm | F | C | C</span>
+               <span spantype="words">It was dark and I was over, until you kissed my lips and you saved me</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse" part="Full Band">
+            <lyrics>
+               <span spantype="chords">Dm | F | C | Gm</span>
+               <span spantype="words">My hands they were strong, but my knees were far too weak</span>
+               <span spantype="chords">Dm | F/A | C | C</span>
+               <span spantype="words">To stand in your arms, without falling to your your feet</span>
+            </lyrics>
+         </section>
+         <section sectiontype="refrain">
+            <lyrics>
+               <span spantype="chords">Bb | Gm</span>
+               <span spantype="words">But there's a side to you that I never knew, never knew</span>
+               <span spantype="chords">Dm | Dm</span>
+               <span spantype="words">All the things you'd say, they where never true, never true</span>
+               <span spantype="chords">Bb | C | C</span>
+               <span spantype="words">And the games you'd play, you would always win, always win</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="8">
+            <lyrics>
+               <span spantype="chords">Dm | Dm | C | C</span>
+               <span spantype="words">But I set fire to the rain, watched it pour as I touched your face</span>
+               <span spantype="chords">Gm | Gm | Dm | C</span>
+               <span spantype="words">Well it burned while I cried, 'cause I heard it screaming out your name, your name</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">When laying with you, I could stay there, close my eyes</span>
+               <span spantype="words">Feel you here forever, you and me together, nothing is better</span>
+            </lyrics>
+         </section>
+         <section sectiontype="refrain"/>
+         <section sectiontype="chorus" numbars="16">
+            <lyrics>
+               <span spantype="words">I set fire to the rain, watched it pour as I touched your face</span>
+               <span spantype="words">Well it burned while I cried, 'cause I heard it screaming out your name, your name</span>
+               <span spantype="words">I set fire to the rain, and I threw us into the flames,</span>
+               <span spantype="chords">Gm | Gm | Bb | C</span>
+               <span spantype="words">Well I felt something die, 'cause I knew that that was the last time, the last time, oh, oh</span>
+            </lyrics>
+         </section>
+         <section sectiontype="bridge">
+            <lyrics>
+               <span spantype="chords">Bb | F/A | Am | C</span>
+               <span spantype="words">Sometimes I wake up by the door, and heard you calling, must be waiting for you</span>
+               <span spantype="words">Even now when we're already over, I can't help myself from looking for you</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="16">
+            <lyrics>
+               <span spantype="words">I set fire to the rain, watched it pour as I touched your face</span>
+               <span spantype="words">Well it burned while I cried, 'cause I heard it screaming out your name, your name</span>
+               <span spantype="words">I set fire to the rain, and I threw us into the flames,</span>
+               <span spantype="chords">Gm | Gm | Bb | C</span>
+               <span spantype="words">Well I felt something die, 'cause I knew that that was the last time, the last time, oh, oh</span>
+            </lyrics>
+         </section>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">Dm | Dm | C | C | Gm | Gm | Dm | C</span>
+               <span spantype="words">Let it burn!</span>
+               <span spantype="chords">Dm | Dm | C | C | Gm | Gm | Bb | C</span>
+               <span spantype="words">Let it burn!</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
    <song>
       <title>Blank</title>
       <info key="A" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
       <content>
+         <annotation/>
          <section sectiontype="intro">
             <chords/>
          </section>
@@ -18372,6 +18444,6 @@
             </lyrics>
          </section>
       </content>
-   </song>
 
+   </song>
 </songbook>

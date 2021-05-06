@@ -150,6 +150,7 @@
 												<xs:restriction base="xs:string">
 												<xs:enumeration value="verse"/>
 												<xs:enumeration value="chorus"/>
+												<xs:enumeration value="refrain"/>
 												<xs:enumeration value="break"/>
 												<xs:enumeration value="bridge"/>
 												<xs:enumeration value="intro"/>
@@ -238,6 +239,7 @@
 												<xs:enumeration value="Gtr + Drums"/>
 												<xs:enumeration value="Bass"/>
 												<xs:enumeration value="Keyboard"/>
+												<xs:enumeration value="Keys + Drums"/>
 												<xs:enumeration value="Sax+k/b"/>
 												<xs:enumeration value="Instrumental"/>
 												<xs:enumeration value="Hammond"/>
@@ -258,6 +260,7 @@
 												<xs:enumeration value="builds"/>
 												<xs:enumeration value="slow"/>
 												<xs:enumeration value="fast"/>
+												<xs:enumeration value="breakdown"/>
 												</xs:restriction>
 												</xs:simpleType>
 												</xs:attribute>

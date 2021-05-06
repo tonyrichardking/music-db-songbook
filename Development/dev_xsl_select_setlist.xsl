@@ -34,6 +34,7 @@
         
         <xsl:apply-templates select="//song[title = 'Whats Going On']"/>
         <xsl:apply-templates select="//song[title = 'Wonderwall']"/>
+        <xsl:apply-templates select="//song[title = 'Set Fire To The Rain']"/>
 
         <!--  
         <xsl:apply-templates select="//song[title = 'Whats Going On']"/>            
