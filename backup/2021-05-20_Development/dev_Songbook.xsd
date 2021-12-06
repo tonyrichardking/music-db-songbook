@@ -150,10 +150,6 @@
 												<xs:restriction base="xs:string">
 												<xs:enumeration value="verse"/>
 												<xs:enumeration value="chorus"/>
-												<xs:enumeration value="chorus-part1"/>
-												<xs:enumeration value="chorus-part2"/>
-												<xs:enumeration value="chorus-part3"/>
-												<xs:enumeration value="chorus-part4"/>
 												<xs:enumeration value="refrain"/>
 												<xs:enumeration value="break"/>
 												<xs:enumeration value="bridge"/>
@@ -210,7 +206,6 @@
 												<xs:simpleType>
 												<xs:restriction base="xs:string">
 												<xs:enumeration value="Hawa"/>
-												<xs:enumeration value="Pam"/>
 												<xs:enumeration value="Denise"/>
 												<xs:enumeration value="David"/>
 												<xs:enumeration value="Robin"/>
@@ -239,11 +234,9 @@
 												<xs:enumeration value="Gtr+Sax"/>
 												<xs:enumeration value="Rhythm Gtr"/>
 												<xs:enumeration value="Sax"/>
-												<xs:enumeration value="Saxes"/>
 												<xs:enumeration value="Drums"/>
 												<xs:enumeration value="Percussion"/>
 												<xs:enumeration value="Gtr + Drums"/>
-												<xs:enumeration value="Bass + Drums"/>
 												<xs:enumeration value="Bass"/>
 												<xs:enumeration value="Keyboard"/>
 												<xs:enumeration value="Keys + Drums"/>
@@ -339,8 +332,6 @@
 							<xs:restriction base="xs:string">
 								<xs:enumeration value="howstart"/>
 								<xs:enumeration value="general"/>
-								<xs:enumeration value="video"/>
-								<xs:enumeration value="bassline"/>
 							</xs:restriction>
 						</xs:simpleType>
 					</xs:attribute>

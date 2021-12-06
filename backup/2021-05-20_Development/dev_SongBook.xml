@@ -626,7 +626,7 @@
       <title>Oye Como Va (Tito Puente version)</title>
       <info key="Am" status="ready" style="Medium" genre="Latin" artist="Tito Puente"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=zZQh4IL7unM</annotation>
+         <annotation>https://www.youtube.com/watch?v=zZQh4IL7unM</annotation>
          <section sectiontype="intro" part="Keyboard" numbars="8">
             <chords>Am | Dm | Am | Dm</chords>
          </section>
@@ -1587,7 +1587,7 @@
       <title>Sweet Home Chicago</title>
       <info key="E" status="ready" artist="Blues Brothers" genre="R and B" style="Medium"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=euJ22UqLD5Y</annotation>
+         <annotation>https://www.youtube.com/watch?v=euJ22UqLD5Y</annotation>
          <section sectiontype="intro" part="Gtr" numbars="4"/>
          <section sectiontype="verse">
             <comment>Blues in E</comment>
@@ -1829,10 +1829,7 @@
          </section>
          <section sectiontype="instrumental verse" part="Sax"/>
          <section sectiontype="instrumental chorus" part="Sax"/>
-         <section sectiontype="interlude" feel="breakdown">
-            <comment>Hawa goes to the bar for a bit...</comment>
-         </section>
-         <section sectiontype="verse" feel="breakdown">
+         <section sectiontype="verse">
             <lyrics>
                <span spantype="words">I don't know why I love you like I do</span>
                <span spantype="words">After all these changes you put me through</span>
@@ -5843,12 +5840,10 @@
       <title>Superstition</title>
       <info key="Em" status="rehearsing" artist="Stevie Wonder" genre="Pop" style="Medium"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=8Tgnz6Qp-wQ</annotation>
-         <section sectiontype="intro" part="Drums" numbars="4"/>
-         <section sectiontype="riff" part="Keyboard" numbars="8"/>
-         <section sectiontype="verse" numbars="16">
-            <directions>Horn riff on bar 9</directions>
-            <chords>Em7</chords>
+         <section sectiontype="intro" part="Drums" numbars="8"/>
+         <section sectiontype="riff" part="Gtr" numbars="8"/>
+         <section sectiontype="verse">
+            <chords>Em</chords>
             <lyrics>
                <span spantype="words">Very superstitious, writing's on the wall,</span>
                <span spantype="words">Very superstitious, ladders bout' to fall,</span>
@@ -5856,7 +5851,7 @@
                <span spantype="words">Seven years of bad luck, the good things in your past.</span>
             </lyrics>
          </section>
-         <section sectiontype="chorus" numbars="4">
+         <section sectiontype="chorus">
             <lyrics>
                <span spantype="chords">B7 C7-5 | B7 Bb7-5</span>
                <span spantype="words">When you believe in things that you don't understand</span>
@@ -5864,7 +5859,7 @@
                <span spantype="words">Then you suffer; superstition ain't the way, yeah-eah</span>
             </lyrics>
          </section>
-         <section sectiontype="figure" part="Saxes" numbars="4"/>
+         <section sectiontype="riff" numbars="4"/>
          <section sectiontype="verse">
             <lyrics>
                <span spantype="words">Very superstitious, wash your face and hands,</span>
@@ -5878,13 +5873,13 @@
                <span spantype="words">When you believe in things...</span>
             </lyrics>
          </section>
-         <section sectiontype="figure" numbars="4" part="Saxes"/>
-         <section sectiontype="instrumental chorus" part="Horns" numbars="4">
+         <section sectiontype="riff" numbars="4"/>
+         <section sectiontype="figure" part="Horns" numbars="4">
             <lyrics>
                <span spantype="chords">B7 C7-5 | B7 Bb7-5 | A7 | (B7+9)</span>
             </lyrics>
          </section>
-         <section sectiontype="riff" part="Keyboard" numbars="4"/>
+         <section sectiontype="riff" numbars="4"/>
          <section sectiontype="verse">
             <lyrics>
                <span spantype="words">Very superstitious, nothin' more to say,</span>
@@ -5893,16 +5888,10 @@
                <span spantype="words">Seven years of bad luck, good things in your past</span>
             </lyrics>
          </section>
-         <section sectiontype="chorus">
-            <lyrics>
-               <span spantype="words">When you believe in things...</span>
-            </lyrics>
-         </section>
-         <section sectiontype="figure" numbars="4" part="Saxes"/>
-         <section sectiontype="instrumental chorus" part="Saxes" numbars="4"/>
-         <section sectiontype="figure" numbars="4" part="Saxes"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="riff" numbars="4"/>
          <section sectiontype="outro">
-            <comment>keys riff over horn figure</comment>
+            <comment>gtr riff over horn figure</comment>
             <lyrics>
                <span spantype="chords">Em</span>
             </lyrics>
@@ -11236,7 +11225,7 @@
       <title>Valerie</title>
       <info key="Eb" style="Medium" artist="Amy Winehouse" genre="Pop" status="ready"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=bixuI_GV5I0</annotation>
+         <annotation>https://www.youtube.com/watch?v=bixuI_GV5I0</annotation>
          <section sectiontype="intro" numbars="8">
             <chords>Emaj7 | Emaj7 | Emaj7 | Emaj7</chords>
          </section>
@@ -14367,7 +14356,7 @@
       <title>To Make You Feel My Love</title>
       <info key="Bb" style="Slow" artist="Adele" genre="Soul" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=9UC0l8N8Ua4</annotation>
+         <annotation>https://www.youtube.com/watch?v=9UC0l8N8Ua4</annotation>
          <section sectiontype="intro" numbars="4">
             <chords>Bb | F/A | Ab | Eb | Ebm7 | Bb | C7 Eb/F | Bb</chords>
          </section>
@@ -14617,7 +14606,6 @@
       <title>You Cant Hurry Love</title>
       <info key="A" style="Fast" artist="The Supremes" genre="Motown" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=C9IwBJYTwQ0</annotation>
          <section sectiontype="intro">
             <chords>A x 4</chords>
          </section>
@@ -14663,7 +14651,7 @@
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
-         <section sectiontype="riff" part="Bass" numbars="2"/>
+         <section sectiontype="riff" part="Bass" numbars="1"/>
          <section sectiontype="bridge">
             <lyrics>
                <span spantype="chords">A | D A</span>
@@ -15665,7 +15653,7 @@
       <title>Happy</title>
       <info key="F" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=ZbZSe6N_BXs</annotation>
+         <annotation>https://www.youtube.com/watch?v=ZbZSe6N_BXs</annotation>
          <section sectiontype="intro">
             <chords>F</chords>
          </section>
@@ -16656,7 +16644,7 @@
       <title>Human</title>
       <info key="Dm" status="rehearsing" artist="Rag n Bone Man &amp; Jamie Hartman"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=L3wKzyIN1yk</annotation>
+         <annotation>https://www.youtube.com/watch?v=L3wKzyIN1yk</annotation>
          <section sectiontype="intro">
             <comment>Bass groove 4x or until Hawa gives you the nod</comment>
             <comment>Tambourine/Claps/Beats on 2 and 4</comment>
@@ -17174,7 +17162,7 @@
       <title>Aint Nobody</title>
       <info key="Ebm" style="Fast" artist="Chaka Khan" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=B6ORrfOo-R8</annotation>
+         <annotation>https://www.youtube.com/watch?v=B6ORrfOo-R8</annotation>
          <section sectiontype="intro" part="Gtr + Horns">
             <chords>Ebm | Ebm | Ebm | Ebm</chords>
             <chords>Ebm | Ebm | Ebm | Ebm</chords>
@@ -17251,8 +17239,7 @@
       <title>Get Lucky</title>
       <info key="Bm" style="Fast" artist="Chic" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=VIpd35yWDqk</annotation>
-         <annotation type="bassline">https://www.youtube.com/watch?v=I7A_O7eOWdQ</annotation>
+         <annotation>https://www.youtube.com/watch?v=VIpd35yWDqk</annotation>
          <section sectiontype="intro" numbars="8">
             <chords>Bm7 | Dsus2 | F#m7 | Esus2</chords>
          </section>
@@ -17324,8 +17311,7 @@
       <title>Lost In Music</title>
       <info key="D" style="Fast" artist="Nile Rodgers" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=X3mbTNE8V8U</annotation>
-         <annotation type="bassline">https://www.youtube.com/watch?v=2ZoDR5odEWs</annotation>
+         <annotation>https://www.youtube.com/watch?v=X3mbTNE8V8U</annotation>
          <section sectiontype="intro" feel="builds">
             <comment>Solos - 16 bars each</comment>
             <chords>Dm7 | Dm7 | G | G | Bbmaj7 | Bbmaj7 | C | C</chords>
@@ -17380,7 +17366,7 @@
       <title>Love Song</title>
       <info key="Cm" style="Lurve" artist="Adele" genre="Pop" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=mfafKFMXBqg</annotation>
+         <annotation>https://www.youtube.com/watch?v=mfafKFMXBqg</annotation>
          <section sectiontype="intro" part="Gtr">
             <chords>Cm x 4</chords>
             <chords>Cm | Bb | Ab | Gm x 2</chords>
@@ -17446,7 +17432,7 @@
       <title>New York, New York (D)</title>
       <info key="D" style="Medium" artist="Sam Bailey" genre="MOR" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=R8C5q5F5loM</annotation>
+         <annotation>https://www.youtube.com/watch?v=R8C5q5F5loM</annotation>
          <section sectiontype="intro" part="Drums" numbars="4">
             <chords/>
          </section>
@@ -17523,7 +17509,7 @@
       <title>New York, New York (B)</title>
       <info key="B" style="Medium" artist="Sam Bailey" genre="MOR" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=R8C5q5F5loM</annotation>
+         <annotation>https://www.youtube.com/watch?v=R8C5q5F5loM</annotation>
          <section sectiontype="intro" part="Drums" numbars="4"> </section>
          <section sectiontype="intro" part="Sax" numbars="4">
             <chords>| B | B | Dbm7 | F#7 |</chords>
@@ -17602,9 +17588,9 @@
       <title>September</title>
       <info key="A" style="Fast" artist="Earth, Wind and Fire" genre="Disco/Funk" status="ready"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=D5XmUnYW5Ks</annotation>
-         <annotation type="bassline">https://www.youtube.com/watch?v=L_5YGzulQHY</annotation>
+         <annotation>https://www.youtube.com/watch?v=D5XmUnYW5Ks</annotation>
          <section sectiontype="intro" part="Bass" numbars="2"/>
+
          <section sectiontype="intro" part="Gtr" numbars="2">
             <chords>Gmaj7/A</chords>
          </section>
@@ -17658,7 +17644,6 @@
                <span spantype="words">today</span>
             </lyrics>
          </section>
-         <section sectiontype="chorus"/>
          <section sectiontype="interlude" numbars="24" part="Gtr + Horns" feel="hot">
             <chords>Dmaj7| Dmaj7| C#m7| C#m7| Bm7| Bm7| F#m7| F#m7| x 3</chords>
          </section>
@@ -17688,51 +17673,27 @@
       <title>Upside Down</title>
       <info key="Gm" style="Fast" artist="Diana Ross" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=UsSICqvCno0</annotation>
-         <annotation type="video">https://www.youtube.com/watch?v=0ooYyhqvoSo</annotation>
-         <annotation type="bassline">https://www.youtube.com/watch?v=DFdJSFm6zvE</annotation>
-         <section sectiontype="intro" feel="slow" numbars="4">
-            <comment>riff1 (down-up)</comment>
-            <chords>Bb B C C | F Gm</chords>
-         </section>
-         <section sectiontype="intro" feel="slow" numbars="8" part="Sax" person="Pam">
-            <comment>Sax plays the Stevie Wonder harmonica part. riff2 (down) &amp; riff3
-               (up)</comment>
-            <chords>Bb B C C | F Gm</chords>
-         </section>
-         <section sectiontype="intro" feel="slow" numbars="8">
-            <comment>riff2 (down) &amp; riff3 (up)</comment>
-            <chords>Bb B C C | F Gm</chords>
+         <annotation>https://www.youtube.com/watch?v=0ooYyhqvoSo</annotation>
+         <section sectiontype="intro">
+            <chords>C C F F | Gm Gm Bb B | x2</chords>
             <lyrics>
-               <span spantype="words">I said upside down You're turning me, you're giving love instinctively</span>
-               <span spantype="words">Around and round you're turning me...</span>
-               <span spantype="words">I said upside down You're turning me, you're giving love instinctively</span>
-               <span spantype="words">Around and round you're turning me...</span>
-            </lyrics>
-         </section>
-         <section sectiontype="link" part="Drums">
-            <comment>4 beats in on sticks</comment>
-         </section>
-         <section sectiontype="intro" feel="fast">
-            <comment>Everybody hit the Bb, B, C</comment>
-            <chords>Bb B C C | F Gm</chords>
-            <lyrics>
-               <span spantype="words">I said upside down You're turning me, you're giving love instinctively</span>
-               <span spantype="words">Around and round you're turning me...</span>
+               <span spantype="chords">C C F F | Gm Gm Bb B</span>
                <span spantype="words">I said upside down You're turning me, you're giving love instinctively</span>
                <span spantype="words">Around and round you're turning me...</span>
             </lyrics>
          </section>
          <section sectiontype="chorus">
-            <chords>Bb B C C | F Gm</chords>
             <lyrics>
-               <span spantype="words">Upside down, boy, you turn me; Inside out and round and round</span>
-               <span spantype="words">Upside down, boy, you turn me; Inside out, and round and round</span>
+               <span spantype="chords">C C F F | Gm Gm Bb B</span>
+               <span spantype="words">Upside down, boy, you turn me</span>
+               <span spantype="words">Inside out and round and round</span>
+               <span spantype="words">Upside down, boy, you turn me</span>
+               <span spantype="words">Inside out, and round and round</span>
             </lyrics>
          </section>
          <section sectiontype="verse">
-            <chords>Bbm7 | Bbm7</chords>
             <lyrics>
+               <span spantype="chords">Bbm7 | Bbm7</span>
                <span spantype="words">Instinctively you give to me, the love that I need</span>
                <span spantype="words">I cherish the moments with you</span>
                <span spantype="words">Respectfully I say to thee, I'm aware that you're cheatin'</span>
@@ -17760,18 +17721,11 @@
          <section sectiontype="chorus"/>
          <section sectiontype="chorus"/>
          <section sectiontype="outro">
-            <directions>Repeat ad-lib.  Hawa signals last time</directions>
             <lyrics>
-               <span spantype="chords">C Dm7 | Gm7 Gm7 Bb B</span>
-               <span spantype="words">I said upside down You're turning me, you're giving love instinctively</span>
-               <span spantype="words">Around and round you're turning me...</span>
+               <span spantype="chords">C C F F | Gm Gm Bb B</span>
                <span spantype="words">I said upside down You're turning me, you're giving love instinctively</span>
                <span spantype="words">Around and round you're turning me...</span>
             </lyrics>
-         </section>
-         <section sectiontype="outro" feel="slow" numbars="1">
-            <comment>riff2 (down)</comment>
-            <chords>G7</chords>
          </section>
       </content>
    </song>
@@ -17779,7 +17733,7 @@
       <title>Always There</title>
       <info key="Fm" style="Fast" artist="Incognito" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=I4weGwDt13Q</annotation>
+         <annotation>https://www.youtube.com/watch?v=I4weGwDt13Q</annotation>
          <section sectiontype="intro" part="Gtr + Horns" numbars="8">
             <chords>Fm7 Cm/F# | Ebm7 Dbmaj7 | x4</chords>
          </section>
@@ -17862,7 +17816,7 @@
       <title>Im Coming Out</title>
       <info key="A" style="Fast" artist="Diana Ross" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=jhMHmYrJBqw</annotation>
+         <annotation>https://www.youtube.com/watch?v=jhMHmYrJBqw</annotation>
          <section sectiontype="intro">
             <chords/>
          </section>
@@ -17890,78 +17844,35 @@
       <title>We Are Family</title>
       <info key="A" style="Fast" artist="Sister Sledge" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=qhmkUgs4khc</annotation>
-         <annotation type="bassline">https://www.youtube.com/watch?v=eldd1qnbgDA</annotation>
-         <section sectiontype="figure" part="Full Band">
-            <chords>D - Eb E F - G Ab A</chords>
+         <annotation>https://www.youtube.com/watch?v=rEEpQvF3Q4c</annotation>
+         <section sectiontype="intro">
+            <chords/>
          </section>
-         <section sectiontype="intro" part="Drums" numbars="8">
+         <section sectiontype="verse">
             <lyrics>
-               <span spantype="words">We are family; I got all my sisters with me</span>
-               <span spantype="words">We are family; Get up everybody and sing</span>
-            </lyrics>
-         </section>
-         <section sectiontype="intro" part="Bass + Drums" numbars="8">
-            <lyrics>
-               <span spantype="words">We are family; I got all my sisters with me</span>
-               <span spantype="words">We are family; Get up everybody and sing</span>
-            </lyrics>
-         </section>
-         <section sectiontype="verse" feel="cool">
-            <lyrics>
-               <span spantype="chords">A | Em7 D9 | A | Em7 D9</span>
-               <span spantype="words">Everyone can see we're together; As we walk on by</span>
-               <span spantype="words">(Fly) and we flock just like birds of a feather; I won't tell no lie</span>
-               <span spantype="words">(All) all of the people around us they say; Can they be that close</span>
-               <span spantype="words">Just let me state for the record; We're giving love in a family dose</span>
+               <span spantype="chords"/>
+               <span spantype="words"/>
             </lyrics>
          </section>
          <section sectiontype="chorus">
             <lyrics>
-               <span spantype="chords">A Asus2 | F Fsus2 | D | F/G</span>
-               <span spantype="words">We are family; I got all my sisters with me</span>
-               <span spantype="words">We are family; Get up everybody and sing</span>
-               <span spantype="words">We are family; I got all my sisters with me</span>
-               <span spantype="words">We are family; Get up everybody and sing</span>
+               <span spantype="chords"/>
+               <span spantype="words"/>
             </lyrics>
          </section>
-         <section sectiontype="verse" feel="cool">
+         <section sectiontype="outro">
             <lyrics>
-               <span spantype="chords">A | Em7 D9 | A | Em7 D9</span>
-               <span spantype="words">Living life is fun and we've just begun; To get our share of this world's delights</span>
-               <span spantype="words">(High) high hopes we have for the future; And our goal's in sight</span>
-               <span spantype="words">(We) no, we don't get depressed; Cos' here's what we call our golden rule</span>
-               <span spantype="words">Have faith in you and the things you do;You won't go wrong, oh-no this is our family jewel</span>
+               <span spantype="chords"/>
+               <span spantype="words"/>
             </lyrics>
-         </section>
-         <section sectiontype="chorus"/>
-         <section sectiontype="figure" part="Full Band">
-            <chords>D - Eb E F - G Ab A</chords>
-         </section>
-         <section sectiontype="instrumental" part="Gtr" numbars="8">
-            <chords>A | Em7 D9</chords>
-         </section>
-         <section sectiontype="instrumental" part="Keyboard" numbars="8">
-            <chords>A | Em7 D9</chords>
-         </section>
-         <section sectiontype="instrumental" part="Saxes" numbars="8">
-            <chords>A | Em7 D9</chords>
-         </section>
-         <section sectiontype="figure" part="Full Band">
-            <chords>D - Eb E F - G Ab A</chords>
-         </section>
-         <section sectiontype="chorus"/>
-         <section sectiontype="figure" part="Full Band">
-            <chords>D - Eb E F - G Ab A</chords>
          </section>
       </content>
    </song>
-
    <song>
       <title>Sweet Child Of Mine</title>
       <info key="A" style="Fast" artist="Guns and Roses" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=cl7a9YztLN4</annotation>
+         <annotation>https://www.youtube.com/watch?v=cl7a9YztLN4</annotation>
          <section sectiontype="intro" numbars="8">
             <chords>Db | Db | Bsus2 | Bsus2 | F# | F# | Db | Db</chords>
          </section>
@@ -18031,7 +17942,7 @@
       <title>Thinking Of You</title>
       <info key="A" style="Fast" artist="Sister Sledge" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=WWhwgYa4imU</annotation>
+         <annotation>https://www.youtube.com/watch?v=WWhwgYa4imU</annotation>
          <section sectiontype="intro">
             <chords/>
          </section>
@@ -18059,8 +17970,8 @@
       <title>I Want Your Love</title>
       <info key="Am" style="Fast" artist="Chic" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=fv-Zt04HeZo</annotation>
-         <annotation type="video">https://www.youtube.com/watch?v=mGOBMajtQw8</annotation>
+         <annotation>https://www.youtube.com/watch?v=fv-Zt04HeZo</annotation>
+         <annotation>https://www.youtube.com/watch?v=mGOBMajtQw8</annotation>
          <section sectiontype="intro" numbars="8">
             <chords>Am7 | Am7 Em7 | Fmaj7 | Dm9 Em7</chords>
          </section>
@@ -18153,7 +18064,7 @@
       <title>I Saw Her Standing There</title>
       <info key="E" style="Fast" artist="The Beatles" genre="Pop" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=oxwAB3SECtc</annotation>
+         <annotation>https://www.youtube.com/watch?v=oxwAB3SECtc</annotation>
          <section sectiontype="intro">
             <chords>E | E | E | E</chords>
          </section>
@@ -18181,7 +18092,7 @@
             <lyrics>
                <span spantype="chords">A | A | A | A</span>
                <span spantype="words">Well my heart went boom, when I crossed that room</span>
-               <span spantype="chords">A | A | B | B | C7 | C7</span>
+               <span spantype="chords">A | A | B7 | B7 | B7 | B7</span>
                <span spantype="words">And I held her hand in mine</span>
             </lyrics>
          </section>
@@ -18322,7 +18233,7 @@
       <title>Sisters are doin it for themselves</title>
       <info key="Fm" style="Fast" artist="Eurythmics" genre="Pop" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=drGx7JkFSp4</annotation>
+         <annotation>https://www.youtube.com/watch?v=drGx7JkFSp4</annotation>
          <section sectiontype="intro" numbars="8">
             <chords>Fm | Fm Fm C Eb x 4</chords>
          </section>
@@ -18426,8 +18337,7 @@
       <title>Set Fire To The Rain</title>
       <info key="Dm" style="Medium" artist="Adele" genre="Pop" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=Ri7-vnrJD3k</annotation>
-         <annotation type="bassline">https://www.youtube.com/watch?v=YclIl42apr4</annotation>
+         <annotation>https://www.youtube.com/watch?v=Ri7-vnrJD3k</annotation>
          <section sectiontype="intro" part="Keyboard">
             <chords>Dm | F | C | Gm</chords>
          </section>
@@ -18507,273 +18417,120 @@
          </section>
       </content>
    </song>
-
+   
+ <!--  
+   Fm                 Eb   Ab
+   Ain't No Stoppin Us Now!
+   Fm    Eb   Ab
+   We're on the move!.........
+   Fm                  Eb   Ab
+   Ain't No Stoppin Us Now!
+   Fm    Eb Ab
+   We've got the groove!
+   Fm                                Eb       Ab
+   There's been so many things thats held us down.
+   Fm                               Eb            Ab
+   But now it looks like things are finally comin' around.
+   Fm                  Eb               Ab
+   I know we've got, a long long way to go,
+   Fm                     Eb        Ab
+   and where we'll end up, I don't know.
+   Fm                       Eb       Ab
+   But we won't let nothin' hold us back,
+   Fm
+   we're putting our selves together,
+   Eb                    Ab
+   we're polishing up our act!
+   Fm                             Eb      Ab
+   If you ever felt you've been held down before,
+   Fm                         Eb         Ab
+   I know you'll refuse to be held down anymore!
+   Gb
+   Don't you let nothing, nothing,
+   
+   Stand in your way!
+   
+   I want ya'll to listen, listen,
+   Fsus4                F
+   to every word I say, every word I say!
+   Fm
+   Ain't No Stoppin Us Now!
+   Eb   Ab
+   We're on the move!
+   Fm
+   Ain't No Stoppin Us Now!
+   Eb    Ab
+   We've got the groove!
+   Fm
+   Ain't No Stoppin Us Now!  
+   Eb   Ab
+   We're on the move!          
+   Fm
+   Ain't No Stoppin Us Now!
+   Eb   Ab
+   We've got the groove!
+   Fm                                           Eb Ab
+   I know you know someone that has a negative vow,
+   Fm            Eb Ab
+   and if you're trying to make it they only push you aside.
+   Fm                        Eb       Ab
+   They really don't have, no where to go.
+   Fm                             Eb        Ab
+   Ask them where they're going, they don't know.
+   Fm                       Eb       Ab
+   But we won't let nothin' hold us back,
+   Fm
+   we're gonna put our selves together,
+   Eb                Ab
+   we're gonna polish up our act!   
+   Fm                              Eb   Ab
+   And if you've ever been held down before,
+   Fm                          Eb        Ab
+   I know you'll refuse to be held down anymore!
+   Gb
+   Don't you let nothing, nothing,
+   
+   Stand in your way!
+   
+   I want ya'll to listen, listen
+   Fsus4                 F     ,
+   to every word I say, every word I say!
+   Fm                    Eb  Ab
+   Ain't No Stoppin Us Now!
+   Fm    Eb  Ab
+   We're on the move!
+   Fm                  Eb   Ab
+   Ain't No Stoppin Us Now!M  
+   Fm      Eb Ab
+   We've got the groove!
+   Fm                    Eb  Ab
+   Ain't No Stoppin Us Now!
+   Fm    Eb   Ab
+   We're on the move!
+   Fm                   Eb   Ab
+   Ain't No Stoppin Us Now!
+   Fm     Eb  Ab
+   We've got the groove! 
+   -->
+   
    <song>
-      <title>Aint No Stoppin Us Now</title>
-      <info key="Ab" style="Fast" artist="Mcfadden And Whitehead" genre="Pop" status="rehearsing"/>
+      <title>Mcfadden And Whitehead</title>
+      <info key="Ab" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=ZEWkZb11pss</annotation>
-         <annotation type="bassline">https://www.talkingbass.net/aint-stopping-us-now-lesson-analysis</annotation>
-         <section sectiontype="intro" numbars="8">
-            <chords>Gbmaj7 | Gbmaj7 | Gbmaj7 | Gbmaj7</chords>
-            <chords>Gbmaj7 | Gbmaj7 | Eb | F</chords>
-         </section>
-         <section sectiontype="intro" numbars="8">
-            <chords>Bbm7 | Cm7 Fm7 | x4</chords>
-         </section>
-         <section sectiontype="chorus" numbars="8">
-            <lyrics>
-               <span spantype="chords">Bbm7 | Cm7 Fm7 | x2</span>
-               <span spantype="words">Ain't No Stoppin Us Now! We're on the move!</span>
-               <span spantype="words">Ain't No Stoppin Us Now! We've got the groove!</span>
-            </lyrics>
-         </section>
-         <section sectiontype="verse" numbars="16">
-            <lyrics>
-               <span spantype="chords">Bm7 | Cm7 Fm7 | x2</span>
-               <span spantype="words">There's been so many things that's held us down But now it looks like things are finally comin' around</span>
-               <span spantype="words">I know we've got, a long long way to go And where we'll end up, I don't know</span>
-               <span spantype="words">But we won't let nothin' hold us back We're putting our selves together We're polishing up our act!</span>
-               <span spantype="words">If you felt we've been held down before I know you'll refuse to be held down anymore!</span>
-            </lyrics>
-         </section>
-         <section sectiontype="refrain" numbars="8">
-            <lyrics>
-               <span spantype="chords">Gbmaj7 | Gbmaj7 | Gbmaj7 | Gbmaj7</span>
-               <span spantype="words">Don't you let nothing, nothing Stand in your way!</span>
-               <span spantype="chords">Gbmaj7 | Gbmaj7 | Fm7 | F</span>
-               <span spantype="words">I want ya'll to listen, listen To every word I say, every word I say!</span>
-            </lyrics>
-         </section>
-         <section sectiontype="chorus" numbars="16">
-            <lyrics>
-               <span spantype="chords">Bbm7 | Cm7 Fm7 | x2</span>
-               <span spantype="words">Ain't No Stoppin Us Now! We're on the move!</span>
-               <span spantype="words">Ain't No Stoppin Us Now! We've got the groove!</span>
-               <span spantype="words">Ain't No Stoppin Us Now! We're on the move!</span>
-               <span spantype="words">Ain't No Stoppin Us Now! We've got the groove!</span>
-            </lyrics>
+         <annotation/>
+         <section sectiontype="intro">
+            <chords/>
          </section>
          <section sectiontype="verse">
-            <lyrics>
-               <span spantype="chords">Bm7 | Cm7 Fm7 | x2</span>
-               <span spantype="words">I know you know someone that has a negative vow And if you're trying to make it they only push you aside</span>
-               <span spantype="words">They really don't have, no where to go Ask them where they're going, they don't know</span>
-               <span spantype="words">But we won't let nothin' hold us back We're gonna put our selves together We're gonna polish up our act!</span>
-               <span spantype="words">And if you've ever been held down before I know you'll refuse to be held down anymore!</span>
-            </lyrics>
-         </section>
-         <section sectiontype="refrain"/>
-         <section sectiontype="chorus" numbars="16"/>
-         <section sectiontype="outro">
-            <lyrics>
-               <span spantype="words">Ain't No Stoppin Us Now!</span>
-            </lyrics>
-         </section>
-      </content>
-   </song>
-
-   <song>
-      <title>Pigbag</title>
-      <info key="Cm" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
-      <content>
-         <annotation type="video">https://www.youtube.com/watch?v=omYKI8RJaIg</annotation>
-         <section sectiontype="intro" numbars="4" part="Drums"/>
-         <section sectiontype="intro" numbars="8" part="Bass + Drums">
-            <chords>Cm | Cm Cm Eb D</chords>
-         </section>
-         <section sectiontype="riff" part="Full Band" numbars="10"/>
-         <section sectiontype="solo" numbars="16">
-            <comment>Alternate the 'riff'and 'solo' sections going clockwise / left-to-right. Start
-               at Pam +1 &amp; finish with Pam</comment>
-         </section>
-         <section sectiontype="riff">
-            <directions>Stop dead on last beat</directions>
-         </section>
-      </content>
-   </song>
-
-   <song>
-      <title>Teardrops</title>
-      <info key="Abm" style="Medium" artist="Womack &amp; Womack" genre="R and B"
-         status="rehearsing"/>
-      <content>
-         <annotation type="video">https://www.youtube.com/watch?v=R8AOAap6_k4</annotation>
-         <annotation type="bassline">https://www.youtube.com/watch?v=Vkyn4GK6iwE</annotation>
-         <section sectiontype="intro">
-            <chords>E | C#m7 | F# | Abm x 2</chords>
-         </section>
-         <section sectiontype="verse" numbars="18">
-            <lyrics>
-               <span spantype="chords">E | C#m7 | F# | Abm</span>
-               <span spantype="words">Whenever I hear goodbyes, (remind me baby of you)</span>
-               <span spantype="words">I break down and cry, (next time I'll be true, yeah)</span>
-               <span spantype="words">Fever for lost romance, (remind me baby of you)</span>
-               <span spantype="words">I took a crazy chance, (Next time I'll be true)</span>
-               <span spantype="chords">F# Abm | F# Abm</span>
-               <span spantype="words">(I'll be true, I'll be true)</span>
-            </lyrics>
-         </section>
-         <section sectiontype="chorus" numbars="14">
-            <lyrics>
-               <span spantype="chords">E | C#m7 | F# | Abm</span>
-               <span spantype="words">Footsteps on the dance floor, (remind me baby of you)</span>
-               <span spantype="words">Teardrops in my eyes, (next time I'll be true, yeah)</span>
-               <span spantype="words">Whispers in the powder room, (She cries on every tune)</span>
-               <span spantype="chords">F# Abm | F# Abm</span>
-               <span spantype="words">(every tune, every tune)</span>
-            </lyrics>
-         </section>
-         <section sectiontype="break" numbars="8" part="Keyboard">
-            <chords>E | C#m7 | F# | Abm x 2</chords>
-         </section>
-         <section sectiontype="verse" numbars="14">
-            <lyrics>
-               <span spantype="chords">E | C#m7 | F# | Abm</span>
-               <span spantype="words">When I'm dancin' 'round, (remind me baby of you)</span>
-               <span spantype="words">I really let you down, (next time I'll be true, yeah)</span>
-               <span spantype="words">I took a crazy chance, (She cries on every tune)</span>
-               <span spantype="chords">F# Abm | F# Abm</span>
-               <span spantype="words">(every tune, every tune)</span>
-            </lyrics>
-         </section>
-         <section sectiontype="chorus"/>
-         <section sectiontype="bridge" numbars="8">
-            <lyrics>
-               <span spantype="chords">Abm | D#m7 E | C#m | F#</span>
-               <span spantype="words">And the music don't feel like it did when I felt it with you</span>
-               <span spantype="words">Nothing that I do or feel ever feels like I felt it with you</span>
-            </lyrics>
-         </section>
-         <section sectiontype="break" numbars="8" part="Keyboard">
-            <chords>E | C#m7 | F# | Abm x 2</chords>
-         </section>
-         <section sectiontype="verse" numbars="10">
-            <lyrics>
-               <span spantype="chords">E | C#m7 | F# | Abm</span>
-               <span spantype="words">Hurting deep inside,   she cries on every tune</span>
-               <span spantype="words">I break down and cry, (She cries on every tune)</span>
-               <span spantype="chords">F# Abm | F# Abm</span>
-               <span spantype="words">(every tune, every tune)</span>
-            </lyrics>
-         </section>
-         <section sectiontype="chorus"/>
-         <section sectiontype="chorus"/>
-         <section sectiontype="outro">
             <lyrics>
                <span spantype="chords"/>
                <span spantype="words"/>
             </lyrics>
          </section>
-      </content>
-   </song>
-
-   <song>
-      <title>Lady Marmalade</title>
-      <info key="Gm" style="Medium" artist="Patti LaBelle" genre="Soul" status="rehearsing"/>
-      <content>
-         <section sectiontype="intro">
-            <lyrics>
-               <span spantype="chords">Gm7 | C x2</span>
-               <span spantype="chords">Gm7 | C x2</span>
-               <span spantype="words">Hey sista, go sista, soul sista, go sista</span>
-               <span spantype="words">Hey sista, go sista, soul sista, go sista</span>
-            </lyrics>
-         </section>
-         <section sectiontype="verse">
-            <lyrics>
-               <span spantype="chords">Gm7 | C x2</span>
-               <span spantype="words">He met Marmalade down in old New Orelans,</span>
-               <span spantype="words">struttin her stuff on the street. She said,</span>
-               <span spantype="chords">Cm7 | Dm7</span>
-               <span spantype="words">Hello hey Joe, you wanna give it a go? Mmm Hmm,</span>
-            </lyrics>
-         </section>
          <section sectiontype="chorus">
             <lyrics>
-               <span spantype="chords">Gm7 | C x3</span>
-               <span spantype="words">Gitchi, gitchi ya-ya, da-da.</span>
-               <span spantype="words">Gitchi, gitchi ya-ya, here.</span>
-               <span spantype="words">Mocca chocolata, ya-ya.</span>
-               <span spantype="chords">Cm7 | Gm7</span>
-               <span spantype="words">Creole lady Marmalade.</span>
-               <span spantype="chords">Gm7 | C x2</span>
-               <span spantype="words">Voulez vous coucher avec mois ce soir?</span>
-               <span spantype="words">Voulez vous coucher avec mois?</span>
-            </lyrics>
-         </section>
-         <section sectiontype="verse">
-            <lyrics>
-               <span spantype="chords">Gm7 | C x2</span>
-               <span spantype="words">He stayed in her boudoir while she freshened up. (Hey sista, go sista, soul sista, go sista)</span>
-               <span spantype="words">That boy drank all that magnolia wine, on her (Hey sista, go sista, soul sista, go sista)</span>
-               <span spantype="chords">Cm7 | Dm7</span>
-               <span spantype="words">black satin sheets, where he started to freak.</span>
-            </lyrics>
-         </section>
-         <section sectiontype="chorus">
-            <lyrics>
-               <span spantype="chords">Gm7 | C x3</span>
-               <span spantype="words">Gitchi, gitchi ya-ya, da-da.</span>
-               <span spantype="words">Gitchi, gitchi ya-ya, here.</span>
-               <span spantype="words">Mocca chocolata, ya-ya.</span>
-               <span spantype="chords">Cm7 | Gm7</span>
-               <span spantype="words">Creole lady Marmalade.</span>
-               <span spantype="chords">Gm7 | C x2</span>
-               <span spantype="words">Voulez vous coucher avec mois ce soir?</span>
-               <span spantype="words">Voulez vous coucher avec mois?</span>
-            </lyrics>
-         </section>
-         <section sectiontype="break" part="Sax">
-            <lyrics>
-               <span spantype="chords">(Gm7 Bb7)| Eb x2 | G x2 | Eb x2</span>
-               <span spantype="chords">D x2</span>
-               <span spantype="words">Creole lady Marmalade.Hey, hey, hey!</span>
-            </lyrics>
-         </section>
-         <section sectiontype="verse">
-            <lyrics>
-               <span spantype="chords">Gm7 | C x2</span>
-               <span spantype="words">Seeing her skin feeling silky smooth, color of cafe au'lait, made the</span>
-               <span spantype="chords">Cm7 | Dm7 | D | D7</span>
-               <span spantype="words">savage beast inside roar, until it cried, more, more, more!</span>
-            </lyrics>
-         </section>
-         <section sectiontype="verse">
-            <lyrics>
-               <span spantype="chords">Gm7 | C x2</span>
-               <span spantype="words">Now he's at home doin nine to five. Living his grey flannel life.</span>
-               <span spantype="chords">Cm7 | Dm7 | D | D7</span>
-               <span spantype="words">But wehn he turns off to sleep, old memories keep, more, more, more!</span>
-            </lyrics>
-         </section>
-         <section sectiontype="chorus">
-            <lyrics>
-               <span spantype="chords">Gm7 | C x3</span>
-               <span spantype="words">Gitchi, gitchi ya-ya, da-da.</span>
-               <span spantype="words">Gitchi, gitchi ya-ya, here.</span>
-               <span spantype="words">Mocca chocolata, ya-ya.</span>
-               <span spantype="chords">Cm7 | Gm7</span>
-               <span spantype="words">Creole lady Marmalade.</span>
-               <span spantype="chords">Gm7 | C x8</span>
-               <span spantype="words">Voulez vous coucher avec mois ce soir?</span>
-               <span spantype="words">Voulez vous coucher avec mois?</span>
-               <span spantype="words">Voulez vous coucher avec mois ce soir?</span>
-               <span spantype="words">Voulez vous coucher avec mois?</span>
-               <span spantype="words">Voulez vous coucher avec mois ce soir?</span>
-               <span spantype="words">Voulez vous coucher avec mois?</span>
-               <span spantype="words">Voulez vous coucher avec mois ce soir?</span>
-               <span spantype="words">Voulez vous coucher avec mois?</span>
-            </lyrics>
-         </section>
-         <section sectiontype="outro">
-            <directions>repeat to fade...</directions>
-            <lyrics>
-               <span spantype="chords">Gm7 | C x4</span>
-               <span spantype="words">Gitchi, gitchi ya-ya, da-da.</span>
-               <span spantype="words">Gitchi, gitchi ya-ya, here.</span>
-               <span spantype="words">Mocca chocolata, ya-ya.</span>
-               <span spantype="words">Gitchi, gitchi ya-ya, here.</span>
+               <span spantype="chords"/>
+               <span spantype="words"/>
             </lyrics>
          </section>
          <section sectiontype="outro">
@@ -18784,112 +18541,7 @@
          </section>
       </content>
    </song>
-
-   <song>
-      <title>Lady Marmalade (Instrumental)</title>
-      <info key="Gm" style="Medium" artist="Mongo Santamaria" genre="Soul" status="rehearsing"/>
-      <content>
-         <annotation type="video">https://www.youtube.com/watch?v=b06jjSAx5C0</annotation>
-         <annotation type="video">https://www.youtube.com/watch?v=t4LWIP7SAjY</annotation>
-         <annotation type="bassline">https://www.youtube.com/watch?v=ksG0fCRUgvs</annotation>
-         <section sectiontype="intro" numbars="4" part="Bass + Drums">
-            <lyrics>
-               <span spantype="chords">Gm7 | C x 2</span>
-            </lyrics>
-         </section>
-         <section sectiontype="solo" numbars="4" part="Saxes">
-            <lyrics>
-               <span spantype="chords">Gm7 | C x 2</span>
-               <span spantype="words">Hey sista, go sista, soul sista, go sista; hey sista, go sista, soul sista</span>
-            </lyrics>
-         </section>
-         <section sectiontype="verse" part="Sax" numbars="6">
-            <lyrics>
-               <span spantype="chords">Gm7 | C</span>
-               <span spantype="words">He met Marmalade down in old New Orleans</span>
-               <span spantype="words">Struttin her stuff on the street. She said</span>
-               <span spantype="chords">Cm7 | Dm7</span>
-               <span spantype="words">Hello hey Joe, you wanna give it a go? Mmm Hmm,</span>
-            </lyrics>
-         </section>
-         <section sectiontype="chorus-part1" part="Saxes" numbars="7">
-            <lyrics>
-               <span spantype="chords">Gm7 | C x 3</span>
-               <span spantype="words">Gitchi, gitchi yaya, dada; Gitchi, gitchi yaya, here; Mocca chocolata, yaya.</span>
-               <span spantype="chords">Cm7</span>
-               <span spantype="words">Creole lady Marmalade</span>
-            </lyrics>
-         </section>
-         <section sectiontype="chorus-part2" numbars="2" part="Saxes">
-            <comment>descending figure</comment>
-            <chords>Gm7 | Gm7</chords>
-         </section>
-         <section sectiontype="chorus-part3" part="Saxes" numbars="4">
-            <lyrics>
-               <span spantype="chords">Gm7 | C</span>
-               <span spantype="words">Voulez vous coucher avec moi ce soir?</span>
-               <span spantype="words">Voulez vous coucher avec moi?</span>
-            </lyrics>
-         </section>
-         <section sectiontype="verse" numbars="6">
-            <lyrics>
-               <span spantype="words">He stayed in her boudoir while she freshened up</span>
-               <span spantype="words">That boy drank all that magnolia wine</span>
-               <span spantype="words">On her black satin sheets, where he started to freak</span>
-            </lyrics>
-         </section>
-         <section sectiontype="chorus"/>
-         <section sectiontype="bridge" part="Sax" numbars="8">
-            <comment>rising figure</comment>
-            <chords>Gm7 | Gm7</chords>
-            <lyrics>
-               <span spantype="chords">Eb x 2 | Gm x 2 | Eb x 2 | D x 2</span>
-               <span spantype="words">Hey, hey, hey!</span>
-            </lyrics>
-         </section>
-         <section sectiontype="verse">
-            <comment>Extra 2 bars at end of verse</comment>
-            <lyrics>
-               <span spantype="words">Seeing her skin feeling silky smooth</span>
-               <span spantype="words">Color of cafe au'lait</span>
-               <span spantype="words">Made the savage beast inside roar, until it cried</span>
-               <span spantype="chords">D | D7</span>
-               <span spantype="words">More, more, more!</span>
-            </lyrics>
-         </section>
-         <section sectiontype="chorus"/>
-         <section sectiontype="outro">
-            <lyrics>
-               <span spantype="chords">Gm7 | C</span>
-               <span spantype="words">Gitchi, gitchi ya-ya, da-da.</span>
-               <span spantype="words">Gitchi, gitchi ya-ya, here.</span>
-               <span spantype="words">Mocca chocolata, ya-ya.</span>
-               <span spantype="words">Creole lady Marmalade</span>
-            </lyrics>
-         </section>
-      </content>
-   </song>
-
-   <song>
-      <title>Interval</title>
-      <info key="A" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
-      <content>
-         <section sectiontype="intro">
-            <chords/>
-         </section>
-      </content>
-   </song>
-
-   <song>
-      <title>Encores / Extras</title>
-      <info key="A" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
-      <content>
-         <section sectiontype="intro">
-            <chords/>
-         </section>
-      </content>
-   </song>
-
+     
    <song>
       <title>Blank</title>
       <info key="A" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
@@ -18916,7 +18568,7 @@
                <span spantype="words"/>
             </lyrics>
          </section>
-      </content>
+      </content>    
    </song>
-
+     
 </songbook>
