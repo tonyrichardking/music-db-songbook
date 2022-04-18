@@ -17174,7 +17174,7 @@
       <title>Aint Nobody</title>
       <info key="Ebm" style="Fast" artist="Chaka Khan" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=B6ORrfOo-R8</annotation>
+         <annotation type="video">https://www.youtube.com/watch?v=AYb3C5MVycM</annotation>
          <section sectiontype="intro" part="Gtr + Horns">
             <chords>Ebm | Ebm | Ebm | Ebm</chords>
             <chords>Ebm | Ebm | Ebm | Ebm</chords>
@@ -17244,7 +17244,11 @@
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
-         <section sectiontype="outro"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="words">Aint Nobody!</span>
+            </lyrics>
+         </section>
       </content>
    </song>
    <song>
@@ -17606,7 +17610,7 @@
          <annotation type="bassline">https://www.youtube.com/watch?v=L_5YGzulQHY</annotation>
          <section sectiontype="intro" part="Bass" numbars="2"/>
          <section sectiontype="intro" part="Gtr" numbars="2">
-            <chords>Gmaj7/A</chords>
+            <chords>Gmaj7/A x 2</chords>
          </section>
          <section sectiontype="verse">
             <lyrics>
@@ -17614,7 +17618,7 @@
                <span spantype="words">Do you remember, the 21st night</span>
                <span spantype="words">of September, love was changing the minds</span>
                <span spantype="words">of pretenders while chasing the clouds</span>
-               <span spantype="chords">Gmaj7/A</span>
+               <span spantype="chords">Gmaj7/A x 2</span>
                <span spantype="words">away</span>
             </lyrics>
          </section>
@@ -17661,6 +17665,10 @@
          <section sectiontype="chorus"/>
          <section sectiontype="interlude" numbars="24" part="Gtr + Horns" feel="hot">
             <chords>Dmaj7| Dmaj7| C#m7| C#m7| Bm7| Bm7| F#m7| F#m7| x 3</chords>
+         </section>
+         <section sectiontype="link" >
+            <chords>Dmaj7 Dmaj7 C#m7 Bm7 | C#m7 Bm7 F#m7 F#m7 x 3</chords>
+            <chords>Gmaj7/A x 2</chords>
          </section>
          <section sectiontype="verse">
             <lyrics>
