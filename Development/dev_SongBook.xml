@@ -5847,7 +5847,7 @@
          <section sectiontype="intro" part="Drums" numbars="4"/>
          <section sectiontype="riff" part="Keyboard" numbars="8"/>
          <section sectiontype="verse" numbars="16">
-            <directions>Horn riff on bar 9</directions>
+            <directions>Horn riff on bar 9 (stabby)</directions>
             <chords>Em7</chords>
             <lyrics>
                <span spantype="words">Very superstitious, writing's on the wall,</span>
@@ -5864,7 +5864,9 @@
                <span spantype="words">Then you suffer; superstition ain't the way, yeah-eah</span>
             </lyrics>
          </section>
-         <section sectiontype="figure" part="Saxes" numbars="4"/>
+         <section sectiontype="figure" part="Saxes" numbars="4">
+            <comment>descending sax riff</comment>
+         </section>
          <section sectiontype="verse">
             <lyrics>
                <span spantype="words">Very superstitious, wash your face and hands,</span>
@@ -5878,8 +5880,11 @@
                <span spantype="words">When you believe in things...</span>
             </lyrics>
          </section>
-         <section sectiontype="figure" numbars="4" part="Saxes"/>
+         <section sectiontype="figure" numbars="4" part="Saxes">
+            <comment>descending sax riff</comment>
+         </section>
          <section sectiontype="instrumental chorus" part="Horns" numbars="4">
+            <comment>spooky sax riff</comment>
             <lyrics>
                <span spantype="chords">B7 C7-5 | B7 Bb7-5 | A7 | (B7+9)</span>
             </lyrics>
@@ -5898,11 +5903,17 @@
                <span spantype="words">When you believe in things...</span>
             </lyrics>
          </section>
-         <section sectiontype="figure" numbars="4" part="Saxes"/>
-         <section sectiontype="instrumental chorus" part="Saxes" numbars="4"/>
-         <section sectiontype="figure" numbars="4" part="Saxes"/>
-         <section sectiontype="outro">
-            <comment>keys riff over horn figure</comment>
+         <section sectiontype="figure" numbars="4" part="Saxes">
+            <comment>descending sax riff</comment>
+         </section>
+         <section sectiontype="instrumental chorus" part="Saxes" numbars="4">
+            <comment>spooky sax riff x 2</comment>
+         </section>
+         <section sectiontype="figure" numbars="4" part="Saxes">
+            <comment>descending sax riff</comment>
+         </section>
+         <section sectiontype="outro" numbars="8">
+            <comment>stabby sax riff x 4</comment>
             <lyrics>
                <span spantype="chords">Em</span>
             </lyrics>
@@ -17666,7 +17677,7 @@
          <section sectiontype="interlude" numbars="24" part="Gtr + Horns" feel="hot">
             <chords>Dmaj7| Dmaj7| C#m7| C#m7| Bm7| Bm7| F#m7| F#m7| x 3</chords>
          </section>
-         <section sectiontype="link" >
+         <section sectiontype="link">
             <chords>Dmaj7 Dmaj7 C#m7 Bm7 | C#m7 Bm7 F#m7 F#m7 x 3</chords>
             <chords>Gmaj7/A x 2</chords>
          </section>
@@ -17783,6 +17794,7 @@
          </section>
       </content>
    </song>
+
    <song>
       <title>Always There</title>
       <info key="Fm" style="Fast" artist="Incognito" genre="Disco/Funk" status="rehearsing"/>
@@ -17866,34 +17878,72 @@
          </section>
       </content>
    </song>
+
    <song>
       <title>Im Coming Out</title>
       <info key="A" style="Fast" artist="Diana Ross" genre="Disco/Funk" status="rehearsing"/>
       <content>
          <annotation type="video">https://www.youtube.com/watch?v=jhMHmYrJBqw</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=7VJw8Lrgbnk</annotation>    
          <section sectiontype="intro">
-            <chords/>
+            <chords>Cm7 - Cm7 - Cm7 - Cm7</chords>
+         </section>
+         <section sectiontype="intro" part="Vocals + Gtr + Horns + Drums">
+            <lyrics>
+               <span spantype="chords">Cm7 Gm7 | Fm7 Eb | Ab Eb | Ab Gm7 x 4</span>
+               <span spantype="words">
+                  I'm coming out, I'm coming
+               </span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="8">
+            <lyrics>
+               <span spantype="chords">Cm7 Gm7 | Fm7 Eb | Ab Eb | Ab Gm7</span>
+               <span spantype="words">I'm coming out, I want the world to know, Got to let it show</span>
+               <span spantype="words">I'm coming out, I want the world to know, I got to let it show</span>
+            </lyrics>
          </section>
          <section sectiontype="verse">
             <lyrics>
-               <span spantype="chords"/>
-               <span spantype="words"/>
+               <span spantype="chords">Eb Gm7 | Fm7 Gm7</span>
+               <span spantype="words">There's a new me coming out, And I just had to live</span>
+               <span spantype="chords">Fm7 Gm7 | Fm7 Gm7 </span>
+               <span spantype="words">And I want to give, I'm completely positive</span>
+               <span spantype="words">I think this time around, I am gonna do it</span>
+               <span spantype="words">Like you never do it, Like you never knew it, Oh, I'll make it through</span>
             </lyrics>
          </section>
-         <section sectiontype="chorus">
+         <section sectiontype="pre-chorus">
             <lyrics>
-               <span spantype="chords"/>
-               <span spantype="words"/>
+               <span spantype="chords">Cm7 | Cm7</span>
+               <span spantype="words">The time has come for me, To break out of the shell</span>
+               <span spantype="chords">Cm7 | Ab Gm</span>
+               <span spantype="words">I have to shout, That I'm coming out</span>
             </lyrics>
          </section>
-         <section sectiontype="outro">
+         <section sectiontype="chorus"/>
+         <section sectiontype="verse">
             <lyrics>
-               <span spantype="chords"/>
-               <span spantype="words"/>
+               <span spantype="words">I've got to show the world, All that I want to be</span>
+               <span spantype="words">And all my abilities, There's so much more to me</span>
+               <span spantype="words">Somehow, I have to make them, Just understand</span>
+               <span spantype="words">I got it well in hand, And, oh, how I've planned</span>
             </lyrics>
          </section>
+         <section sectiontype="pre-chorus">
+            <lyrics>
+               <span spantype="chords">Cm7 | Cm</span>
+               <span spantype="words">I'm spreadin' love, There's no need to fear</span>
+               <span spantype="chords">Cm7 | Ab Gm</span>
+               <span spantype="words">And I just feel so glad, Every time I hear</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro"/>
       </content>
    </song>
+
    <song>
       <title>We Are Family</title>
       <info key="A" style="Fast" artist="Sister Sledge" genre="Disco/Funk" status="rehearsing"/>
@@ -17946,17 +17996,11 @@
          <section sectiontype="figure" part="Full Band">
             <chords>D - Eb E F - G Ab A</chords>
          </section>
-         <section sectiontype="instrumental" part="Gtr" numbars="8">
+         <section sectiontype="cadenza" part="Vocals + Drums" numbars="16">
             <chords>A | Em7 D9</chords>
          </section>
-         <section sectiontype="instrumental" part="Keyboard" numbars="8">
-            <chords>A | Em7 D9</chords>
-         </section>
-         <section sectiontype="instrumental" part="Saxes" numbars="8">
-            <chords>A | Em7 D9</chords>
-         </section>
-         <section sectiontype="figure" part="Full Band">
-            <chords>D - Eb E F - G Ab A</chords>
+         <section sectiontype="instrumental chorus" part="Gtr + Horns" numbars="16">
+            <chords>A Asus2 | F Fsus2 | D | F/G</chords>
          </section>
          <section sectiontype="chorus"/>
          <section sectiontype="figure" part="Full Band">
@@ -18873,6 +18917,90 @@
                <span spantype="words">Gitchi, gitchi ya-ya, here.</span>
                <span spantype="words">Mocca chocolata, ya-ya.</span>
                <span spantype="words">Creole lady Marmalade</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <song>
+      <title>I Will Survive</title>
+      <info key="Am" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=XZGwHtGBZJU</annotation>
+         <section sectiontype="intro" part="Keyboard">
+            <chords>BDim7</chords>
+         </section>
+         <section sectiontype="verse" feel="slow">
+            <lyrics>
+               <span spantype="chords">Am | Dm</span>
+               <span spantype="words">At first I was afraid, I was petrified</span>
+               <span spantype="chords">G | C</span>
+               <span spantype="words">Kept thinking I could never live without you by my side</span>
+               <span spantype="chords">F | Bm</span>
+               <span spantype="words">But then I spent so many nights thinking how you did me wrong</span>
+               <span spantype="chords">E | E7</span>
+               <span spantype="words">And I grew strong, And I learned how to get along</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse" feel="fast">
+            <lyrics>
+               <span spantype="words">And so you're back, From outer space</span>
+               <span spantype="words">I just walked in to find you here with that sad look upon your face</span>
+               <span spantype="words">I should have changed that stupid lock, I should have made you leave your key</span>
+               <span spantype="words">If I'd known for just one second you'd be back to bother me</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">Am | Dm</span>
+               <span spantype="words">Go on now, go, walk out the door</span>
+               <span spantype="chords">G | C</span>
+               <span spantype="words">Just turn around now, 'Cause you're not welcome anymore</span>
+               <span spantype="chords">F | Bm</span>
+               <span spantype="words">Weren't you the one who tried to hurt me with goodbye</span>
+               <span spantype="chords">E | E7</span>
+               <span spantype="words">Do you think I'd crumble, Did you think I'd lay down and die?</span>
+               <span spantype="chords">Am | Dm</span>
+               <span spantype="words">Oh no, not I, I will survive</span>
+               <span spantype="chords">G | C</span>
+               <span spantype="words">Oh, as long as I know how to love, I know I'll stay alive</span>
+               <span spantype="chords">F | Bm</span>
+               <span spantype="words">I've got all my life to live, And I've got all my love to give</span>
+               <span spantype="chords">E | E7</span>
+               <span spantype="words">And I'll survive, I will survive</span>
+            </lyrics>
+         </section>
+         <section sectiontype="instrumental">
+            <chords>Am | Dm | G | C | F  | Bm | E | E7 x2</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">It took all the strength I had not to fall apart</span>
+               <span spantype="words">Kept trying hard to mend the pieces of my broken heart</span>
+               <span spantype="words">And I spent oh-so many nights just feeling sorry for myself</span>
+               <span spantype="words">I used to cry, But now I hold my head up high </span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">And you see me, Somebody new</span>
+               <span spantype="words">I'm not that chained-up little person still in love with you</span>
+               <span spantype="words">And so you felt like dropping in and just expect me to be free</span>
+               <span spantype="words">Well, now I'm saving all my lovin' for someone who's loving me</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="link" feel="slow">
+            <lyrics>
+               <span spantype="chords">BDim7</span>
+               <span spantype="words">I will survive</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">Am</span>
+               <span spantype="words">I will survive, I will survive</span>
             </lyrics>
          </section>
       </content>

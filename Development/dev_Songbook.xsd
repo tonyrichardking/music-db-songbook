@@ -165,6 +165,7 @@
 												<xs:enumeration value="instrumental chorus"/>
 												<xs:enumeration value="figure"/>
 												<xs:enumeration value="stopchorus"/>
+												<xs:enumeration value="cadenza"/>	
 												<xs:enumeration value="A-part"/>
 												<xs:enumeration value="B-part"/>
 												<xs:enumeration value="C-part"/>
@@ -242,7 +243,9 @@
 												<xs:enumeration value="Saxes"/>
 												<xs:enumeration value="Drums"/>
 												<xs:enumeration value="Percussion"/>
+												<xs:enumeration value="Vocals + Drums"/>
 												<xs:enumeration value="Gtr + Drums"/>
+												<xs:enumeration value="Vocals + Gtr + Horns + Drums"/>
 												<xs:enumeration value="Bass + Drums"/>
 												<xs:enumeration value="Bass"/>
 												<xs:enumeration value="Keyboard"/>
