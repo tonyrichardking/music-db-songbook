@@ -3,38 +3,43 @@
     xmlns:fo="http://www.w3.org/1999/XSL/Format">
     <xsl:template name="songbook_setlist">
 
-        <!-- new songs and biggies-->
+        <!-- Flamsteed Road 4/6/2022-->
 
-        <xsl:apply-templates select="//song[title = 'Superstition']"/>
-        <xsl:apply-templates select="//song[title = 'We Are Family']"/>
-        <xsl:apply-templates select="//song[title = 'I Will Survive']"/>
-        <xsl:apply-templates select="//song[title = 'Im Coming Out']"/>
-        <xsl:apply-templates select="//song[title = 'Pigbag']"/>
-        <xsl:apply-templates select="//song[title = 'Upside Down']"/>
+        <xsl:apply-templates select="//song[title = 'You Cant Hurry Love']"/>
         <xsl:apply-templates select="//song[title = 'Twist And Shout']"/>
         <xsl:apply-templates select="//song[title = 'Valerie']"/>
         <xsl:apply-templates select="//song[title = 'To Make You Feel My Love']"/>
-        <xsl:apply-templates select="//song[title = 'Love Song']"/>
         <xsl:apply-templates select="//song[title = 'Aint Nobody']"/>
+        <xsl:apply-templates select="//song[title = 'Upside Down']"/>
         <xsl:apply-templates select="//song[title = 'September']"/>
+        <xsl:apply-templates select="//song[title = 'Superstition']"/>
+        <xsl:apply-templates select="//song[title = 'I Will Survive']"/>
+        <xsl:apply-templates select="//song[title = 'Love Song']"/>
         <xsl:apply-templates select="//song[title = 'Sweet Home Chicago']"/>
         <xsl:apply-templates select="//song[title = 'Take Me To The River']"/>
         <xsl:apply-templates select="//song[title = 'Proud Mary (DeepBlue Version)']"/>
+        <xsl:apply-templates select="//song[title = 'Teardrops']"/>
+        <xsl:apply-templates select="//song[title = 'Help Me Make It Through The Night']"/>
+        <xsl:apply-templates select="//song[title = 'Pigbag']"/>
+        <xsl:apply-templates select="//song[title = 'We Are Family']"/>
         <xsl:apply-templates select="//song[title = 'Get Lucky']"/>
         <xsl:apply-templates select="//song[title = 'Lost In Music']"/>
-        <xsl:apply-templates select="//song[title = 'Happy']"/>
-        <xsl:apply-templates select="//song[title = 'Stand By Me']"/>
-        <xsl:apply-templates select="//song[title = 'Help Me Make It Through The Night']"/>
-        <xsl:apply-templates select="//song[title = 'You Cant Hurry Love']"/>
-        <xsl:apply-templates select="//song[title = 'Johnny B. Goode']"/>
 
-        <!--            
-        <xsl:apply-templates select="//song[title = 'Interval']"/>
         <xsl:apply-templates select="//song[title = 'Encores / Extras']"/>
+
+        <xsl:apply-templates select="//song[title = 'Happy']"/>
+
+
+        <!--  
+        <xsl:apply-templates select="//song[title = 'Stand By Me']"/>
+        <xsl:apply-templates select="//song[title = 'Johnny B. Goode']"/>           
+        <xsl:apply-templates select="//song[title = 'Im Coming Out']"/>           
+        <xsl:apply-templates select="//song[title = 'Interval']"/>
+
         <xsl:apply-templates select="//song[title = 'Sweet Child Of Mine']"/> 
         <xsl:apply-templates select="//song[title = 'Hallelujah']"/>   
         <xsl:apply-templates select="//song[title = 'Lady Marmalade (Instrumental)']"/>
-        <xsl:apply-templates select="//song[title = 'Teardrops']"/>
+
         <xsl:apply-templates select="//song[title = 'Wonderwall']"/>
         <xsl:apply-templates select="//song[title = 'Honky Tonk Woman']"/>
         <xsl:apply-templates select="//song[title = 'Rolling In The Deep']"/>           

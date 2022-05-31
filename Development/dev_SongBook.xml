@@ -5907,7 +5907,7 @@
             <comment>descending sax riff</comment>
          </section>
          <section sectiontype="instrumental chorus" part="Saxes" numbars="4">
-            <comment>spooky sax riff x 2</comment>
+            <comment>spooky sax riff</comment>
          </section>
          <section sectiontype="figure" numbars="4" part="Saxes">
             <comment>descending sax riff</comment>
@@ -17708,7 +17708,7 @@
       <info key="Gm" style="Fast" artist="Diana Ross" genre="Disco/Funk" status="rehearsing"/>
       <content>
          <annotation type="video">https://www.youtube.com/watch?v=UsSICqvCno0</annotation>
-         <annotation type="video">https://www.youtube.com/watch?v=0ooYyhqvoSo</annotation>
+         <annotation type="video">https://www.youtube.com/watch?v=ZJ5PSTzgekM</annotation>
          <annotation type="bassline">https://www.youtube.com/watch?v=DFdJSFm6zvE</annotation>
          <section sectiontype="intro" feel="slow" numbars="4">
             <comment>riff1 (down-up)</comment>
@@ -17884,7 +17884,7 @@
       <info key="A" style="Fast" artist="Diana Ross" genre="Disco/Funk" status="rehearsing"/>
       <content>
          <annotation type="video">https://www.youtube.com/watch?v=jhMHmYrJBqw</annotation>
-         <annotation type="bassline">https://www.youtube.com/watch?v=7VJw8Lrgbnk</annotation>    
+         <annotation type="bassline">https://www.youtube.com/watch?v=7VJw8Lrgbnk</annotation>
          <section sectiontype="intro">
             <chords>Cm7 - Cm7 - Cm7 - Cm7</chords>
          </section>
@@ -17997,7 +17997,7 @@
             <chords>D - Eb E F - G Ab A</chords>
          </section>
          <section sectiontype="cadenza" part="Vocals + Drums" numbars="16">
-            <chords>A | Em7 D9</chords>
+            <chords>A Asus2 | F Fsus2 | D | F/G</chords>
          </section>
          <section sectiontype="instrumental chorus" part="Gtr + Horns" numbars="16">
             <chords>A Asus2 | F Fsus2 | D | F/G</chords>
