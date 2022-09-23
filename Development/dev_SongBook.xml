@@ -5843,7 +5843,7 @@
       <title>Superstition</title>
       <info key="Em" status="rehearsing" artist="Stevie Wonder" genre="Pop" style="Medium"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=8Tgnz6Qp-wQ</annotation>
+         <annotation type="video">https://www.youtube.com/watch?v=0CFuCYNx-1g</annotation>
          <section sectiontype="intro" part="Drums" numbars="4"/>
          <section sectiontype="riff" part="Keyboard" numbars="8"/>
          <section sectiontype="verse" numbars="16">
@@ -17637,8 +17637,7 @@
             <lyrics>
                <span spantype="words">Our hearts were ringing in the key that our souls</span>
                <span spantype="words">were singing as we danced in the night</span>
-               <span spantype="words">Remember how the stars stole the night</span>
-               <span spantype="words">away</span>
+               <span spantype="words">Remember how the stars stole the night - away</span>
             </lyrics>
          </section>
          <section sectiontype="chorus">
@@ -17661,16 +17660,14 @@
             <lyrics>
                <span spantype="words">My thoughts are with you holding hands with your heart</span>
                <span spantype="words">to see you Only blue talk and love</span>
-               <span spantype="words">Remember how we knew love was here to</span>
-               <span spantype="words">stay</span>
+               <span spantype="words">Remember how we knew love was here to - stay</span>
             </lyrics>
          </section>
          <section sectiontype="verse">
             <lyrics>
                <span spantype="words">Now December found the love we shared</span>
                <span spantype="words">in September only blue talk and love</span>
-               <span spantype="words">Remember the true love we share</span>
-               <span spantype="words">today</span>
+               <span spantype="words">Remember the true love we share - today</span>
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
@@ -17685,16 +17682,14 @@
             <lyrics>
                <span spantype="words">My thoughts are with you holding hands with your heart</span>
                <span spantype="words">to see you Only blue talk and love</span>
-               <span spantype="words">Remember how we knew love was here to</span>
-               <span spantype="words">stay</span>
+               <span spantype="words">Remember how we knew love was here to - stay</span>
             </lyrics>
          </section>
          <section sectiontype="verse">
             <lyrics>
                <span spantype="words">Now December found the love we shared</span>
                <span spantype="words">in September only blue talk and love</span>
-               <span spantype="words">Remember the true love we share</span>
-               <span spantype="words">today</span>
+               <span spantype="words">Remember the true love we share - today</span>
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
@@ -17707,33 +17702,9 @@
       <title>Upside Down</title>
       <info key="Gm" style="Fast" artist="Diana Ross" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=UsSICqvCno0</annotation>
          <annotation type="video">https://www.youtube.com/watch?v=ZJ5PSTzgekM</annotation>
          <annotation type="bassline">https://www.youtube.com/watch?v=DFdJSFm6zvE</annotation>
-         <section sectiontype="intro" feel="slow" numbars="4">
-            <comment>riff1 (down-up)</comment>
-            <chords>Bb B C C | F Gm</chords>
-         </section>
-         <section sectiontype="intro" feel="slow" numbars="8" part="Sax" person="Pam">
-            <comment>Sax plays the Stevie Wonder harmonica part. riff2 (down) &amp; riff3
-               (up)</comment>
-            <chords>Bb B C C | F Gm</chords>
-         </section>
-         <section sectiontype="intro" feel="slow" numbars="8">
-            <comment>riff2 (down) &amp; riff3 (up)</comment>
-            <chords>Bb B C C | F Gm</chords>
-            <lyrics>
-               <span spantype="words">I said upside down You're turning me, you're giving love instinctively</span>
-               <span spantype="words">Around and round you're turning me...</span>
-               <span spantype="words">I said upside down You're turning me, you're giving love instinctively</span>
-               <span spantype="words">Around and round you're turning me...</span>
-            </lyrics>
-         </section>
-         <section sectiontype="link" part="Drums">
-            <comment>4 beats in on sticks</comment>
-         </section>
          <section sectiontype="intro" feel="fast">
-            <comment>Everybody hit the Bb, B, C</comment>
             <chords>Bb B C C | F Gm</chords>
             <lyrics>
                <span spantype="words">I said upside down You're turning me, you're giving love instinctively</span>
@@ -18011,7 +17982,7 @@
 
    <song>
       <title>Sweet Child Of Mine</title>
-      <info key="A" style="Fast" artist="Guns and Roses" genre="Disco/Funk" status="rehearsing"/>
+      <info key="Db" style="Fast" artist="Guns and Roses" genre="Disco/Funk" status="rehearsing"/>
       <content>
          <annotation type="video">https://www.youtube.com/watch?v=cl7a9YztLN4</annotation>
          <section sectiontype="intro" numbars="8">
@@ -18039,13 +18010,13 @@
          </section>
          <section sectiontype="chorus">
             <lyrics>
-               <span spantype="chords">F# Bb | B Bbm7 | Db | Db</span>
+               <span spantype="chords">Ab | E Ebm7 | Db | Db</span>
                <span spantype="words">Oh sweet child o' mine</span>
-               <span spantype="chords">F# Bb | E Ebm7 | Db | Db</span>
+               <span spantype="chords">Ab | E Ebm7 | Db | Db</span>
                <span spantype="words">Oh sweet love of mine</span>
             </lyrics>
          </section>
-         <section sectiontype="figure" part="Gtr" numbars="2"/>
+         <section sectiontype="figure" part="Gtr" numbars="8"/>
          <section sectiontype="verse">
             <lyrics>
                <span spantype="words">She's got eyes of the bluest skies</span>
@@ -18841,7 +18812,7 @@
       <title>Lady Marmalade (Instrumental)</title>
       <info key="Gm" style="Medium" artist="Mongo Santamaria" genre="Soul" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=b06jjSAx5C0</annotation>
+         <annotation type="video">https://www.youtube.com/watch?v=jCiS0w_cOB4</annotation>
          <annotation type="video">https://www.youtube.com/watch?v=t4LWIP7SAjY</annotation>
          <annotation type="bassline">https://www.youtube.com/watch?v=ksG0fCRUgvs</annotation>
          <section sectiontype="intro" numbars="4" part="Bass + Drums">
@@ -18890,7 +18861,9 @@
                <span spantype="words">On her black satin sheets, where he started to freak</span>
             </lyrics>
          </section>
-         <section sectiontype="chorus"/>
+         <section sectiontype="chorus-part1"/>
+         <section sectiontype="chorus-part2"/>
+         <section sectiontype="chorus-part3"/>
          <section sectiontype="bridge" part="Sax" numbars="8">
             <comment>rising figure</comment>
             <chords>Gm7 | Gm7</chords>
@@ -18900,24 +18873,23 @@
             </lyrics>
          </section>
          <section sectiontype="verse">
-            <comment>Extra 2 bars at end of verse</comment>
             <lyrics>
                <span spantype="words">Seeing her skin feeling silky smooth</span>
                <span spantype="words">Color of cafe au'lait</span>
                <span spantype="words">Made the savage beast inside roar, until it cried</span>
-               <span spantype="chords">D | D7</span>
-               <span spantype="words">More, more, more!</span>
             </lyrics>
          </section>
-         <section sectiontype="chorus"/>
+         <section sectiontype="chorus-part1"/>
+         <section sectiontype="chorus-part2"/>
          <section sectiontype="outro">
             <lyrics>
                <span spantype="chords">Gm7 | C</span>
-               <span spantype="words">Gitchi, gitchi ya-ya, da-da.</span>
-               <span spantype="words">Gitchi, gitchi ya-ya, here.</span>
-               <span spantype="words">Mocca chocolata, ya-ya.</span>
-               <span spantype="words">Creole lady Marmalade</span>
+               <span spantype="words">Gitchi, gitchi, etc ad-lib.</span>
             </lyrics>
+         </section>
+         <section sectiontype="outro" numbars="3" part="Saxes">
+            <comment>descending figure, then finish on stabs</comment>
+            <chords>Gm7 | Gm7 | Gm7  | C - - -  </chords>
          </section>
       </content>
    </song>
@@ -18926,7 +18898,7 @@
       <title>I Will Survive</title>
       <info key="Am" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=XZGwHtGBZJU</annotation>
+         <annotation type="video">https://www.youtube.com/watch?v=6dYWe1c3OyU</annotation>
          <section sectiontype="intro" part="Keyboard">
             <chords>BDim7</chords>
          </section>
@@ -19001,6 +18973,77 @@
             <lyrics>
                <span spantype="chords">Am</span>
                <span spantype="words">I will survive, I will survive</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <song>
+      <title>Piece Of My Heart</title>
+      <info key="Eb" style="Lurve" artist="Erma Franklin" genre="Soul" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=L0QAxIKf8G4</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=k52umPzzxoM</annotation>
+         <section sectiontype="intro" numbars="4" part="Bass + Keys">
+            <chords>
+               Eb  Ab | Bb Ab x2
+            </chords>
+         </section>
+         <section sectiontype="verse" numbars="4">
+            <lyrics>
+               <span spantype="chords">Eb  Ab | Bb Ab x 2</span>
+               <span spantype="words">Didn't I make you feel like you were the only man</span>
+               <span spantype="words">Didn't I give you everything that a woman possibly can</span>
+            </lyrics>
+         </section>
+         <section sectiontype="pre-chorus" numbars="6">
+            <lyrics>
+               <span spantype="chords">Cm | Bb</span>
+               <span spantype="words">But with all the love I give ya, it's never enough</span>
+               <span spantype="chords">Db | Bb</span>
+               <span spantype="words">But I'm gonna show you baby that a woman can be tough, so</span>
+               <span spantype="chords">Bb | Bb</span>
+               <span spantype="words">come on, come on, come on, come on and</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="8">
+            <lyrics>
+               <span spantype="chords">Eb  Ab | Bb</span>
+               <span spantype="words">Take another little piece of my heart now baby</span>
+               <span spantype="words">(Break it) Break another little bit of my heart now honey</span>
+               <span spantype="words">(Have a) Have another little piece of my heart now baby</span>
+               <span spantype="chords">Ab | Ab Gm Fm Eb</span>
+               <span spantype="words">You know you got it if it makes you feel good</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse" numbars="4">
+            <lyrics>
+               <span spantype="words">You're out on the street (looking good) and you know</span>
+               <span spantype="words">deep down in your heart that it ain't right.    And ahh</span>
+               <span spantype="words">you never, never hear me when I cry at night</span>
+            </lyrics>
+         </section>
+         <section sectiontype="pre-chorus" numbars="6">
+            <lyrics>
+               <span spantype="chords">Cm | Bb</span>
+               <span spantype="words">And oh oh, I tell myself that I can't stand the pain</span>
+               <span spantype="chords">Db | Bb</span>
+               <span spantype="words">but when you hold me in your arms, I say it again</span>
+               <span spantype="chords">Bb | Bb</span>
+               <span spantype="words">So come on, come on, come on, come on</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="8"/>
+         <section sectiontype="chorus" numbars="8"/>
+         <section sectiontype="outro">
+            <directions>ad-lib</directions>
+            <lyrics>
+               <span spantype="chords">Eb  Ab | Bb</span>
+               <span spantype="words">Take another little piece of my heart now baby</span>
+               <span spantype="words">(Break it) Break another little bit of my heart now honey</span>
+               <span spantype="words">(Have a) Have another little piece of my heart now baby</span>
+               <span spantype="chords">Ab | Ab Gm Fm Eb</span>
+               <span spantype="words">You know you got it if it makes you feel good...</span>
             </lyrics>
          </section>
       </content>
