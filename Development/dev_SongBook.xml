@@ -975,27 +975,10 @@
       <title>Hold On Im Coming</title>
       <info key="F" status="ready" style="Fast" genre="Soul" artist="Sam and Dave"/>
       <content>
-         <annotation scope="all" person="Tony" type="howstart"/>
          <section sectiontype="intro" numbars="8">
-            <directions>Very Slow</directions>
             <chords>F | Ab | Bb | F x 2</chords>
-            <lyrics/>
          </section>
          <section sectiontype="verse">
-            <directions>Very Slow</directions>
-            <lyrics>
-               <span spantype="chords">F7 | F7</span>
-               <span spantype="words">Now don't you ever be sad</span>
-               <span spantype="chords">F7 | F7</span>
-               <span spantype="words">Lean on me when times get bad</span>
-               <span spantype="chords">Bb7 | Bb7</span>
-               <span spantype="words">When the day comes I know your down</span>
-               <span spantype="chords">Bb7 | Bb7</span>
-               <span spantype="words">In a river of trouble and ready to drown</span>
-            </lyrics>
-         </section>
-         <section sectiontype="verse">
-            <directions>Full speed</directions>
             <lyrics>
                <span spantype="chords">F7 | F7</span>
                <span spantype="words">Now don't you ever be sad</span>
@@ -1020,12 +1003,8 @@
                <span spantype="words">Don't need to suffer baby cause I'm near</span>
             </lyrics>
          </section>
-         <section sectiontype="chorus">
-            <lyrics>
-               <span spantype="words">Hold on I'm comin'; Hold on I'm comin'</span>
-               <span spantype="words">Hold on I'm comin'; Hold on I'm comin'</span>
-            </lyrics>
-         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>
          <section sectiontype="bridge">
             <lyrics>
                <span spantype="chords">Bb</span>
@@ -1042,9 +1021,7 @@
             <chords>F | Eb | Ab | Bb</chords>
             <chords>F | Ab | Bb | F</chords>
          </section>
-         <section sectiontype="chorus">
-            <lyrics/>
-         </section>
+         <section sectiontype="chorus"/>
          <section sectiontype="verse">
             <lyrics>
                <span spantype="words">Now don't you ever feel sad</span>
@@ -1053,14 +1030,9 @@
                <span spantype="words">In a river of trouble and you might drown</span>
             </lyrics>
          </section>
-         <section sectiontype="chorus">
-            <lyrics>
-               <span spantype="words">Hold on I'm comin'; Hold on I'm comin'</span>
-               <span spantype="words">Hold on I'm comin'; Hold on I'm comin'</span>
-            </lyrics>
-         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>        
          <section sectiontype="outro">
-            <directions>NOTE: trick finish</directions>
             <lyrics>
                <span spantype="words">Hold on I'm comin'; Hold on I'm comin'</span>
             </lyrics>
@@ -7835,6 +7807,7 @@
       <title>Honky Tonk Woman</title>
       <info key="G" status="rehearsing" artist="Rolling Stones" genre="Rock" style="Fast"/>
       <content>
+         <annotation type="video">https://www.youtube.com/watch?v=JuW9Sk8znqQ</annotation>
          <section sectiontype="intro" part="Gtr">
             <chords>G</chords>
          </section>
@@ -15233,16 +15206,17 @@
    </song>
    <song>
       <title>Rockin Around the Christmas Tree</title>
-      <info key="F#" style="Fast" artist="Brenda Lee" genre="Pop" status="rehearsing"/>
+      <info key="Ab" style="Fast" artist="Brenda Lee" genre="Pop" status="rehearsing"/>
       <content>
+         <annotation type="video">https://www.youtube.com/watch?v=1qYz7rfgLWE</annotation>
          <section sectiontype="intro">
-            <chords>F# | Ebm | B | Db</chords>
+            <chords>Ab | Fm | Db | Eb</chords>
          </section>
          <section sectiontype="verse">
             <lyrics>
-               <span spantype="chords">F# | F# | F# | Db</span>
+               <span spantype="chords">Ab | Ab | Ab | Eb</span>
                <span spantype="words">Rocking around the Christmas Tree, at the Christmas party hop</span>
-               <span spantype="chords">Db | Db | Db | F#</span>
+               <span spantype="chords">Eb | Eb | Eb | Ab</span>
                <span spantype="words">Mistletoe hung where you can see, every couple tries to stop</span>
             </lyrics>
          </section>
@@ -15254,9 +15228,9 @@
          </section>
          <section sectiontype="chorus">
             <lyrics>
-               <span spantype="chords">B | B | Bbm | Bbm</span>
+               <span spantype="chords">Db | Db | Cm | Cm</span>
                <span spantype="words">You will get a sentimental feeling when you hear</span>
-               <span spantype="chords">Ebm | Ebm | Ab | Db</span>
+               <span spantype="chords">Fm | Fm | Bb | Eb</span>
                <span spantype="words"> Voices singing, "Let's be jolly Deck the halls with boughs of holly"</span>
             </lyrics>
          </section>
@@ -15681,23 +15655,51 @@
             <chords>F</chords>
          </section>
          <section sectiontype="verse" numbars="16">
-            <chords>F | - | Fm Bbm | C Bb | x 4</chords>
+            <lyrics>
+               <span spantype="chords">F | - | Fm Bbm | C Bb</span>
+               <span spantype="words">It might seem crazy what I'm 'bout to say</span>
+               <span spantype="words">Sunshine she's here, you can take a break</span>
+               <span spantype="words">I'm a hot air balloon that could go to space</span>
+               <span spantype="words">With the air, like I don't care, baby, by the way</span>
+            </lyrics>
          </section>
          <section sectiontype="chorus" numbars="16">
-            <chords>Db | Cm | Cm7 | F7 | x 4</chords>
+            <lyrics>
+               <span spantype="chords">Db | Cm | Cm7 | F7</span>
+               <span spantype="words">(Because I'm happy) Clap along if you feel like a room without a roof</span>
+               <span spantype="words">((Because I'm happy) Clap along if you feel like happiness is the truth</span>
+               <span spantype="words">((Because I'm happy) Clap along if you know what happiness is to you</span>
+               <span spantype="words">((Because I'm happy) Clap along if you feel like that's what you wanna do</span>
+            </lyrics>
          </section>
-         <section sectiontype="verse" numbars="16"/>
+         <section sectiontype="verse" numbars="16">
+            <lyrics>
+               <span spantype="words">Here come bad news, talking this and that (Yeah!)</span>
+               <span spantype="words">Well, give me all you got, don't hold it back (Yeah!)</span>
+               <span spantype="words">Well, I should probably warn ya, I'll be just fine (Yeah!)</span>
+               <span spantype="words">No offense to you, don’t waste your time, here's why</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="16"/>
+         <section sectiontype="interlude" numbars="16">
+            <comment>clapping</comment>
+            <lyrics>
+               <span spantype="words">Bring me down, can't nothing, bring me down, my level's too high to</span>
+               <span spantype="words">Bring me down, can't nothing, bring me down, I said</span>
+               <span spantype="words">Bring me down, can't nothing, bring me down, my level's too high to</span>
+               <span spantype="words">Bring me down, can't nothing, bring me down, I said</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="16"/>
          <section sectiontype="chorus" numbars="16"/>
          <section sectiontype="interlude" numbars="16">
             <comment>clapping</comment>
          </section>
          <section sectiontype="chorus" numbars="16"/>
          <section sectiontype="chorus" numbars="16"/>
-         <section sectiontype="interlude" numbars="16">
-            <comment>clapping</comment>
+         <section sectiontype="outro">
+            <chords>Db | Cm7 | F7 | F7</chords>
          </section>
-         <section sectiontype="chorus" numbars="16"/>
-         <section sectiontype="chorus" numbars="16"/>
       </content>
    </song>
    <song>
@@ -17759,10 +17761,6 @@
                <span spantype="words">Around and round you're turning me...</span>
             </lyrics>
          </section>
-         <section sectiontype="outro" feel="slow" numbars="1">
-            <comment>riff2 (down)</comment>
-            <chords>G7</chords>
-         </section>
       </content>
    </song>
 
@@ -17852,24 +17850,25 @@
 
    <song>
       <title>Im Coming Out</title>
-      <info key="A" style="Fast" artist="Diana Ross" genre="Disco/Funk" status="rehearsing"/>
+      <info key="Eb" style="Fast" artist="Diana Ross" genre="Disco/Funk" status="rehearsing"/>
       <content>
+         <annotation type="video">https://www.youtube.com/watch?v=-xMvP6PsD9A</annotation>
          <annotation type="video">https://www.youtube.com/watch?v=jhMHmYrJBqw</annotation>
          <annotation type="bassline">https://www.youtube.com/watch?v=7VJw8Lrgbnk</annotation>
-         <section sectiontype="intro">
-            <chords>Cm7 - Cm7 - Cm7 - Cm7</chords>
-         </section>
-         <section sectiontype="intro" part="Vocals + Gtr + Horns + Drums">
+         <section sectiontype="intro" part="Vocals + Gtr + Horns + Drums" numbars="24">
+            <directions>Play figure 6 times</directions>
             <lyrics>
-               <span spantype="chords">Cm7 Gm7 | Fm7 Eb | Ab Eb | Ab Gm7 x 4</span>
+               <span spantype="chords">Cm7 Gm7 | Fm7 Eb | Ab Eb | Ab Gm7 x 8</span>
                <span spantype="words">
                   I'm coming out, I'm coming
                </span>
             </lyrics>
          </section>
-         <section sectiontype="chorus" numbars="8">
+         <section sectiontype="chorus" numbars="16">
             <lyrics>
                <span spantype="chords">Cm7 Gm7 | Fm7 Eb | Ab Eb | Ab Gm7</span>
+               <span spantype="words">I'm coming out, I want the world to know, Got to let it show</span>
+               <span spantype="words">I'm coming out, I want the world to know, I got to let it show</span>
                <span spantype="words">I'm coming out, I want the world to know, Got to let it show</span>
                <span spantype="words">I'm coming out, I want the world to know, I got to let it show</span>
             </lyrics>
@@ -17881,7 +17880,7 @@
                <span spantype="chords">Fm7 Gm7 | Fm7 Gm7 </span>
                <span spantype="words">And I want to give, I'm completely positive</span>
                <span spantype="words">I think this time around, I am gonna do it</span>
-               <span spantype="words">Like you never do it, Like you never knew it, Oh, I'll make it through</span>
+               <span spantype="words">Like you never knew it, Like you never knew it, Oh, I'll make it through</span>
             </lyrics>
          </section>
          <section sectiontype="pre-chorus">
@@ -17889,7 +17888,7 @@
                <span spantype="chords">Cm7 | Cm7</span>
                <span spantype="words">The time has come for me, To break out of the shell</span>
                <span spantype="chords">Cm7 | Ab Gm</span>
-               <span spantype="words">I have to shout, That I'm coming out</span>
+               <span spantype="words">I have to shout, I am coming out</span>
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
@@ -17898,7 +17897,7 @@
                <span spantype="words">I've got to show the world, All that I want to be</span>
                <span spantype="words">And all my abilities, There's so much more to me</span>
                <span spantype="words">Somehow, I have to make them, Just understand</span>
-               <span spantype="words">I got it well in hand, And, oh, how I've planned</span>
+               <span spantype="words">I got it well in hand, And, oh, how I have planned</span>
             </lyrics>
          </section>
          <section sectiontype="pre-chorus">
@@ -17910,6 +17909,7 @@
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
+         <section sectiontype="instrumental" part="Horns" numbars="16"/>
          <section sectiontype="chorus"/>
          <section sectiontype="outro"/>
       </content>
@@ -17919,24 +17919,22 @@
       <title>We Are Family</title>
       <info key="A" style="Fast" artist="Sister Sledge" genre="Disco/Funk" status="rehearsing"/>
       <content>
-         <annotation type="video">https://www.youtube.com/watch?v=qhmkUgs4khc</annotation>
+         <annotation type="video">https://www.youtube.com/watch?v=PDSSGyPurmE</annotation>
          <annotation type="bassline">https://www.youtube.com/watch?v=eldd1qnbgDA</annotation>
-         <section sectiontype="figure" part="Full Band">
-            <chords>D - Eb E F - G Ab A</chords>
+         <section sectiontype="intro" part="Horns" numbars="16">
+            <lyrics>
+               <span spantype="chords">A | G | D | F/G x4</span>
+            </lyrics>
          </section>
-         <section sectiontype="intro" part="Drums" numbars="8">
+         <section sectiontype="intro" numbars="8">
             <lyrics>
                <span spantype="words">We are family; I got all my sisters with me</span>
                <span spantype="words">We are family; Get up everybody and sing</span>
-            </lyrics>
-         </section>
-         <section sectiontype="intro" part="Bass + Drums" numbars="8">
-            <lyrics>
                <span spantype="words">We are family; I got all my sisters with me</span>
-               <span spantype="words">We are family; Get up everybody and sing</span>
+               <span spantype="words">We are family; Get up everybody and sing</span>               
             </lyrics>
          </section>
-         <section sectiontype="verse" feel="cool">
+         <section sectiontype="verse" feel="cool" numbars="16">
             <lyrics>
                <span spantype="chords">A | Em7 D9 | A | Em7 D9</span>
                <span spantype="words">Everyone can see we're together; As we walk on by</span>
@@ -17945,9 +17943,9 @@
                <span spantype="words">Just let me state for the record; We're giving love in a family dose</span>
             </lyrics>
          </section>
-         <section sectiontype="chorus">
+         <section sectiontype="chorus" numbars="16">
             <lyrics>
-               <span spantype="chords">A Asus2 | F Fsus2 | D | F/G</span>
+               <span spantype="chords">A | G | D | F/G x4</span>
                <span spantype="words">We are family; I got all my sisters with me</span>
                <span spantype="words">We are family; Get up everybody and sing</span>
                <span spantype="words">We are family; I got all my sisters with me</span>
@@ -17956,22 +17954,11 @@
          </section>
          <section sectiontype="verse" feel="cool">
             <lyrics>
-               <span spantype="chords">A | Em7 D9 | A | Em7 D9</span>
                <span spantype="words">Living life is fun and we've just begun; To get our share of this world's delights</span>
                <span spantype="words">(High) high hopes we have for the future; And our goal's in sight</span>
                <span spantype="words">(We) no, we don't get depressed; Cos' here's what we call our golden rule</span>
                <span spantype="words">Have faith in you and the things you do;You won't go wrong, oh-no this is our family jewel</span>
             </lyrics>
-         </section>
-         <section sectiontype="chorus"/>
-         <section sectiontype="figure" part="Full Band">
-            <chords>D - Eb E F - G Ab A</chords>
-         </section>
-         <section sectiontype="cadenza" part="Vocals + Drums" numbars="16">
-            <chords>A Asus2 | F Fsus2 | D | F/G</chords>
-         </section>
-         <section sectiontype="instrumental chorus" part="Gtr + Horns" numbars="16">
-            <chords>A Asus2 | F Fsus2 | D | F/G</chords>
          </section>
          <section sectiontype="chorus"/>
          <section sectiontype="figure" part="Full Band">
@@ -19050,6 +19037,240 @@
    </song>
 
    <song>
+      <title>Disco Inferno</title>
+      <info key="Eb" style="Fast" artist="Tina Turner" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=5oNgSfF8V7g</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=oEiaMcFHOVU</annotation>
+         <section sectiontype="intro-part1" numbars="2" part="Bass + Keys + Horns">
+            <comment>Descending figure - F# E D B Ab F# E D</comment>
+         </section>
+         <section sectiontype="intro-part2" numbars="8" part="Bass + Keys + Horns">
+            <comment>Verse riff</comment>
+            <chords>Ebm7 C# x 8</chords>
+         </section>
+         <section sectiontype="intro-part3" numbars="8" part="Full Band">
+            <comment>Chorus riff</comment>
+            <lyrics>
+               <span spantype="chords">Ab | C# | Ebm7 | Ebm7 x 2</span>
+               <span spantype="words">(Burn baby burn, Burn baby burn, Burn baby burn, Burn baby burn)</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">Ebm7 C# x 4</span>
+               <span spantype="words">To my surprise, one hundred stories high</span>
+               <span spantype="words">People getting loose y'all, getting down on the roof</span>
+               <span spantype="words">Folks are screaming, out of control</span>
+               <span spantype="words">It was so entertaining when the boogie started to explode, I heard somebody say</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">Ab | C# | Ebm7 | Ebm7</span>
+               <span spantype="words">(Burn baby burn) disco inferno, (Burn baby burn) burn that mother down</span>
+               <span spantype="chords">Ab | C# | Ebm7 | Ebm7</span>
+               <span spantype="words">(Burn baby burn) disco inferno, (Burn baby burn) burn that mother down</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Satisfaction came in a chain reaction (Burnin')</span>
+               <span spantype="words">I couldn't get enough, so I had to self-destruct</span>
+               <span spantype="words">The heat was on, rising to the top</span>
+               <span spantype="words">Everybody going strong, and that is when my spark got hot, I heard somebody say</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="bridge">
+            <lyrics>
+               <span spantype="chords">C# | Ebm7</span>
+               <span spantype="words">Up above my head I hear music in the air</span>
+               <span spantype="words">That makes me know There's a party somewhere</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Satisfaction came in a chain reaction (Burnin')</span>
+               <span spantype="words">I couldn't get enough, so I had to self-destruct</span>
+               <span spantype="words">The heat was on, rising to the top</span>
+               <span spantype="words">Everybody going strong, and that is when my spark got hot, I heard somebody say</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <comment>Repeat ad-lib; two horn stabs to finish.</comment>
+            <lyrics>
+               <span spantype="chords">Ab | C# | Ebm7 | Ebm7</span>
+               <span spantype="words">(Burn baby burn) disco inferno, (Burn baby burn) burn that mother down</span>
+               <span spantype="words">(Burn baby burn) disco inferno, (Burn baby burn) burn that mother down</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <song>
+      <title>Its Raining Men</title>
+      <info key="F" style="Fast" artist="Weather Girls" genre="Disco/Funk" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=LtlMti_hK_4</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=ZkWTS25MMJo</annotation>
+         <annotation type="guitar">https://www.youtube.com/watch?v=0_S80bOFGoU</annotation>
+         <section sectiontype="intro" part="Drums"/>      
+         <section sectiontype="intro" numbars="24">
+            <chords>Fm | Fm | Ab | Ab | Db | Db | C | C x 2</chords>
+            <chords>Fm | Fm | Fm | Fm | Fm | Fm | Fm | Fm</chords>
+         </section>
+         <section sectiontype="pre-chorus" numbars="16">
+            <lyrics>
+               <span spantype="chords">Fm x 4</span>
+               <span spantype="words">Humidity is rising (Mm rising), barometer's getting low (How low, girl?)</span>
+               <span spantype="chords">Fm | Fm | C7 | C7 </span>
+               <span spantype="words">According to all sources (What sources now?), the street's the place to go (You better hurry up)</span>
+               <span spantype="chords">Fm | Fm | Bbm | Bbm </span>
+               <span spantype="words">'Cause tonight for the first time (First time), just about half-past ten (Half-past ten)</span>
+               <span spantype="chords">C | C | C7 | C7 </span>
+               <span spantype="words">For the first time in history, it's gonna start raining men</span>                  
+            </lyrics>
+         </section>         
+         <section sectiontype="chorus" numbars="18">
+            <lyrics>
+               <span spantype="chords">1 bar tacet</span>
+               <span spantype="words">It's raining...</span>              
+               <span spantype="chords">Db | Eb | C | Fm </span>
+               <span spantype="words">...men! hallelujah, it's raining men! Amen!</span>
+               <span spantype="chords">Dbm | Bbm | C | C7 </span>
+               <span spantype="words">I'm gonna go out, I'm gonna let myself get, absolutely soaking wet!</span>
+               <span spantype="chords">1 bar tacet</span>
+               <span spantype="chords">Db | Eb | C | Fm </span>
+               <span spantype="words">It's raining men! hallelujah, it's raining men, every specimen!</span>
+               <span spantype="chords">Dbm | Bbm | C | C7 </span>
+               <span spantype="words">Tall, blonde, dark and lean, rough and tough and strong and mean</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse" numbars="19">
+            <lyrics>
+               <span spantype="chords">1 bar tacet</span>
+               <span spantype="chords">Dbmaj7 | Eb | C7 | Fm</span>
+               <span spantype="words">God bless Mother Nature, she's a single woman too</span>             
+               <span spantype="words">She took off to heaven and she did what she had to do</span>
+               <span spantype="words">She tought every angel, and rearranged the sky</span>
+               <span spantype="chords">Bbm C | Db D | E F | G Ab</span>
+               <span spantype="words">So that each and every woman could find her perfect guy</span>
+               <span spantype="chords">G | G</span>  
+               <span spantype="words">Oh, it's raining men</span>                  
+            </lyrics>
+         </section>   
+         <section sectiontype="breakdown" numbars="16">
+            <lyrics> 
+               <span spantype="chords">Fm x 16</span>
+               <span spantype="words">Humidity is rising...</span> 
+               <span spantype="words">barometer's getting low...</span> 
+               <span spantype="words">According to all sources...</span> 
+               <span spantype="words">the street's the place to go...</span>               
+            </lyrics>
+         </section>
+         <section sectiontype="instrumental" part="Gtr + Horns + Keys" numbars="48">
+            <lyrics>
+               <span spantype="chords">Fm | Fm | Ab | Ab | Db | Db | C | C x 6</span>   
+            </lyrics>
+         </section>     
+         <section sectiontype="pre-chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">tacet</span>
+               <span spantype="words">It's raining men!</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <song>
+      <title>I Heard It Through the Grapevine</title>
+      <info key="Bm" style="Medium" artist="Gladys Knight &amp; the Pips" genre="R and B" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=7p9DpNrHUdQ</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=RoX3XP3rNMs</annotation>
+         <section sectiontype="intro">
+            <chords>Bm x 8</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">Bm | Bm | F#7 | E7</span>
+               <span spantype="words">Well I bet you're wonderin' how I knew, about your plans to make me blue</span>
+               <span spantype="words">With some other guy that you knew before, between the two of us guys, you know I love you more </span>
+            </lyrics>
+         </section>         
+         <section sectiontype="pre-chorus">
+            <lyrics>
+               <span spantype="chords">G#m | E7 | Bm | E7</span>
+               <span spantype="words">You took me by surprise, I must say, when I found out yesterday, don't you know that</span>
+            </lyrics>
+         </section>        
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">Bm | Bm | E7 | E7</span>
+               <span spantype="chords">Bm | Bm | F#7 | E7</span>
+               <span spantype="words">I heard it through the grapevine, how much longer, would you be mine?</span>
+               <span spantype="words">Ooh, I heard it through the grapevine, and I'm just about to lose my mind</span>
+            </lyrics>
+         </section>
+         <section sectiontype="post-chorus">
+            <lyrics>
+               <span spantype="chords">Bm x 4</span>
+               <span spantype="words">Honey, honey, yeah(Heard it through the grapevine, not much longer would you be my baby)</span>
+            </lyrics>
+         </section> 
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">You know that a man ain't supposed to cry, but these tears, I can't hold inside</span>
+               <span spantype="words">Losin' you would end my life you see, 'cause you mean that much to me</span>
+            </lyrics>
+         </section>
+         <section sectiontype="pre-chorus">
+            <lyrics>
+               <span spantype="chords">G#m | E7 | Bm | E7</span>
+               <span spantype="words">You could have told me yourself, that you love somebody else, instead</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="post-chorus"/>
+         <section sectiontype="post-chorus"/>
+         <section  sectiontype="solos">
+            <comment>Horns / guitar in turn</comment>
+            <lyrics>
+               <span spantype="chords">Bm | Bm | Bm | Bm</span>
+               <span spantype="chords">E7 | E7 | Bm | Bm</span>
+               <span spantype="chords">F#7 | E | Bm | Bm</span>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">People say, "believe half of what you see, son, and none of what you hear"</span>
+               <span spantype="words">But I can't help bein' confused, if it's true, won't you tell me dear?</span>
+            </lyrics>   
+         </section>
+         <section sectiontype="pre-chorus">
+            <lyrics>
+               <span spantype="words">Do you plan to let me go, for some other guy that you loved before? Don't you know that I</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">Bm x 4</span>
+               <span spantype="words">Heard it through the grapevine, not much longer would you be my baby</span>
+               <span spantype="words">Heard it through the grapevine, not much longer would you be my baby</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <song>
       <title>Interval</title>
       <info key="A" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
       <content>
@@ -19073,7 +19294,9 @@
       <title>Blank</title>
       <info key="A" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
       <content>
-         <annotation/>
+         <annotation type="video"></annotation>
+         <annotation type="bassline"></annotation>
+         <annotation type="guitar"></annotation>
          <section sectiontype="intro">
             <chords/>
          </section>

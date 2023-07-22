@@ -158,6 +158,9 @@
 												<xs:enumeration value="break"/>
 												<xs:enumeration value="bridge"/>
 												<xs:enumeration value="intro"/>
+												<xs:enumeration value="intro-part1"/>
+												<xs:enumeration value="intro-part2"/>
+												<xs:enumeration value="intro-part3"/>
 												<xs:enumeration value="outro"/>
 												<xs:enumeration value="link"/>
 												<xs:enumeration value="instrumental"/>
@@ -165,7 +168,7 @@
 												<xs:enumeration value="instrumental chorus"/>
 												<xs:enumeration value="figure"/>
 												<xs:enumeration value="stopchorus"/>
-												<xs:enumeration value="cadenza"/>	
+												<xs:enumeration value="cadenza"/>
 												<xs:enumeration value="A-part"/>
 												<xs:enumeration value="B-part"/>
 												<xs:enumeration value="C-part"/>
@@ -195,8 +198,10 @@
 												<xs:enumeration value="interlude"/>
 												<xs:enumeration value="vamp"/>
 												<xs:enumeration value="solo"/>
+											    <xs:enumeration value="solos"/>
 												<xs:enumeration value="theme"/>
 												<xs:enumeration value="pre-chorus"/>
+											    <xs:enumeration value="post-chorus"/>	
 												<xs:enumeration value="turnaround"/>
 												<xs:enumeration value="repeat"/>
 												<xs:enumeration value="riff"/>
@@ -237,6 +242,7 @@
 												<xs:enumeration value="Gtr"/>
 												<xs:enumeration value="Gtr + Horns"/>
 												<xs:enumeration value="Gtr + Keys"/>
+												<xs:enumeration value="Gtr + Horns + Keys"/>
 												<xs:enumeration value="Gtr+Sax"/>
 												<xs:enumeration value="Rhythm Gtr"/>
 												<xs:enumeration value="Sax"/>
@@ -245,8 +251,10 @@
 												<xs:enumeration value="Percussion"/>
 												<xs:enumeration value="Vocals + Drums"/>
 												<xs:enumeration value="Gtr + Drums"/>
-												<xs:enumeration value="Vocals + Gtr + Horns + Drums"/>
+												<xs:enumeration
+												value="Vocals + Gtr + Horns + Drums"/>
 												<xs:enumeration value="Bass + Keys"/>
+												<xs:enumeration value="Bass + Keys + Horns"/>
 												<xs:enumeration value="Bass + Drums"/>
 												<xs:enumeration value="Bass"/>
 												<xs:enumeration value="Keyboard"/>
@@ -345,6 +353,7 @@
 								<xs:enumeration value="general"/>
 								<xs:enumeration value="video"/>
 								<xs:enumeration value="bassline"/>
+								<xs:enumeration value="guitar"/>
 							</xs:restriction>
 						</xs:simpleType>
 					</xs:attribute>
