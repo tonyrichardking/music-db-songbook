@@ -975,8 +975,8 @@
       <title>Hold On Im Coming</title>
       <info key="F" status="ready" style="Fast" genre="Soul" artist="Sam and Dave"/>
       <content>
-         <section sectiontype="intro" numbars="8">
-            <chords>F | Ab | Bb | F x 2</chords>
+         <section sectiontype="intro" numbars="4">
+            <chords>F | Ab | Bb | F</chords>
          </section>
          <section sectiontype="verse">
             <lyrics>
@@ -985,14 +985,15 @@
                <span spantype="chords">F7 | F7</span>
                <span spantype="words">Lean on me when times get bad</span>
                <span spantype="chords">Bb7 | Bb7</span>
-               <span spantype="words">When the day comes I know your down</span>
+               <span spantype="words">When the day comes I know you're down</span>
                <span spantype="chords">Bb7 | Bb7</span>
                <span spantype="words">In a river of trouble and ready to drown</span>
             </lyrics>
          </section>
          <section sectiontype="chorus">
             <lyrics>
-               <span spantype="words">Hold on I'm comin'; Hold on I'm comin'</span>
+               <span spantype="chords">F | Ab | Bb | F</span>
+               <span spantype="words">Hold on I'm comin', Hold on I'm comin'</span>
             </lyrics>
          </section>
          <section sectiontype="verse">
@@ -1005,19 +1006,15 @@
          </section>
          <section sectiontype="chorus"/>
          <section sectiontype="chorus"/>
-         <section sectiontype="bridge">
+         <section sectiontype="bridge" numbars="8">
             <lyrics>
-               <span spantype="chords">Bb</span>
+               <span spantype="chords">Bb | Bb | Bb | Bb</span>
                <span spantype="words">Reach out to me for satisfaction</span>
-               <span spantype="chords">Ab</span>
-               <span spantype="words">Yeah look, call my name now</span>
-               <span spantype="chords">Bb</span>
-               <span spantype="words">Call my name now for quick reaction</span>
-               <span spantype="chords">C</span>
-               <span spantype="words">Eh eh eh yeah</span>
+               <span spantype="chords">Ab | Ab | Bb | C</span>
+               <span spantype="words">Yeah look, call my name now, for a quick reaction, yeah yeah</span>
             </lyrics>
          </section>
-         <section sectiontype="link" numbars="8" part="Instrumental">
+         <section sectiontype="link" numbars="8" part="Gtr + Horns">
             <chords>F | Eb | Ab | Bb</chords>
             <chords>F | Ab | Bb | F</chords>
          </section>
@@ -1031,10 +1028,10 @@
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
-         <section sectiontype="chorus"/>        
+         <section sectiontype="chorus"/>
          <section sectiontype="outro">
             <lyrics>
-               <span spantype="words">Hold on I'm comin'; Hold on I'm comin'</span>
+               <span spantype="words">Hold on I'm comin', Hold on I'm comin'</span>
             </lyrics>
          </section>
       </content>
@@ -13659,7 +13656,7 @@
       </content>
    </song>
    <song>
-      <title>Rolling In The Deep</title>
+      <title>Rolling In The Deep (Bbm)</title>
       <info key="Bbm" style="Medium" artist="Adele" genre="Pop" status="rehearsing"/>
       <content>
          <section sectiontype="intro" part="Gtr" numbars="2"/>
@@ -13683,14 +13680,10 @@
          </section>
          <section sectiontype="pre-chorus">
             <lyrics>
-               <span spantype="chords">F# | Ab</span>
-               <span spantype="words">The scars of your love remind me of us</span>
-               <span spantype="chords">Fm | F#</span>
-               <span spantype="words">They keep me thinking that we almost had it all</span>
-               <span spantype="chords">F# | Ab</span>
-               <span spantype="words">The scars of your love, they leave me breathless</span>
-               <span spantype="chords">Fm | F7</span>
-               <span spantype="words">I can't help feeling</span>
+               <span spantype="chords">F# | Ab |Fm | F#</span>
+               <span spantype="words">The scars of your love remind me of us, they keep me thinking that we almost had it all</span>
+               <span spantype="chords">F# | Ab | Fm | F7</span>
+               <span spantype="words">The scars of your love, they leave me breathless, I can't help feeling</span>
             </lyrics>
          </section>
          <section sectiontype="chorus">
@@ -13744,6 +13737,95 @@
          </section>
       </content>
    </song>
+ 
+   <song>
+      <title>Rolling In The Deep</title>
+      <info key="Bm" style="Medium" artist="Adele" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=-fmCoUjOMXU</annotation>
+         <section sectiontype="intro" part="Gtr" numbars="2"/>
+         <section sectiontype="verse" part="Gtr">
+            <lyrics>
+               <span spantype="chords">Bm | F#m | A | F#m A</span>
+               <span spantype="words">There's a fire starting in my heart</span>
+               <span spantype="words">Reaching a fever pitch and it's bringing me out the dark</span>
+               <span spantype="words">Finally, I can see you crystal clear</span>
+               <span spantype="words">Go ahead and sell me out and I'll lay your ship bare</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <directions>drums 4/4</directions>
+            <lyrics>
+               <span spantype="words">See how I'll leave with every piece of you</span>
+               <span spantype="words">Don't underestimate the things that I will do</span>
+               <span spantype="words">There's a fire starting in my heart</span>
+               <span spantype="words">Reaching a fever pitch and it's bringing me out the dark</span>
+            </lyrics>
+         </section>
+         <section sectiontype="pre-chorus">
+            <lyrics>
+               <span spantype="chords">G | A | F#m | G</span>
+               <span spantype="words">The scars of your love remind me of us, they keep me thinking that we almost had it all</span>
+               <span spantype="chords">G | A | F#m | F#7</span>
+               <span spantype="words">The scars of your love, they leave me breathless, I can't help feeling</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">Bm | A</span>
+               <span spantype="words">We could have had it all (Your gonna wish you, never had met me)</span>
+               <span spantype="chords">G | G A</span>
+               <span spantype="words">Rolling in the deep, (Tears are gonna fall, rolling in the deep)</span>
+               <span spantype="chords">Bm | A</span>
+               <span spantype="words">You had my heart inside of your hand, (You're gonna wish you never had met me)</span>
+               <span spantype="chords">G | G A</span>
+               <span spantype="words">And you played it to the beat. (Tears are gonna fall, rolling in the deep)</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Baby, I have no story to be told</span>
+               <span spantype="words">But I've heard one on you and I'm gonna make your head burn</span>
+               <span spantype="words">Think of me in the depths of your despair</span>
+               <span spantype="words">Making a home down there as mine sure won't be shared</span>
+            </lyrics>
+         </section>
+         <section sectiontype="pre-chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus">
+            <chords>G | A | Bm | A | G | G | A | A</chords>
+         </section>
+         <section sectiontype="verse" part="Percussion">
+            <lyrics>
+               <span spantype="words">Throw your soul through every open door</span>
+               <span spantype="words">Count your blessings to find what you look for</span>
+               <span spantype="words">Turn my sorrow into treasured gold</span>
+               <span spantype="words">You'll pay me back in kind and reap just what you've sown</span>
+            </lyrics>
+         </section>
+         <section sectiontype="bridge" numbars="8">
+            <lyrics>
+               <span spantype="chords">Bm | A</span>
+               <span spantype="words">(Your gonna wish you, never had met me) We could have had it all</span>
+               <span spantype="chords">G | G A</span>
+               <span spantype="words">(Tears are gonna fall, rolling in the deep) We could have had it all</span>
+               <span spantype="words">(You're gonna wish you never had met me) We could have had it all</span>
+               <span spantype="words">(Tears are gonna fall, rolling in the deep)it all, it all, it all...</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus">
+            
+         </section>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="words">But you played it, you played it, you played it</span>
+               <span spantype="words">You played it to the beat</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+ 
    <song>
       <title>Because The Night</title>
       <info key="Am" style="Medium" artist="Patti Smith" genre="Pop" status="rehearsing"/>
@@ -15882,23 +15964,6 @@
       </content>
    </song>
    <song>
-      <title>I Heard It On The Grapevine</title>
-      <info key="Cm" style="Medium" artist="Artist" genre="R and B" status="rehearsing"/>
-      <content>
-         <section sectiontype="verse">
-            <lyrics>
-               <span spantype="chords">Cm | Cm | G | F x 2</span>
-               <span spantype="chords">Am | F7 | Am | F7</span>
-            </lyrics>
-         </section>
-         <section sectiontype="chorus">
-            <lyrics>
-               <span spantype="chords">Cm | F7 | Cm | F7</span>
-            </lyrics>
-         </section>
-      </content>
-   </song>
-   <song>
       <title>Let Me Entertain You</title>
       <info key="A" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
       <content>
@@ -17763,7 +17828,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Always There</title>
       <info key="Fm" style="Fast" artist="Incognito" genre="Disco/Funk" status="rehearsing"/>
@@ -17847,7 +17911,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Im Coming Out</title>
       <info key="Eb" style="Fast" artist="Diana Ross" genre="Disco/Funk" status="rehearsing"/>
@@ -17914,7 +17977,6 @@
          <section sectiontype="outro"/>
       </content>
    </song>
-
    <song>
       <title>We Are Family</title>
       <info key="A" style="Fast" artist="Sister Sledge" genre="Disco/Funk" status="rehearsing"/>
@@ -17931,7 +17993,7 @@
                <span spantype="words">We are family; I got all my sisters with me</span>
                <span spantype="words">We are family; Get up everybody and sing</span>
                <span spantype="words">We are family; I got all my sisters with me</span>
-               <span spantype="words">We are family; Get up everybody and sing</span>               
+               <span spantype="words">We are family; Get up everybody and sing</span>
             </lyrics>
          </section>
          <section sectiontype="verse" feel="cool" numbars="16">
@@ -17964,9 +18026,18 @@
          <section sectiontype="figure" part="Full Band">
             <chords>D - Eb E F - G Ab A</chords>
          </section>
+         <section sectiontype="breakdown" part="Gtr + Drums" numbars="8">
+            <chords>A | A | G | G | C | C | D | D</chords>
+         </section>
+         <section sectiontype="interlude" numbars="24" part="Gtr + Horns" feel="hot">
+            <chords>A | A | G | G | D | D | F/G | F/G | x3</chords>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="figure" part="Full Band">
+            <chords>D - Eb E F - G Ab A</chords>
+         </section>
       </content>
    </song>
-
    <song>
       <title>Sweet Child Of Mine</title>
       <info key="Db" style="Fast" artist="Guns and Roses" genre="Disco/Funk" status="rehearsing"/>
@@ -18517,7 +18588,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Aint No Stoppin Us Now</title>
       <info key="Ab" style="Fast" artist="Mcfadden And Whitehead" genre="Pop" status="rehearsing"/>
@@ -18582,7 +18652,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Pigbag</title>
       <info key="Cm" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
@@ -18602,7 +18671,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Teardrops</title>
       <info key="Abm" style="Medium" artist="Womack &amp; Womack" genre="R and B"
@@ -18677,7 +18745,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Lady Marmalade</title>
       <info key="Gm" style="Medium" artist="Patti LaBelle" genre="Soul" status="rehearsing"/>
@@ -18794,7 +18861,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Lady Marmalade (Instrumental)</title>
       <info key="Gm" style="Medium" artist="Mongo Santamaria" genre="Soul" status="rehearsing"/>
@@ -18880,7 +18946,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>I Will Survive</title>
       <info key="Am" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
@@ -18964,7 +19029,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Piece Of My Heart</title>
       <info key="Eb" style="Lurve" artist="Erma Franklin" genre="Soul" status="rehearsing"/>
@@ -19035,7 +19099,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Disco Inferno</title>
       <info key="Eb" style="Fast" artist="Tina Turner" genre="Pop" status="rehearsing"/>
@@ -19109,7 +19172,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Its Raining Men</title>
       <info key="F" style="Fast" artist="Weather Girls" genre="Disco/Funk" status="rehearsing"/>
@@ -19117,7 +19179,7 @@
          <annotation type="video">https://www.youtube.com/watch?v=LtlMti_hK_4</annotation>
          <annotation type="bassline">https://www.youtube.com/watch?v=ZkWTS25MMJo</annotation>
          <annotation type="guitar">https://www.youtube.com/watch?v=0_S80bOFGoU</annotation>
-         <section sectiontype="intro" part="Drums"/>      
+         <section sectiontype="intro" part="Drums"/>
          <section sectiontype="intro" numbars="24">
             <chords>Fm | Fm | Ab | Ab | Db | Db | C | C x 2</chords>
             <chords>Fm | Fm | Fm | Fm | Fm | Fm | Fm | Fm</chords>
@@ -19131,13 +19193,13 @@
                <span spantype="chords">Fm | Fm | Bbm | Bbm </span>
                <span spantype="words">'Cause tonight for the first time (First time), just about half-past ten (Half-past ten)</span>
                <span spantype="chords">C | C | C7 | C7 </span>
-               <span spantype="words">For the first time in history, it's gonna start raining men</span>                  
+               <span spantype="words">For the first time in history, it's gonna start raining men</span>
             </lyrics>
-         </section>         
+         </section>
          <section sectiontype="chorus" numbars="18">
             <lyrics>
                <span spantype="chords">1 bar tacet</span>
-               <span spantype="words">It's raining...</span>              
+               <span spantype="words">It's raining...</span>
                <span spantype="chords">Db | Eb | C | Fm </span>
                <span spantype="words">...men! hallelujah, it's raining men! Amen!</span>
                <span spantype="chords">Dbm | Bbm | C | C7 </span>
@@ -19153,31 +19215,30 @@
             <lyrics>
                <span spantype="chords">1 bar tacet</span>
                <span spantype="chords">Dbmaj7 | Eb | C7 | Fm</span>
-               <span spantype="words">God bless Mother Nature, she's a single woman too</span>             
+               <span spantype="words">God bless Mother Nature, she's a single woman too</span>
                <span spantype="words">She took off to heaven and she did what she had to do</span>
                <span spantype="words">She tought every angel, and rearranged the sky</span>
                <span spantype="chords">Bbm C | Db D | E F | G Ab</span>
                <span spantype="words">So that each and every woman could find her perfect guy</span>
-               <span spantype="chords">G | G</span>  
-               <span spantype="words">Oh, it's raining men</span>                  
+               <span spantype="chords">G | G</span>
+               <span spantype="words">Oh, it's raining men</span>
             </lyrics>
-         </section>   
+         </section>
          <section sectiontype="breakdown" numbars="16">
-            <lyrics> 
+            <lyrics>
                <span spantype="chords">Fm x 16</span>
-               <span spantype="words">Humidity is rising...</span> 
-               <span spantype="words">barometer's getting low...</span> 
-               <span spantype="words">According to all sources...</span> 
-               <span spantype="words">the street's the place to go...</span>               
+               <span spantype="words">Humidity is rising...</span>
+               <span spantype="words">barometer's getting low...</span>
+               <span spantype="words">According to all sources...</span>
+               <span spantype="words">the street's the place to go...</span>
             </lyrics>
          </section>
          <section sectiontype="instrumental" part="Gtr + Horns + Keys" numbars="48">
             <lyrics>
-               <span spantype="chords">Fm | Fm | Ab | Ab | Db | Db | C | C x 6</span>   
+               <span spantype="chords">Fm | Fm | Ab | Ab | Db | Db | C | C x 6</span>
             </lyrics>
-         </section>     
+         </section>
          <section sectiontype="pre-chorus"/>
-         <section sectiontype="chorus"/>
          <section sectiontype="chorus"/>
          <section sectiontype="outro">
             <lyrics>
@@ -19187,10 +19248,10 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>I Heard It Through the Grapevine</title>
-      <info key="Bm" style="Medium" artist="Gladys Knight &amp; the Pips" genre="R and B" status="rehearsing"/>
+      <info key="Bm" style="Medium" artist="Gladys Knight &amp; the Pips" genre="R and B"
+         status="rehearsing"/>
       <content>
          <annotation type="video">https://www.youtube.com/watch?v=7p9DpNrHUdQ</annotation>
          <annotation type="bassline">https://www.youtube.com/watch?v=RoX3XP3rNMs</annotation>
@@ -19203,13 +19264,13 @@
                <span spantype="words">Well I bet you're wonderin' how I knew, about your plans to make me blue</span>
                <span spantype="words">With some other guy that you knew before, between the two of us guys, you know I love you more </span>
             </lyrics>
-         </section>         
+         </section>
          <section sectiontype="pre-chorus">
             <lyrics>
                <span spantype="chords">G#m | E7 | Bm | E7</span>
                <span spantype="words">You took me by surprise, I must say, when I found out yesterday, don't you know that</span>
             </lyrics>
-         </section>        
+         </section>
          <section sectiontype="chorus">
             <lyrics>
                <span spantype="chords">Bm | Bm | E7 | E7</span>
@@ -19223,7 +19284,7 @@
                <span spantype="chords">Bm x 4</span>
                <span spantype="words">Honey, honey, yeah(Heard it through the grapevine, not much longer would you be my baby)</span>
             </lyrics>
-         </section> 
+         </section>
          <section sectiontype="verse">
             <lyrics>
                <span spantype="words">You know that a man ain't supposed to cry, but these tears, I can't hold inside</span>
@@ -19238,13 +19299,10 @@
          </section>
          <section sectiontype="chorus"/>
          <section sectiontype="post-chorus"/>
-         <section sectiontype="post-chorus"/>
-         <section  sectiontype="solos">
-            <comment>Horns / guitar in turn</comment>
+         <section sectiontype="solos">
+            <comment>guitar / keys / horns in turn</comment>
             <lyrics>
-               <span spantype="chords">Bm | Bm | Bm | Bm</span>
-               <span spantype="chords">E7 | E7 | Bm | Bm</span>
-               <span spantype="chords">F#7 | E | Bm | Bm</span>
+               <span spantype="chords">Bm | Bm | Bm | Bm x 2</span>
                <span spantype="words"/>
             </lyrics>
          </section>
@@ -19252,7 +19310,7 @@
             <lyrics>
                <span spantype="words">People say, "believe half of what you see, son, and none of what you hear"</span>
                <span spantype="words">But I can't help bein' confused, if it's true, won't you tell me dear?</span>
-            </lyrics>   
+            </lyrics>
          </section>
          <section sectiontype="pre-chorus">
             <lyrics>
@@ -19265,6 +19323,193 @@
                <span spantype="chords">Bm x 4</span>
                <span spantype="words">Heard it through the grapevine, not much longer would you be my baby</span>
                <span spantype="words">Heard it through the grapevine, not much longer would you be my baby</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+   <song>
+      <title>Smooth Operator</title>
+      <info key="Dm" style="Medium" artist="Sade" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=4TYv2PhG89A</annotation>
+         <annotation type="bassline"/>
+         <annotation type="guitar">https://www.youtube.com/watch?v=8V2HaPGrZr0</annotation>
+         <section sectiontype="intro">
+            <chords>Dm7 Am7 | Gm7 Am7 | x4</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">Dm7 Am7 | Gm7 Am7 | x2</span>
+               <span spantype="words">Diamond life lover boy</span>
+               <span spantype="words">He moves in space with minimum waste and maximum joy</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse" numbars="8">
+            <lyrics>
+               <span spantype="words">City lights and business nights</span>
+               <span spantype="words">When you require streetcar desire for higher heights</span>
+            </lyrics>
+         </section>
+         <section sectiontype="pre-chorus">
+            <lyrics>
+               <span spantype="chords">Gm7 | Am7 | Dm</span>
+               <span spantype="words">No place for beginners or sensitive hearts</span>
+               <span spantype="words">The sentiment is left to chance</span>
+               <span spantype="words">No place to be ending but somewhere to start</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">Dm7 Am7 | Gm7 Am7 | x2</span>
+               <span spantype="words">No need to ask, He's a smooth operator, Smooth operator</span>
+               <span spantype="words">Smooth operator, Smooth operator</span>
+               <span spantype="words">Coast-to-coast, L.A. to Chicago: Western male</span>
+               <span spantype="words">Across the North and South, to Key Largo: love for sale</span>
+            </lyrics>
+         </section>
+         <section sectiontype="instrumental" numbars="8" part="Horns"/>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Face-to-face, each classic case</span>
+               <span spantype="words">We shadowbox and double-cross, Yet need the chase</span>
+            </lyrics>
+         </section>
+         <section sectiontype="pre-chorus">
+            <lyrics>
+               <span spantype="words">A license to love, insurance to hold</span>
+               <span spantype="words">Melts all your memories and change into gold</span>
+               <span spantype="words">His eyes are like angels; his heart is cold</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="words">Smooth operator, Smooth operator</span>
+               <span spantype="words">Smooth operator, Smooth operator</span>
+               <span spantype="words">Smooth operator, Smooth operator</span>
+               <span spantype="words">Smooth operator, Smooth operator</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+   <song>
+      <title>Songbird (F)</title>
+      <info key="F" style="Lurve" artist="Christine McVie" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=eLRyYETnoIE</annotation>
+         <annotation type="bassline"/>
+         <annotation type="guitar"/>
+         <section sectiontype="intro">
+            <chords> F | C | F | C | F | F</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">Bb | Bb | F | F</span>
+               <span spantype="words">For you, there'll be no more crying</span>
+               <span spantype="chords">Bb | C | F | F</span>
+               <span spantype="words">For you, the sun will be shining</span>
+               <span spantype="chords">Gm | Dm | Bb | Bb</span>
+               <span spantype="words">Because I feel that when I'm with you, it's alright,</span>
+               <span spantype="chords">C | F</span>
+               <span spantype="words">I know it's right</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">To you, I'll give the world</span>
+               <span spantype="words">To you, I'll never be cold</span>
+               <span spantype="words">Because I feel that when I'm with you, it's alright,</span>
+               <span spantype="words">I know it's right</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">C | Bb | Dm | Dm</span>
+               <span spantype="words">And the songbirds are singing, like they know the score</span>
+               <span spantype="chords">Bb | C | F | F</span>
+               <span spantype="words">And I love you, I love you, I love you, like never before.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="instrumental">
+            <lyrics>
+               <span spantype="chords">Bb | C | F | F | Bb | C | F | F </span>
+            </lyrics>
+         </section>
+         <section sectiontype="bridge">
+            <lyrics>
+               <span spantype="chords">Gm | Dm | Bb | Bb</span>
+               <span spantype="words">And I wish you all the love in the world</span>
+               <span spantype="chords">C | C | F | F</span>
+               <span spantype="words">But most of all, I wish it from myself.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">C | F</span>
+               <span spantype="words">Like never before</span>
+               <span spantype="words">Like never before</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+   <song>
+      <title>Songbird</title>
+      <info key="G" style="Lurve" artist="Christine McVie" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=eLRyYETnoIE</annotation>
+         <annotation type="bassline"/>
+         <annotation type="guitar"/>
+         <section sectiontype="intro">
+            <chords> G | C | G | C | G | G</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">C | C | G | G</span>
+               <span spantype="words">For you, there'll be no more crying</span>
+               <span spantype="chords">C | D | G | G</span>
+               <span spantype="words">For you, the sun will be shining</span>
+               <span spantype="chords">Am | Em | C | C</span>
+               <span spantype="words">Because I feel that when I'm with you, it's alright,</span>
+               <span spantype="chords">D | G</span>
+               <span spantype="words">I know it's right</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">To you, I'll give the world</span>
+               <span spantype="words">To you, I'll never be cold</span>
+               <span spantype="words">Because I feel that when I'm with you, it's alright,</span>
+               <span spantype="words">I know it's right</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">D | C | Em | Em</span>
+               <span spantype="words">And the songbirds are singing, like they know the score</span>
+               <span spantype="chords">C | D | G | G</span>
+               <span spantype="words">And I love you, I love you, I love you, like never before.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="instrumental">
+            <lyrics>
+               <span spantype="chords">C | D | G | G | C | D | G | G </span>
+            </lyrics>
+         </section>
+         <section sectiontype="bridge">
+            <lyrics>
+               <span spantype="chords">Am | Em | C | C</span>
+               <span spantype="words">And I wish you all the love in the world</span>
+               <span spantype="chords">D | D | G | G</span>
+               <span spantype="words">But most of all, I wish it from myself.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">D | G</span>
+               <span spantype="words">Like never before</span>
+               <span spantype="words">Like never before</span>
             </lyrics>
          </section>
       </content>
@@ -19294,9 +19539,9 @@
       <title>Blank</title>
       <info key="A" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
       <content>
-         <annotation type="video"></annotation>
-         <annotation type="bassline"></annotation>
-         <annotation type="guitar"></annotation>
+         <annotation type="video"/>
+         <annotation type="bassline"/>
+         <annotation type="guitar"/>
          <section sectiontype="intro">
             <chords/>
          </section>
