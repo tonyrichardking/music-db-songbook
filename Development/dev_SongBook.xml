@@ -9103,79 +9103,6 @@
       </content>
    </song>
    <song>
-      <title>Waterloo</title>
-      <info key="C" artist="Abba" genre="Pop" status="retired" style="Fast"/>
-      <content>
-         <section sectiontype="intro" numbars="16">
-            <comment>4 bars Simon (4/4), then Les (swing), then Pete (chord-per-bar), then Tony
-               (shuffle)</comment>
-            <chords>C | C | C | C | x 4</chords>
-         </section>
-         <section sectiontype="verse">
-            <directions>2 bar descending figure</directions>
-            <lyrics>
-               <span spantype="chords">C | E/D | G/B F/A | G</span>
-               <span spantype="words">My my, at Waterloo Napoleon did surrender</span>
-               <span spantype="chords">C | E/D | G/B F/A | Em Dm | Am</span>
-               <span spantype="words">Oh yeah, and I have met my destiny in quite a similar way</span>
-               <span spantype="chords">Am</span>
-               <span spantype="words">The history book on the shelf</span>
-               <span spantype="chords">D | G F | Em G</span>
-               <span spantype="words">Is always repeating itself</span>
-            </lyrics>
-         </section>
-         <section sectiontype="chorus">
-            <lyrics>
-               <span spantype="chords">C | C | F | F | </span>
-               <span spantype="words">Waterloo - I was defeated, you won the war</span>
-               <span spantype="chords">G | G | C | C | </span>
-               <span spantype="words">Waterloo - Promise to love you for ever more</span>
-               <span spantype="chords">C | C | F | F | </span>
-               <span spantype="words">Waterloo - Couldn't escape if I wanted to</span>
-               <span spantype="chords">G | G | C | C | </span>
-               <span spantype="words">Waterloo - Knowing my fate is to be with you, wa, wa, wa, wa</span>
-               <span spantype="chords">G | G | C | C | </span>
-               <span spantype="words">Waterloo - Finally facing my Waterloo</span>
-            </lyrics>
-         </section>
-         <section sectiontype="link" numbars="2">
-            <chords>D | D</chords>
-         </section>
-         <section sectiontype="verse">
-            <directions>2 bar descending figure</directions>
-            <lyrics>
-               <span spantype="words">My my, I tried to hold you back but you were stronger</span>
-               <span spantype="words">Oh yeah, and now it seems my only chance is giving up the fight</span>
-               <span spantype="words">And how could I ever refuse</span>
-               <span spantype="words">I feel like I win when I lose</span>
-            </lyrics>
-         </section>
-         <section sectiontype="chorus">
-            <lyrics>
-               <span spantype="words">Waterloo - I was defeated...</span>
-            </lyrics>
-         </section>
-         <section sectiontype="pre-chorus">
-            <directions>NOTE - 1 bar descending figure</directions>
-            <lyrics>
-               <span spantype="chords">Am</span>
-               <span spantype="words">So how could I ever refuse</span>
-               <span spantype="chords">D | G F Dm G</span>
-               <span spantype="words"> I feel like I win when I lose</span>
-            </lyrics>
-         </section>
-         <section sectiontype="outro">
-            <lyrics>
-               <span spantype="words">Waterloo - Couldn't escape if I wanted to</span>
-               <span spantype="words">Waterloo - Knowing my fate is to be with you, wa, wa, wa, wa</span>
-               <span spantype="words">Waterloo - Finally facing my Waterloo</span>
-               <span spantype="words">Waterloo - Knowing my fate is to be with you, wa, wa, wa, wa</span>
-               <span spantype="words">Waterloo - Finally facing my Waterloo</span>
-            </lyrics>
-         </section>
-      </content>
-   </song>
-   <song>
       <title>Im Not Ashamed</title>
       <info key="Ab" artist="Bobby McClure" genre="R and B" status="retired" style="Slow"/>
       <content>
@@ -19514,6 +19441,304 @@
          </section>
       </content>
    </song>
+
+
+   <song>
+      <title>Dont leave me this way</title>
+      <info key="A" style="Fast" artist="Communards" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=8xCvtmtkgzI</annotation>
+         <annotation type="bassline"/>
+         <annotation type="guitar"/>
+         <section sectiontype="intro">
+            <chords>Gm</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">Am D | G | 
+               
+               </span>
+               <span spantype="chords">Am     D             G    G7</span>
+               <span spantype="words">Don't leave me this way.</span>
+               <span spantype="chords">C           Bm7    Am</span>
+               <span spantype="words">I can't sur-vive, can't stay a-live,</span>              
+               <span spantype="chords">Dm7               G7</span>
+               <span spantype="words">With-out your love, oh baby;</span>               
+               
+               <span spantype="chords">Am     D             G    G7</span>
+               <span spantype="words">Don't leave me this way, no.</span> 
+               <span spantype="chords">C         C/B    Am        Dm7</span>
+               <span spantype="words">I can't ex-ist; I'll surely miss your tender kiss.</span>               
+               <span spantype="chords">G7                   A</span>
+               <span spantype="words">Don't leave me this way.</span>                
+
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords"/>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+
+<!--
+   
+ Verse 1:
+ 
+Am     D             G    G7
+ Don't leave me this way.
+            C           
+            
+C           Bm7    Am
+I can't sur-vive, can't stay a-live,
+     Dm7               G7
+With-out your love, oh baby;
+ 
+Am     D             G    G7
+ Don't leave me this way, no.
+           C         Bm7    Am        Dm7
+I can't ex-ist; I'll surely miss your tender kiss.
+G7                   A
+ Don't leave me this way.
+ 
+Chorus 1:
+ 
+       A        G                D           A
+Aah... baby, my heart is full of love and de-sire for you.
+    G                D           A
+Now come on down and do what you gotta do.
+    G            D          A
+You started this fire, down in my soul.
+    G                  D            A
+Now can't you see it's burning, out of control?
+G              D      A
+ Come on satis-fy the need in me,
+G               D          E
+ Only your good lovin' can set me free...
+ 
+Verse 2:
+ 
+Am                D             G    G7
+ Don't, don't you leave me this way, no.
+                C          C/B         Am
+Don't you under-stand, I'm at your com-mand?
+   Dm7                        G7            Am
+Oh baby, please, please don't leave me this way.
+Dm7     G7
+ Aah... baby;
+ 
+Am     D             G    G7
+ Don't leave me this way, no.
+            C           C/B    Am
+I can't sur-vive, can't stay a-live,
+     Dm7                                      A
+With-out your love, baby, don't leave me this way, no.
+ 
+Chorus 2:
+ 
+       A        G                D           A
+Aah... baby, my heart is full of love and de-sire for you.
+    G                D           A
+Now come on down and do what you gotta do.
+    G            D          A
+You started this fire, down in my soul.
+    G                  D            A
+Now can't you see it's burning, out of control?
+G              D      A
+ Come on satis-fy the need in me,
+G               D          E           G  D
+ Only your good lovin' can set me free.
+A                        G     D
+ Need your lovin', baby, need, need...
+ 
+Interlude:
+ 
+A  G  D (x4)
+ 
+Break:
+ 
+A            G          D
+ Satisfy the need in me.
+A            G           D
+ Satisfy the need in me...
+ 
+Coda: (with Vocal Ad Libs)
+ 
+A  G  D
+ 
+(Repeat to Fade)  
+   
+-->
+
+   <song>
+      <title>Waterloo</title>
+      <info key="D" artist="Abba" genre="Pop" status="rehearsing" style="Fast"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=YFk6-Mn-8yg</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=4mfFk5-UIM0</annotation>
+         <annotation type="guitar">https://www.youtube.com/watch?v=aL6MMSZA104</annotation>
+         <section sectiontype="intro" numbars="8">
+            <chords>D | D | D | D | x 2</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">D | E/D | A/C# G/B | A</span>
+               <span spantype="words">My my, at Waterloo Napoleon did surrender</span>
+               <span spantype="chords">D | E/D | A/C# G/B | D/A A</span>
+               <span spantype="words">Oh yeah, and I have met my destiny in quite a similar</span>
+               <span spantype="chords">Bm | Bm | Bm Bm Bm A</span>
+               <span spantype="words">way, the history book on the shelf</span>
+               <span spantype="chords"> E/G# | A  G | D/F#  A/E</span>
+               <span spantype="words">Is always repeating itself</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">D | D | G | G</span>
+               <span spantype="words">Waterloo - I was defeated, you won the war</span>
+               <span spantype="chords">A | A | D | D A A A</span>
+               <span spantype="words">Waterloo - Promise to love you for ever more</span>
+               <span spantype="chords">D | D | G | G</span>
+               <span spantype="words">Waterloo - Couldn't escape if I wanted to</span>
+               <span spantype="chords">A | A | D | D</span>
+               <span spantype="words">Waterloo - Knowing my fate is to be with you, wa, wa, wa, wa</span>
+               <span spantype="chords">A | A | D | D</span>
+               <span spantype="words">Waterloo - Finally facing my Waterloo</span>
+            </lyrics>
+         </section>
+         <section sectiontype="link" numbars="2">
+            <chords>D | D</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">My my, I tried to hold you back but you were stronger</span>
+               <span spantype="words">Oh yeah, and now it seems my only chance is giving up the fight</span>
+               <span spantype="words">And how could I ever refuse</span>
+               <span spantype="words">I feel like I win when I lose</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="bridge" numbars="4">
+            <directions>NOTE: 1 bar descending figure</directions>
+            <lyrics>
+               <span spantype="chords">Bm | Bm | E | A G D/F# A/E</span>
+               <span spantype="words">So how could I ever refuse, I feel like I win when I lose</span>
+            </lyrics>
+         </section>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="words">Waterloo - Couldn't escape if I wanted to</span>
+               <span spantype="words">Waterloo - Knowing my fate is to be with you, wa, wa, wa, wa</span>
+               <span spantype="words">Waterloo - Finally facing my Waterloo</span>
+               <span spantype="words">Waterloo - Knowing my fate is to be with you, wa, wa, wa, wa</span>
+               <span spantype="words">Waterloo - Finally facing my Waterloo</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+
+<!--
+     
+CHORDS
+      E-A-D-G-B-e
+E/D   x-x-0-1-0-0
+A/C#  x-4-2-2-2(0)
+G/B   x-2-0-0-3-3
+A6    x-0-4-2-2-x
+Bm/A  x-0-4-4-3(2)
+E/G#  4-x-2-1-0-0
+D/F#  2-x-0-2-3-x
+A/E   0-x-2-2-2-x
+   
+      [Intro]
+| D | % | % | % |
+
+
+[Verse]
+D       E/D        A/C#  G/B    A
+My, my, at Waterloo Napoleon did surrender 
+D         E/D           A/C# G/B   D/A      A       Bm
+Oh yeah, and I have met my destiny in quite a similar way 
+Bm
+The history book on the shelf 
+Bm/A E/G#             |  A   G | D/F#  A/E |
+Is   always repeating itself 
+
+
+[Chorus]
+D                              G
+Waterloo - I was defeated, you won the war 
+A                                  D        |   A A A |
+Waterloo - Promise to love you for ever more 
+D                               G
+Waterloo - Couldn't escape if I wanted to 
+A                                D
+Waterloo - Knowing my fate is to be with you 
+A                            |  D  |  %  |  %  |  %  |
+Wo-wo-wo, wo-wo, Waterloo - Finally facing my Waterloo 
+
+
+[Verse]
+D      E/D              A/C#     G/B      A
+My, my, I tried to hold you back but you were stronger 
+D         E/D             A/C# G/B       D/A     A      Bm
+Oh yeah, and now it seems my only chance is giving up the fight 
+Bm
+And how could I ever refuse 
+Bm/A E/G#                   |  A  G | D/F#  A/E |
+I    feel like I win when I lose 
+
+
+[Chorus]
+D                              G
+Waterloo - I was defeated, you won the war 
+A                                  D        |   A A A |
+Waterloo - Promise to love you for ever more 
+D                               G
+Waterloo - Couldn't escape if I wanted to 
+A                                D
+Waterloo - Knowing my fate is to be with you 
+A                            |  D  |  D  [ A/C# | ]
+Wo-wo-wo, wo-wo, Waterloo - Finally facing my Waterloo     (So    how ...)
+
+
+[Bridge]
+A/C# Bm
+So   how could I ever refuse 
+Bm/A E                       A
+I    feel like I win when I lose 
+
+
+[Chorus]
+D                               G
+Waterloo - Couldn't escape if I wanted to 
+A                                D
+Waterloo - Knowing my fate is to be with you 
+A                            |  D  |  %  |  %  |  %  |
+Wo-wo-wo, wo-wo, Waterloo - Finally facing my Waterloo          Oooh-ooh-ooh-ooh
+A                                D
+Waterloo - Knowing my fate is to be with you 
+A                            |  D  |  %  |  %  |  %  |
+Wo-wo-wo, wo-wo, Waterloo - Finally facing my Waterloo          Oooh-ooh-ooh-ooh
+
+(fade out over last 3 lines)-->
+
+
+
 
    <song>
       <title>Interval</title>

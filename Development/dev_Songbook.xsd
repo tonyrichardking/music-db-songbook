@@ -349,11 +349,11 @@
 					<xs:attribute name="type">
 						<xs:simpleType>
 							<xs:restriction base="xs:string">
-								<xs:enumeration value="howstart"/>
-								<xs:enumeration value="general"/>
 								<xs:enumeration value="video"/>
 								<xs:enumeration value="bassline"/>
-								<xs:enumeration value="guitar"/>
+								<xs:enumeration value="guitar"/>								
+								<xs:enumeration value="howstart"/>
+								<xs:enumeration value="general"/>
 							</xs:restriction>
 						</xs:simpleType>
 					</xs:attribute>

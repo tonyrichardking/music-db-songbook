@@ -2,11 +2,15 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:fo="http://www.w3.org/1999/XSL/Format">
     <xsl:template name="songbook_setlist">
+        <xsl:apply-templates select="//song[title = 'Waterloo']"/> 
 
         <!-- 
             Blue Moon 3/2/2024
         -->
-
+        
+<!--        <xsl:apply-templates select="//song[title = 'Dont leave me this way']"/>     -->   
+                
+        <!--
         <xsl:apply-templates select="//song[title = 'Upside Down']"/> 
         <xsl:apply-templates select="//song[title = 'Smooth Operator']"/> 
         <xsl:apply-templates select="//song[title = 'Valerie']"/>   
@@ -38,7 +42,8 @@
         <xsl:apply-templates select="//song[title = 'Stand By Me']"/>  
         <xsl:apply-templates select="//song[title = 'To Make You Feel My Love']"/>         
         <xsl:apply-templates select="//song[title = 'Love Song']"/>   
-
+        -->
+        
         <!--
             
         <xsl:apply-templates select="//song[title = 'Songbird']"/> 
