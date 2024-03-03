@@ -13664,7 +13664,7 @@
          </section>
       </content>
    </song>
- 
+
    <song>
       <title>Rolling In The Deep</title>
       <info key="Bm" style="Medium" artist="Adele" genre="Pop" status="rehearsing"/>
@@ -13741,9 +13741,7 @@
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
-         <section sectiontype="chorus">
-            
-         </section>
+         <section sectiontype="chorus"> </section>
          <section sectiontype="outro">
             <lyrics>
                <span spantype="words">But you played it, you played it, you played it</span>
@@ -13752,7 +13750,7 @@
          </section>
       </content>
    </song>
- 
+
    <song>
       <title>Because The Night</title>
       <info key="Am" style="Medium" artist="Patti Smith" genre="Pop" status="rehearsing"/>
@@ -19442,7 +19440,6 @@
       </content>
    </song>
 
-
    <song>
       <title>Dont leave me this way</title>
       <info key="A" style="Fast" artist="Communards" genre="Pop" status="rehearsing"/>
@@ -19461,16 +19458,16 @@
                <span spantype="chords">Am     D             G    G7</span>
                <span spantype="words">Don't leave me this way.</span>
                <span spantype="chords">C           Bm7    Am</span>
-               <span spantype="words">I can't sur-vive, can't stay a-live,</span>              
+               <span spantype="words">I can't sur-vive, can't stay a-live,</span>
                <span spantype="chords">Dm7               G7</span>
-               <span spantype="words">With-out your love, oh baby;</span>               
-               
+               <span spantype="words">With-out your love, oh baby;</span>
+
                <span spantype="chords">Am     D             G    G7</span>
-               <span spantype="words">Don't leave me this way, no.</span> 
+               <span spantype="words">Don't leave me this way, no.</span>
                <span spantype="chords">C         C/B    Am        Dm7</span>
-               <span spantype="words">I can't ex-ist; I'll surely miss your tender kiss.</span>               
+               <span spantype="words">I can't ex-ist; I'll surely miss your tender kiss.</span>
                <span spantype="chords">G7                   A</span>
-               <span spantype="words">Don't leave me this way.</span>                
+               <span spantype="words">Don't leave me this way.</span>
 
             </lyrics>
          </section>
@@ -19490,7 +19487,7 @@
    </song>
 
 
-<!--
+   <!--
    
  Verse 1:
  
@@ -19586,7 +19583,7 @@ A  G  D
          <annotation type="video">https://www.youtube.com/watch?v=YFk6-Mn-8yg</annotation>
          <annotation type="bassline">https://www.youtube.com/watch?v=4mfFk5-UIM0</annotation>
          <annotation type="guitar">https://www.youtube.com/watch?v=aL6MMSZA104</annotation>
-         <section sectiontype="intro" numbars="8">
+         <section sectiontype="intro" part="Horns" numbars="8">
             <chords>D | D | D | D | x 2</chords>
          </section>
          <section sectiontype="verse">
@@ -19647,95 +19644,148 @@ A  G  D
                <span spantype="words">Waterloo - Finally facing my Waterloo</span>
             </lyrics>
          </section>
+         <section sectiontype="outro" part="Horns" numbars="8">
+            <chords>D | D | D | D</chords>
+         </section>
       </content>
    </song>
 
+   <song>
+      <title>Murder On The Dancefloor</title>
+      <info key="E" style="Fast" artist="Sophie Ellis Bextor" genre="Disco/Funk" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=hw61nCEEclE</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=_DxZCpUgnOo</annotation>
+         <annotation type="guitar">https://www.youtube.com/watch?v=sQyL3mUVDWA</annotation>
+         <section sectiontype="intro">
+            <chords>E B | F#m A | x4</chords>
+         </section>
+         <section sectiontype="intro">
+            <lyrics>
+               <span spantype="chords">E B | F#m A | x2</span>
+               <span spantype="words">It's murder on the dancefloor, but you better not kill the groove</span>
+               <span spantype="words">DJ, gonna burn this goddamn house right down</span>
+            </lyrics>
+         </section>
+         <section sectiontype="link" part="Drums" numbars="1">
+            <chords>A</chords>
+         </section>
+         <section sectiontype="verse" numbars="9">
+            <lyrics>
+               <span spantype="chords">G#m7 | G#m7 | F#m7 | F#m7</span>
+               <span spantype="words">Oh, I know I know I know I know I know I know, about your kind</span>
+               <span spantype="chords">G#m7 | G#m7 | F#m7 | E</span>
+               <span spantype="words">And so and so and so and so and so, I'll have to play</span>
+               <span spantype="chords">E</span>
+            </lyrics>
+         </section>
+         <section sectiontype="pre-chorus" numbars="7">
+            <lyrics>
+               <span spantype="chords">E B | F#m A | x3</span>
+               <span spantype="words">If you think you're getting away, I will prove you wrong</span>
+               <span spantype="words">I'll take you all the way, Boy, just come along</span>
+               <span spantype="words">Hear me when I say</span>
+               <span spantype="chords">A</span>
+               <span spantype="words">Hey</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="9">
+            <lyrics>
+               <span spantype="chords">G#m7 | G#m7 | F#m7 | F#m7</span>
+               <span spantype="words">It's murder on the dancefloor, but you better not kill the groove</span>
+               <span spantype="chords">G#m7 | G#m7 | F#m7 | E</span>
+               <span spantype="words">It's murder on the dancefloor, but you better not steal the moves, DJ, gonna burn this goddamn house right down</span>
+               <span spantype="chords">E</span>
+               <span spantype="words"/>
+            </lyrics>
+         </section>
+         <section sectiontype="verse" numbars="9">
+            <lyrics>
+               <span spantype="words">Oh, I know I know I know I know I know I know, that maybe others</span>
+               <span spantype="words">And so and so and so and so and so, you'll just have to pray</span>
+            </lyrics>
+         </section>
+         <section sectiontype="pre-chorus" numbars="7">
+            <lyrics>
+               <span spantype="chords">E B | F#m A | x3</span>
+               <span spantype="words">If you think you'll get away, I will prove you wrong</span>
+               <span spantype="words">I'll take you all away, stay another song</span>
+               <span spantype="words">I'll blow you all away</span>
+               <span spantype="words">Hey</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="8"/>
+         <section sectiontype="chorus" numbars="9"/>
+         <section sectiontype="instrumental">
+            <chords>G#m7 | G#m7 | F#m7 | F#m7 | x6</chords>
+         </section>
+         <section sectiontype="pre-chorus" numbars="7"/>
+         <section sectiontype="pre-chorus" numbars="7"/>
+         <section sectiontype="outro">
+            <chords>E B | F#m A</chords>
+         </section>
+      </content>
+   </song>
 
-<!--
-     
-CHORDS
-      E-A-D-G-B-e
-E/D   x-x-0-1-0-0
-A/C#  x-4-2-2-2(0)
-G/B   x-2-0-0-3-3
-A6    x-0-4-2-2-x
-Bm/A  x-0-4-4-3(2)
-E/G#  4-x-2-1-0-0
-D/F#  2-x-0-2-3-x
-A/E   0-x-2-2-2-x
-   
-      [Intro]
-| D | % | % | % |
+   <!--
 
+[Verse 2]
 
-[Verse]
-D       E/D        A/C#  G/B    A
-My, my, at Waterloo Napoleon did surrender 
-D         E/D           A/C# G/B   D/A      A       Bm
-Oh yeah, and I have met my destiny in quite a similar way 
-Bm
-The history book on the shelf 
-Bm/A E/G#             |  A   G | D/F#  A/E |
-Is   always repeating itself 
-
-
+ 
+[Solo]
+ 
+G#m (Gm) F#m (Gm) G#m (Gm) F#m E
+ 
 [Chorus]
-D                              G
-Waterloo - I was defeated, you won the war 
-A                                  D        |   A A A |
-Waterloo - Promise to love you for ever more 
-D                               G
-Waterloo - Couldn't escape if I wanted to 
-A                                D
-Waterloo - Knowing my fate is to be with you 
-A                            |  D  |  %  |  %  |  %  |
-Wo-wo-wo, wo-wo, Waterloo - Finally facing my Waterloo 
-
-
-[Verse]
-D      E/D              A/C#     G/B      A
-My, my, I tried to hold you back but you were stronger 
-D         E/D             A/C# G/B       D/A     A      Bm
-Oh yeah, and now it seems my only chance is giving up the fight 
-Bm
-And how could I ever refuse 
-Bm/A E/G#                   |  A  G | D/F#  A/E |
-I    feel like I win when I lose 
-
-
-[Chorus]
-D                              G
-Waterloo - I was defeated, you won the war 
-A                                  D        |   A A A |
-Waterloo - Promise to love you for ever more 
-D                               G
-Waterloo - Couldn't escape if I wanted to 
-A                                D
-Waterloo - Knowing my fate is to be with you 
-A                            |  D  |  D  [ A/C# | ]
-Wo-wo-wo, wo-wo, Waterloo - Finally facing my Waterloo     (So    how ...)
-
-
-[Bridge]
-A/C# Bm
-So   how could I ever refuse 
-Bm/A E                       A
-I    feel like I win when I lose 
-
-
-[Chorus]
-D                               G
-Waterloo - Couldn't escape if I wanted to 
-A                                D
-Waterloo - Knowing my fate is to be with you 
-A                            |  D  |  %  |  %  |  %  |
-Wo-wo-wo, wo-wo, Waterloo - Finally facing my Waterloo          Oooh-ooh-ooh-ooh
-A                                D
-Waterloo - Knowing my fate is to be with you 
-A                            |  D  |  %  |  %  |  %  |
-Wo-wo-wo, wo-wo, Waterloo - Finally facing my Waterloo          Oooh-ooh-ooh-ooh
-
-(fade out over last 3 lines)-->
+ 
+E       B                      F#m
+    If you think you're getting away
+A
+    I will prove you wrong
+E      B                 F#m
+    I'll take you all the way
+A
+    Boy, just come along
+E       B        F#m    A
+    Hear me when I say
+ 
+ E                    B       F#m
+It's murder on the dancefloor
+A                           E      B  F#m A
+But you better not kill the groove
+ E                    B       F#m
+Murder on the dancefloor
+A                           E
+But you better not steal the moves
+  B         F#m                A
+Dj, gonna burn this goddamn house right down
+ 
+G#m
+Hey, It's murder on the dancefloor
+                  Gm          F#m   (Gm)
+But you better not kill the groove
+G#m
+Murder on the dancefloor
+                   Gm          F#m
+But you better not steal the moves
+                E
+DJ, gonna turn this house around somehow
+ 
+G#m
+Murder on the dancefloor
+                  Gm          F#m    (Gm)
+But you better not kill the groove
+G#m
+Murder on the dancefloor
+                   Gm          F#m
+But you better not steal the moves
+                E
+Dj, gonna burn this goddamn house right down
+ 
+G#m
+    
+         
+-->
 
 
 

@@ -2,7 +2,9 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:fo="http://www.w3.org/1999/XSL/Format">
     <xsl:template name="songbook_setlist">
-        <xsl:apply-templates select="//song[title = 'Waterloo']"/> 
+
+        <xsl:apply-templates select="//song[title = 'Murder On The Dancefloor']"/> 
+        <xsl:apply-templates select="//song[title = 'Waterloo']"/>         
 
         <!-- 
             Blue Moon 3/2/2024
