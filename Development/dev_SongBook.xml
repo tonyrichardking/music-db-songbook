@@ -2309,7 +2309,7 @@
       <title>I Say a Little Prayer</title>
       <info key="G" status="ready" artist="Aretha Franklin" genre="R and B" style="Medium"/>
       <content>
-         <annotation isimportant="true" part="Drums" type="general">Light 1/8th note feel</annotation>
+         <annotation type="video">https://youtu.be/QyRMD0ZXW68?si=O-KHsOJiWkATFehJ</annotation>
          <section sectiontype="intro">
             <chords>Em7 | Am7 | Am7 | D7 G | G | C, B7</chords>
             <lyrics/>
@@ -19031,7 +19031,7 @@
          <annotation type="video">https://www.youtube.com/watch?v=5oNgSfF8V7g</annotation>
          <annotation type="bassline">https://www.youtube.com/watch?v=oEiaMcFHOVU</annotation>
          <section sectiontype="intro-part1" numbars="2" part="Bass + Keys + Horns">
-            <comment>Descending figure - F# E D B Ab F# E D</comment>
+            <comment>Descending figure - F# E D B Ab F# E A</comment>
          </section>
          <section sectiontype="intro-part2" numbars="8" part="Bass + Keys + Horns">
             <comment>Verse riff</comment>
@@ -19097,6 +19097,85 @@
          </section>
       </content>
    </song>
+
+   <song>
+      <title>Disco Inferno (C)</title>
+      <info key="C" style="Fast" artist="The Trammps" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=zcua9XzKVas</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=86c1zXcx8_8</annotation>
+         <section sectiontype="intro-part1" numbars="2" part="Bass + Keys + Horns">
+            <comment>Descending figure - Eb Db B Ab F Eb Db F#</comment>
+         </section>
+         <section sectiontype="intro-part2" numbars="8" part="Bass + Keys + Horns">
+            <comment>Verse riff</comment>
+            <chords>Cm7 x 8</chords>
+         </section>
+         <section sectiontype="intro-part3" numbars="8" part="Full Band">
+            <comment>Chorus riff</comment>
+            <lyrics>
+               <span spantype="chords">F | Bb | Cm7 | Cm7 x 2</span>
+               <span spantype="words">(Burn baby burn, Burn baby burn, Burn baby burn, Burn baby burn)</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">Cm7 x 4</span>
+               <span spantype="words">To my surprise, one hundred stories high</span>
+               <span spantype="words">People getting loose y'all, getting down on the roof</span>
+               <span spantype="words">Folks are screaming, out of control</span>
+               <span spantype="words">It was so entertaining when the boogie started to explode, I heard somebody say</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">F | Bb | Cm7 | Cm7</span>
+               <span spantype="words">(Burn baby burn) disco inferno, (Burn baby burn) burn that mother down</span>
+               <span spantype="chords">F | Bb | Cm7 | Cm7</span>
+               <span spantype="words">(Burn baby burn) disco inferno, (Burn baby burn) burn that mother down</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Satisfaction came in a chain reaction (Burnin')</span>
+               <span spantype="words">I couldn't get enough, so I had to self-destruct</span>
+               <span spantype="words">The heat was on, rising to the top</span>
+               <span spantype="words">Everybody going strong, and that is when my spark got hot, I heard somebody say</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="bridge" numbars="7">
+            <lyrics>
+               <span spantype="chords">Bb | Bb | C | C</span>
+               <span spantype="words">Up above my head I hear music in the air</span>
+               <span spantype="chords">Bb | Bb | C</span>
+               <span spantype="words">That makes me know There's a party somewhere</span>
+            </lyrics>
+         </section>
+         <section sectiontype="link" part="Horns" numbars="2">
+            <chords>G | G </chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Satisfaction came in a chain reaction (Burnin')</span>
+               <span spantype="words">I couldn't get enough, so I had to self-destruct</span>
+               <span spantype="words">The heat was on, rising to the top</span>
+               <span spantype="words">Everybody going strong, and that is when my spark got hot, I heard somebody say</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <comment>Repeat ad-lib; two horn stabs to finish.</comment>
+            <lyrics>
+               <span spantype="chords">F | Bb | Cm7 | Cm7</span>
+               <span spantype="words">(Burn baby burn) disco inferno, (Burn baby burn) burn that mother down</span>
+               <span spantype="words">(Burn baby burn) disco inferno, (Burn baby burn) burn that mother down</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
    <song>
       <title>Its Raining Men</title>
       <info key="F" style="Fast" artist="Weather Girls" genre="Disco/Funk" status="rehearsing"/>
@@ -19439,7 +19518,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Dont leave me this way</title>
       <info key="A" style="Fast" artist="Communards" genre="Pop" status="rehearsing"/>
@@ -19485,97 +19563,6 @@
          </section>
       </content>
    </song>
-
-
-   <!--
-   
- Verse 1:
- 
-Am     D             G    G7
- Don't leave me this way.
-            C           
-            
-C           Bm7    Am
-I can't sur-vive, can't stay a-live,
-     Dm7               G7
-With-out your love, oh baby;
- 
-Am     D             G    G7
- Don't leave me this way, no.
-           C         Bm7    Am        Dm7
-I can't ex-ist; I'll surely miss your tender kiss.
-G7                   A
- Don't leave me this way.
- 
-Chorus 1:
- 
-       A        G                D           A
-Aah... baby, my heart is full of love and de-sire for you.
-    G                D           A
-Now come on down and do what you gotta do.
-    G            D          A
-You started this fire, down in my soul.
-    G                  D            A
-Now can't you see it's burning, out of control?
-G              D      A
- Come on satis-fy the need in me,
-G               D          E
- Only your good lovin' can set me free...
- 
-Verse 2:
- 
-Am                D             G    G7
- Don't, don't you leave me this way, no.
-                C          C/B         Am
-Don't you under-stand, I'm at your com-mand?
-   Dm7                        G7            Am
-Oh baby, please, please don't leave me this way.
-Dm7     G7
- Aah... baby;
- 
-Am     D             G    G7
- Don't leave me this way, no.
-            C           C/B    Am
-I can't sur-vive, can't stay a-live,
-     Dm7                                      A
-With-out your love, baby, don't leave me this way, no.
- 
-Chorus 2:
- 
-       A        G                D           A
-Aah... baby, my heart is full of love and de-sire for you.
-    G                D           A
-Now come on down and do what you gotta do.
-    G            D          A
-You started this fire, down in my soul.
-    G                  D            A
-Now can't you see it's burning, out of control?
-G              D      A
- Come on satis-fy the need in me,
-G               D          E           G  D
- Only your good lovin' can set me free.
-A                        G     D
- Need your lovin', baby, need, need...
- 
-Interlude:
- 
-A  G  D (x4)
- 
-Break:
- 
-A            G          D
- Satisfy the need in me.
-A            G           D
- Satisfy the need in me...
- 
-Coda: (with Vocal Ad Libs)
- 
-A  G  D
- 
-(Repeat to Fade)  
-   
--->
-
    <song>
       <title>Waterloo</title>
       <info key="D" artist="Abba" genre="Pop" status="rehearsing" style="Fast"/>
@@ -19649,7 +19636,6 @@ A  G  D
          </section>
       </content>
    </song>
-
    <song>
       <title>Murder On The Dancefloor</title>
       <info key="E" style="Fast" artist="Sophie Ellis Bextor" genre="Disco/Funk" status="rehearsing"/>
@@ -19660,23 +19646,23 @@ A  G  D
          <section sectiontype="intro">
             <chords>E B | F#m A | x4</chords>
          </section>
-         <section sectiontype="intro">
+         <section sectiontype="intro" numbars="5">
             <lyrics>
                <span spantype="chords">E B | F#m A | x2</span>
                <span spantype="words">It's murder on the dancefloor, but you better not kill the groove</span>
                <span spantype="words">DJ, gonna burn this goddamn house right down</span>
             </lyrics>
          </section>
-         <section sectiontype="link" part="Drums" numbars="1">
+         <section sectiontype="link" numbars="1">
             <chords>A</chords>
          </section>
          <section sectiontype="verse" numbars="9">
             <lyrics>
                <span spantype="chords">G#m7 | G#m7 | F#m7 | F#m7</span>
                <span spantype="words">Oh, I know I know I know I know I know I know, about your kind</span>
-               <span spantype="chords">G#m7 | G#m7 | F#m7 | E</span>
+               <span spantype="chords">G#m7 | G#m7 | F#m7 | Emaj7</span>
                <span spantype="words">And so and so and so and so and so, I'll have to play</span>
-               <span spantype="chords">E</span>
+               <span spantype="chords">Emaj7</span>
             </lyrics>
          </section>
          <section sectiontype="pre-chorus" numbars="7">
@@ -19684,9 +19670,7 @@ A  G  D
                <span spantype="chords">E B | F#m A | x3</span>
                <span spantype="words">If you think you're getting away, I will prove you wrong</span>
                <span spantype="words">I'll take you all the way, Boy, just come along</span>
-               <span spantype="words">Hear me when I say</span>
-               <span spantype="chords">A</span>
-               <span spantype="words">Hey</span>
+               <span spantype="words">Hear me when I say. Hey</span>
             </lyrics>
          </section>
          <section sectiontype="chorus" numbars="9">
@@ -19695,7 +19679,7 @@ A  G  D
                <span spantype="words">It's murder on the dancefloor, but you better not kill the groove</span>
                <span spantype="chords">G#m7 | G#m7 | F#m7 | E</span>
                <span spantype="words">It's murder on the dancefloor, but you better not steal the moves, DJ, gonna burn this goddamn house right down</span>
-               <span spantype="chords">E</span>
+               <span spantype="chords">Emaj7</span>
                <span spantype="words"/>
             </lyrics>
          </section>
@@ -19710,85 +19694,292 @@ A  G  D
                <span spantype="chords">E B | F#m A | x3</span>
                <span spantype="words">If you think you'll get away, I will prove you wrong</span>
                <span spantype="words">I'll take you all away, stay another song</span>
-               <span spantype="words">I'll blow you all away</span>
-               <span spantype="words">Hey</span>
+               <span spantype="words">I'll blow you all away.  Hey</span>
             </lyrics>
          </section>
          <section sectiontype="chorus" numbars="8"/>
          <section sectiontype="chorus" numbars="9"/>
-         <section sectiontype="instrumental">
-            <chords>G#m7 | G#m7 | F#m7 | F#m7 | x6</chords>
+         <section sectiontype="instrumental" numbars="9" part="Gtr">
+            <chords>G#m7 | G#m7 | F#m7 | F#m7 | x2</chords>
          </section>
          <section sectiontype="pre-chorus" numbars="7"/>
-         <section sectiontype="pre-chorus" numbars="7"/>
+         <section sectiontype="breakdown" numbars="8">
+            <chords>E B | F#m A | x2</chords>
+         </section>
+         <section sectiontype="breakdown" numbars="8">
+            <lyrics>
+               <span spantype="chords">E B | F#m A | x2</span>
+               <span spantype="words">It's murder on the dancefloor, but you better not kill the groove</span>
+               <span spantype="words">It's murder on the dancefloor, but you better not steal the moves</span>
+               <span spantype="words">DJ, gonna burn this goddamn house right down</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="9"/>
          <section sectiontype="outro">
-            <chords>E B | F#m A</chords>
+            <lyrics>
+               <span spantype="chords">G#m7</span>
+               <span spantype="words">Murder on the dancefloor</span>
+            </lyrics>
          </section>
       </content>
    </song>
-
-   <!--
-
-[Verse 2]
-
- 
-[Solo]
- 
-G#m (Gm) F#m (Gm) G#m (Gm) F#m E
- 
-[Chorus]
- 
-E       B                      F#m
-    If you think you're getting away
-A
-    I will prove you wrong
-E      B                 F#m
-    I'll take you all the way
-A
-    Boy, just come along
-E       B        F#m    A
-    Hear me when I say
- 
- E                    B       F#m
-It's murder on the dancefloor
-A                           E      B  F#m A
-But you better not kill the groove
- E                    B       F#m
-Murder on the dancefloor
-A                           E
-But you better not steal the moves
-  B         F#m                A
-Dj, gonna burn this goddamn house right down
- 
-G#m
-Hey, It's murder on the dancefloor
-                  Gm          F#m   (Gm)
-But you better not kill the groove
-G#m
-Murder on the dancefloor
-                   Gm          F#m
-But you better not steal the moves
-                E
-DJ, gonna turn this house around somehow
- 
-G#m
-Murder on the dancefloor
-                  Gm          F#m    (Gm)
-But you better not kill the groove
-G#m
-Murder on the dancefloor
-                   Gm          F#m
-But you better not steal the moves
-                E
-Dj, gonna burn this goddamn house right down
- 
-G#m
-    
-         
+   <song>
+      <title>D.I.S.C.O</title>
+      <info key="F" style="Fast" artist="Ottowan" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=KohGHXEQrSE</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=BcbNqaXcq4g</annotation>
+         <annotation type="guitar"/>
+         <section sectiontype="intro" part="Gtr" numbars="8">
+            <chords>Cm | Cm | Bb | Bb x2</chords>
+         </section>
+         <section sectiontype="intro" part="Full Band" numbars="8">
+            <chords>Cm | Cm | Bb | Bb x2</chords>
+         </section>
+         <section sectiontype="pre-chorus" numbars="8">
+            <lyrics>
+               <span spantype="chords">Cm | Cm | Bb | Bb x2</span>
+               <span spantype="words">D.I.S.C.O, D.I.S.C.O, D.I.S.C.O, D.I.S.C.O</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="8">
+            <lyrics>
+               <span spantype="chords">Cm | Cm | Bb | Bb x2</span>
+               <span spantype="words">She is disco (D.I.S.C.O), she is disco (D.I.S.C.O)</span>
+               <span spantype="words">She is disco (D.I.S.C.O), she is disco (D.I.S.C.O)</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse" numbars="12">
+            <lyrics>
+               <span spantype="chords">F | Bb | F | Bb</span>
+               <span spantype="words">She is D delirious, she is I incredible, she is S superficial, she is C complicated</span>
+               <span spantype="chords">Eb | F</span>
+               <span spantype="words">She is O oh, oh</span>
+               <span spantype="chords">F | Bb | F | Bb</span>
+               <span spantype="words">She is D desirable, she is I irresistible, she is S super sexy, she is C such a cutey</span>
+               <span spantype="chords">Eb | F | F | F</span>
+               <span spantype="words">She is O oh, oh</span>
+            </lyrics>
+         </section>
+         <section sectiontype="pre-chorus" numbars="8"/>
+         <section sectiontype="chorus" numbars="8"/>
+         <section sectiontype="verse" numbars="12">
+            <lyrics>
+               <span spantype="chords">F | Bb | F | Bb</span>
+               <span spantype="words">She is D disastrous, she is I impossible, she is S super special, she is C crazy, crazy</span>
+               <span spantype="chords">Eb | F</span>
+               <span spantype="words">She is O oh, oh</span>
+               <span spantype="chords">F | Bb | F | Bb</span>
+               <span spantype="words">She is D delightful, she is I incredible, she is S sensational, she is C sweet as candy</span>
+               <span spantype="chords">Eb | F | F | F</span>
+               <span spantype="words">She is O oh, oh</span>
+            </lyrics>
+         </section>
+         <section sectiontype="instrumental" part="Whistle+Sax+Keys" numbars="16">
+            <chords>Cm | Cm | Bb | Bb</chords>
+         </section>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">Cm | Cm | Bb | Bb x2</span>
+               <span spantype="words">D.I.S.C.O, D.I.S.C.O, D.I.S.C.O, D.I.S.C.O</span>
+               <span spantype="words">D.I.S.C.O, D.I.S.C.O, D.I.S.C.O, D.I.S.C.O</span>
+               <span spantype="words">Disco!</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+   <song>
+      <title>D.I.S.C.O (en francais)</title>
+      <info key="F" style="Fast" artist="Ottowan" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=KohGHXEQrSE</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=BcbNqaXcq4g</annotation>
+         <annotation type="guitar"/>
+         <section sectiontype="intro" part="Gtr" numbars="8">
+            <chords>Cm | Cm | Bb | Bb x2</chords>
+         </section>
+         <section sectiontype="intro" part="Full Band" numbars="8">
+            <chords>Cm | Cm | Bb | Bb x2</chords>
+         </section>
+         <section sectiontype="pre-chorus" numbars="8">
+            <lyrics>
+               <span spantype="chords">Cm | Cm | Bb | Bb x2</span>
+               <span spantype="words">D(day).I(ee).S(ess).C(say).O(oh), D.I.S.C.O, D.I.S.C.O, D.I.S.C.O</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="8">
+            <lyrics>
+               <span spantype="chords">Cm | Cm | Bb | Bb x2</span>
+               <span spantype="words">Elle est disco (D.I.S.C.O), Elle est disco (D.I.S.C.O)</span>
+               <span spantype="words">Elle est disco (D.I.S.C.O), Elle est disco (D.I.S.C.O)</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse" numbars="12">
+            <lyrics>
+               <span spantype="chords">F | Bb | F | Bb</span>
+               <span spantype="words">Elle est D – Démoniaque, Elle est I – Hystérique, Elle est S – Satanique, Elle est C – C'est pas possible</span>
+               <span spantype="chords">Eb | F</span>
+               <span spantype="words">Elle est O oh, oh</span>
+               <span spantype="chords">F | Bb | F | Bb</span>
+               <span spantype="words">Elle est D – Désirable, Elle est I – Irrésistible, Elle est S – Super sexy, Elle est C – C'est formidable</span>
+               <span spantype="chords">Eb | F | F | F</span>
+               <span spantype="words">Elle est O oh, oh</span>
+            </lyrics>
+         </section>
+         <section sectiontype="pre-chorus" numbars="8"/>
+         <section sectiontype="chorus" numbars="8"/>
+         <section sectiontype="verse" numbars="12">
+            <lyrics>
+               <span spantype="chords">F | Bb | F | Bb</span>
+               <span spantype="words">Elle est D – Délirante, Elle est I – Immorale, Elle est S – Suffisante, Elle est C – C'est terrible</span>
+               <span spantype="chords">Eb | F</span>
+               <span spantype="words">Elle est O oh, oh</span>
+               <span spantype="chords">F | Bb | F | Bb</span>
+               <span spantype="words">Elle est D – Douce douce, Elle est I – Hyper belle, Elle est S – Super simple, Elle est C – C'est un rêve</span>
+               <span spantype="chords">Eb | F | F | F</span>
+               <span spantype="words">Elle est O oh, oh</span>
+            </lyrics>
+         </section>
+         <section sectiontype="instrumental chorus"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">Cm | Cm | Bb | Bb x2</span>
+               <span spantype="words">D.I.S.C.O, D.I.S.C.O, D.I.S.C.O, D.I.S.C.O</span>
+               <span spantype="words">D.I.S.C.O, D.I.S.C.O, D.I.S.C.O, D.I.S.C.O</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+   <song>
+      <title>Midnight Train to Georgia</title>
+      <info key="Db" style="Lurve" artist="Artist" genre="Soul" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=rhnRyQCeqXI</annotation>
+         <annotation type="bassline"/>
+         <annotation type="guitar"/>
+         <section sectiontype="intro" numbars="2">
+            <chords>Db Fm7 | Gb Ab</chords>
+         </section>
+         <section sectiontype="verse" numbars="16">
+            <lyrics>
+               <span spantype="chords">Db Fm7 | Gb Ab | Db Fm7 | Gb Ab</span>
+               <span spantype="words">L.A. proved, too much for the man, (Too much for the man. He couldn't make it) </span>
+               <span spantype="chords">Db Fm7 | Gb Bbm6/Eb | Ab | Ab</span>
+               <span spantype="words">So he's leavin' the life he's come to know, (He said he's goin')</span>
+               <span spantype="chords">Db Fm7 | Gb Ab | Db Fm7 | Gb Ab</span>
+               <span spantype="words">He Said he's goin back to find  (goin back to find), Ooh, Ooh, Ooh what's left of his world, </span>
+               <span spantype="chords">Db Fm7 | Gb Bbm6/Eb | Ab | Ab</span>
+               <span spantype="words">The world he left behind Not so long ago.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="16">
+            <lyrics>
+               <span spantype="chords">Db Fm7 | Gb Ab | Db Fm7 | Gb Ab</span>
+               <span spantype="words">He's leaving, (leavin) On that midnight train to Georgia, (Leavin' on the midnight train)</span>
+               <span spantype="chords">Db Fm7 | Gb Bbm6/Eb | Ab | Ab</span>
+               <span spantype="words">Said he's goin' back (Goin back to find) To a simpler place and time. Oh yes he is (Guess who's gonna be right by his side)</span>
+               <span spantype="chords">Db Fm7 | Gb Ab | Bm | Eb</span>
+               <span spantype="words">And I'll be with him (I know you will) On that midnight train to Georgia, (Leavin' on the midnight train to Georgia, Woo-woo)</span>
+               <span spantype="chords">F# | Ab | Db Fm7 | Bm Ab</span>
+               <span spantype="words">I'd rather live in his world (Livin in his world) Than live without him in mine. (Their world is his, his and hers alone)</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">He kept dreamin' (dreamin'), that someday he'd be the star. (A superstar, but he didn't get far)</span>
+               <span spantype="words">But he sure found out the hard way, that dreams don't always come true. (Dreams don't always come true. Uh-uh. No. Uh-uh)</span>
+               <span spantype="words">So he pawned all his hopes (Ooh ooh ooh ooh) and he even sold his old car (Ooh ooh ooh ooh)</span>
+               <span spantype="words">Bought a one way ticket back, to the life he once knew Oh yes he did, he said he would. </span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">Db Fm7 | Gb Ab </span>
+               <span spantype="words">For love (For love) Wanna board (gonna board) Gotta board (On the midnight train to ride)</span>
+               <span spantype="words">My world (For love) His world (gonna board) Our world is mine and his alone</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+   <song>
+      <title>Back to Black</title>
+      <info key="Dm" style="Fast" artist="Amy Winehouse" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=Bn-paWx8pNw</annotation>
+         <annotation type="bassline"/>
+         <annotation type="guitar"/>
+         <section sectiontype="intro">
+            <chords>Dm | Dm | Gm | Gm | Bb | Bb | A | A</chords>
+         </section>
+         <section sectiontype="verse" numbars="16">
+            <lyrics>
+               <span spantype="chords">Dm | Dm | Gm | Gm</span>
+               <span spantype="words">He left no time to re-gret,</span>
+               <span spantype="chords">Bb | Bb | A | A</span>
+               <span spantype="words">kept his dick wet, with his same old safe bet</span>
+               <span spantype="words">Me... and my head held high, and my tears dry;</span>
+               <span spantype="words">I get on, I get on without my guy.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">You went back to what you knew,</span>
+               <span spantype="words">so far removed, from all that we went through.</span>
+               <span spantype="words">And I... tread a troubled track,</span>
+               <span spantype="words">my odds are stacked, and I'll go back to black.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus" numbars="8">
+            <lyrics>
+               <span spantype="chords">Dm | Dm | Gm | Gm</span>
+               <span spantype="words">We only said goodbye with words, I died a hundred times,</span>
+               <span spantype="chords">Bb | Bb | A | A</span>
+               <span spantype="words">you go back to her and I go back to...</span>
+            </lyrics>
+         </section>
+         <!--         <section sectiontype="link" numbars="2">
+            <lyrics>
+               <span spantype="chords">- | -</span>
+               <span spantype="words">I go back to us</span>
+            </lyrics>
+         </section>
 -->
-
-
-
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Baby I love you much,</span>
+               <span spantype="words">it's not e-nough; you love blow and I love puff.</span>
+               <span spantype="words">And life is like a pipe,</span>
+               <span spantype="words">and I'm a tiny penny rolling up inside.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="instrumental" part="Keys" numbars="2">
+            <directions>Rhythm change</directions>
+         </section>
+         <section sectiontype="bridge">
+            <lyrics>
+               <span spantype="chords">Dsus2 | Dsus2 | Bbmaj7| Bbmaj7</span>
+               <span spantype="words">Black... black,</span>
+               <span spantype="chords">F | F | A | A</span>
+               <span spantype="words">Black... black,</span>
+               <span spantype="chords">Dsus2 | Dsus2 | Bbmaj7| Bbmaj7</span>
+               <span spantype="words">Black... black,</span>
+               <span spantype="chords">F | F | A | A7</span>
+               <span spantype="words">Black... I go back to... I go back to...</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">Dsus2</span>
+               <span spantype="words">Black...</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
 
    <song>
       <title>Interval</title>

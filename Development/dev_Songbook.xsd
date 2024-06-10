@@ -240,6 +240,7 @@
 												<xs:restriction base="xs:string">
 												<xs:enumeration value="Horns"/>
 												<xs:enumeration value="Gtr"/>
+												<xs:enumeration value="Keys"/>	
 												<xs:enumeration value="Gtr + Horns"/>
 												<xs:enumeration value="Gtr + Keys"/>
 												<xs:enumeration value="Gtr + Horns + Keys"/>
@@ -260,6 +261,7 @@
 												<xs:enumeration value="Keyboard"/>
 												<xs:enumeration value="Keys + Drums"/>
 												<xs:enumeration value="Sax+k/b"/>
+												<xs:enumeration value="Whistle+Sax+Keys"/>
 												<xs:enumeration value="Instrumental"/>
 												<xs:enumeration value="Hammond"/>
 												<xs:enumeration value="Spoken"/>
