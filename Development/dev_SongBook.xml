@@ -975,6 +975,8 @@
       <title>Hold On Im Coming</title>
       <info key="F" status="ready" style="Fast" genre="Soul" artist="Sam and Dave"/>
       <content>
+         <annotation type="video">https://www.youtube.com/watch?v=Fowldx4hRtI</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=Yvgbwc0GUO8</annotation>
          <section sectiontype="intro" numbars="4">
             <chords>F | Ab | Bb | F</chords>
          </section>
@@ -14031,36 +14033,6 @@
       </content>
    </song>
    <song>
-      <title>I Wish</title>
-      <info key="Eb" style="Fast" artist="Stevie Wonder" genre="Pop" status="rehearsing"/>
-      <content>
-         <section sectiontype="intro" numbars="16">
-            <chords/>
-         </section>
-         <section sectiontype="verse">
-            <lyrics>
-               <span spantype="chords">Ebm7 Ab7 | Ebm7 Ab7 | x 2</span>
-               <span spantype="chords">Ebm7 Ab7 | Ebm7 Ab7 | x 2</span>
-               <span spantype="chords">Bb7 C7 | Fm Ab7</span>
-               <span spantype="chords">Bb7 C7 | Fm Bb7</span>
-            </lyrics>
-         </section>
-         <section sectiontype="verse"> </section>
-         <section sectiontype="chorus">
-            <lyrics>
-               <span spantype="chords">Ebm7 Ab7 | Ebm7 Ab7 | x 2</span>
-               <span spantype="chords">Ebm7 Ab7 | Ebm7 Ab7 | x 2</span>
-            </lyrics>
-         </section>
-         <section sectiontype="break" numbars="8"> </section>
-         <section sectiontype="verse"> </section>
-         <section sectiontype="verse"> </section>
-         <section sectiontype="chorus"> </section>
-         <section sectiontype="break" numbars="8"> </section>
-         <section sectiontype="outro" part="Horns"/>
-      </content>
-   </song>
-   <song>
       <title>I Shall Be Released</title>
       <info key="G" style="Slow" artist="Nina Simone" genre="Soul" status="rehearsing"/>
       <content>
@@ -19704,9 +19676,6 @@
          </section>
          <section sectiontype="pre-chorus" numbars="7"/>
          <section sectiontype="breakdown" numbars="8">
-            <chords>E B | F#m A | x2</chords>
-         </section>
-         <section sectiontype="breakdown" numbars="8">
             <lyrics>
                <span spantype="chords">E B | F#m A | x2</span>
                <span spantype="words">It's murder on the dancefloor, but you better not kill the groove</span>
@@ -19976,6 +19945,126 @@
             <lyrics>
                <span spantype="chords">Dsus2</span>
                <span spantype="words">Black...</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <song>
+      <title>I Wish</title>
+      <info key="Ebm" style="Fast" artist="Stevie Wonder" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=B6cqrjlqjuM</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=yns5fFjaT_k</annotation>
+         <annotation type="guitar"/>
+         <section sectiontype="intro">
+            <chords>Ebm  Ab7 | x4</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">Ebm | Ab7 | x4</span>
+               <span spantype="words">Looking back on when I, was a little nappy headed boy.</span>
+               <span spantype="words">Then my only worry, was for Christmas; what would be my toy.</span>
+               <span spantype="chords">Bb7 | C7 | Fm7 | Abm6</span>
+               <span spantype="words">Even though we sometimes, would not get a thing;</span>
+               <span spantype="chords">Bb7 | C7 | Fm7 | Bb7#5</span>
+               <span spantype="words">We were happy with the, joy the day would bring"</span>
+            </lyrics>
+         </section>     
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Sneaking out the back door, to hang out with those hoodlum friends of mine.</span>
+               <span spantype="words">Greeted at the back door with, "Boy, thought I told you not to go outside".</span>
+               <span spantype="words">Tryin' your best to bring the water to you eyes.</span>
+               <span spantype="words">Thinkin' it might stop her, from whoopin' your be-hind.</span>
+            </lyrics>
+         </section> 
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">Ebm | Ab7 | Ebm | Ab7</span>
+               <span spantype="words">I wish those days, could, come back once more,</span>
+               <span spantype="words">Why did those days, e   -ver have to go?</span>
+               <span spantype="words">I wish those days, could, come back once more,</span>
+               <span spantype="words">Why did those days, e-ver have to go? 'Cos I love them so.</span>
+            </lyrics>
+         </section>
+         <section sectiontype="break">
+            <lyrics>
+               <span spantype="chords">Ebm  | Ab7 | Ebm | Ab7</span>
+               <span spantype="words">Do do do do, do do do do, do do do do.</span>
+               <span spantype="words">Do do do do, do do do do, do do do do.</span>
+            </lyrics>
+         </section>  
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Brother says he's tellin', 'bout you playing doctor with that girl.</span>
+               <span spantype="words">Just don't tell; I'll give you, anything you want in this whole wide world.</span>
+               <span spantype="words">Mama gives you money, for Sunday school,</span>
+               <span spantype="words">You trade yours for candy, after church is through.</span>
+            </lyrics>
+         </section> 
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Smokin' ciga-rettes and, writing something nasty on the wall, (you nasty boy!)</span>
+               <span spantype="words">Teacher sends you to the principals of-fice down the hall.</span>
+               <span spantype="words">You grow up and learn that, kinda thing ain't right.</span>
+               <span spantype="words">But while you were doin' it; it sure felt outta sight.</span>
+            </lyrics>
+         </section> 
+         <section sectiontype="chorus"/>
+         <section  sectiontype="riff" numbars="8">
+            <chords>Ebm | Ab7 | Ebm | Ab7</chords>
+         </section>
+         <section sectiontype="outro">
+            <comment>4 x 8-bar sax riff.  Finish on first bar of 5th riff</comment>
+            <lyrics>
+               <span spantype="chords">Ebm | Ab7 | Ebm | Ab7</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <song>
+      <title>Happy Birthday</title>
+      <info key="C" style="Fast" artist="Stevie Wonder" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=Qwscb3QIVSg</annotation>
+         <annotation type="bassline"/>
+         <annotation type="guitar"/>
+         <section sectiontype="intro" numbars="16">
+            <chords>C | C | Bb | Bb | Am | Am | G | F | X 2</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="chords">C | C | Bb | Bb </span>
+               <span spantype="words">You know it doesn't make much sense. There ought to be a law against</span>
+               <span spantype="chords">Am | Am | G | F</span>
+               <span spantype="words">Anyone who takes offense. At a day in your celebration</span> 
+            </lyrics>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Cause we all know in our minds. That there ought to be a time</span>
+               <span spantype="words">That we can set aside.  To show just how much we love you</span> 
+            </lyrics>
+         </section>      
+         <section sectiontype="bridge">
+            <lyrics>
+               <span spantype="chords">F | G</span>
+               <span spantype="words">And I'm sure you would agree, it couldn't fit more perfectly</span>
+               <span spantype="words">Than to have a world party on the day you came to be</span>               
+            </lyrics>
+         </section>         
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">C x4</span>
+               <span spantype="words">Happy birthday to you, Happy birthday to you.  Happy birthday</span>
+               <span spantype="words">Happy birthday to you, Happy birthday to you.  Happy birthday</span>               
+            </lyrics>
+         </section>
+         <section sectiontype="outro">
+            <lyrics>
+               <span spantype="chords">C | C | Bb | Bb | Am | Am | G | F </span>
             </lyrics>
          </section>
       </content>

@@ -3,6 +3,9 @@
     xmlns:fo="http://www.w3.org/1999/XSL/Format">
     <xsl:template name="songbook_setlist">
 
+        <xsl:apply-templates select="//song[title = 'I Wish']"/>  
+        <xsl:apply-templates select="//song[title = 'Happy Birthday']"/> 
+
         <!--    
         <xsl:apply-templates select="//song[title = 'Midnight Train to Georgia']"/>
         <xsl:apply-templates select="//song[title = 'D.I.S.C.O (en francais)']"/>
@@ -14,7 +17,8 @@
         
         <!-- 
             Rachel 22/6/2024
-        -->         
+        -->   
+        <!-- 
         <xsl:apply-templates select="//song[title = 'Upside Down']"/>   
         <xsl:apply-templates select="//song[title = 'Waterloo']"/>         
         <xsl:apply-templates select="//song[title = 'Valerie']"/>  
@@ -44,7 +48,7 @@
         <xsl:apply-templates select="//song[title = 'Happy']"/>     
         <xsl:apply-templates select="//song[title = 'Sweet Home Chicago']"/>   
         <xsl:apply-templates select="//song[title = 'Take Me To The River']"/> 
-
+        -->
              
         <!-- 
           
