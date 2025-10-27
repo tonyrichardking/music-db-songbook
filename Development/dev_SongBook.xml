@@ -20161,7 +20161,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>Part Time Lover</title>
       <info key="Bbm" style="Medium" artist="Stevie Wonder" genre="Pop" status="rehearsing"/>
@@ -20219,7 +20218,6 @@
          </section>
       </content>
    </song>
-
    <song>
       <title>I Feel Love</title>
       <info key="C" style="Fast" artist="Donna Summer" genre="Pop" status="rehearsing"/>
@@ -20253,7 +20251,7 @@
                <span spantype="words">I feel love</span>
             </lyrics>
          </section>
-         <section sectiontype="instrumental" numbars="8"> 
+         <section sectiontype="instrumental" numbars="8">
             <lyrics>
                <span spantype="chords">C</span>
                <span spantype="words">I feel love...</span>
@@ -20270,7 +20268,7 @@
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
-         <section sectiontype="instrumental" numbars="8"> 
+         <section sectiontype="instrumental" numbars="8">
             <lyrics>
                <span spantype="chords">C</span>
                <span spantype="words">I feel love...</span>
@@ -20296,17 +20294,15 @@
          </section>
       </content>
    </song>
-
-
    <song>
       <title>Young Hearts Run Free</title>
-      <info key="A" style="Fast" artist="Artist" genre="Pop" status="rehearsing"/>
+      <info key="F" style="Fast" artist="Candi Staton" genre="Pop" status="rehearsing"/>
       <content>
          <annotation type="video">https://www.youtube.com/watch?v=wddgskIRVeg</annotation>
          <annotation type="bassline"/>
          <annotation type="guitar"/>
-         <section sectiontype="intro">
-            <chords/>
+         <section sectiontype="intro" part="Saxes">
+            <chords>C x 4</chords>
          </section>
          <section sectiontype="verse">
             <lyrics>
@@ -20359,16 +20355,256 @@
             </lyrics>
          </section>
          <section sectiontype="chorus"/>
-         <section sectiontype="instrumental" numbars="4"/>
+         <section sectiontype="instrumental" numbars="4" part="Saxes">
+            <chords>C x 4</chords>
+         </section>
          <section sectiontype="chorus"/>
          <section sectiontype="outro">
             <lyrics>
-               <span spantype="chords"/>
+               <span spantype="chords">C</span>
                <span spantype="words">Oh, young hearts, run free</span>
             </lyrics>
          </section>
       </content>
    </song>
+
+   <song>
+      <title>Youve Got The Love</title>
+      <info key="A" style="Fast" artist="Candi Staton" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=jpIBXTOEXK8</annotation>
+         <annotation type="bassline"/>
+         <annotation type="guitar"/>
+         <section sectiontype="intro" part="Keys" numbars="8">
+            <chords>Em7 | F#m7/D D/B | A | A | x 4</chords>
+         </section>
+         <section sectiontype="intro" part="Keys" numbars="8" feel="cool">
+            <lyrics>
+               <span spantype="chords">Em7 | F#m7 D | A | A | x 2</span>
+               <span spantype="words">Sometimes I feel like throwing my hands up in the air</span>
+               <span spantype="words">I know I can count on you</span>
+               <span spantype="words">Sometimes I feel like saying "Lord I just don't care"</span>
+               <span spantype="words">You've got the love I need To see me through</span>
+            </lyrics>
+         </section>
+         <section sectiontype="instrumental" part="Horns" feel="builds">
+            <chords>Em7 | F#m7 D | A | A | x 2</chords>
+         </section>
+         <section sectiontype="verse" feel="hot">
+            <lyrics>
+               <span spantype="chords">Em7 | F#m7 D</span>
+               <span spantype="words">Sometimes it seems that the going gets so tough</span>
+               <span spantype="chords">A | A</span>
+               <span spantype="words">And things go wrong no matter what I do</span>
+               <span spantype="chords">Em7 |  F#m7 D</span>
+               <span spantype="words">Now and then it seems that life is just too much</span>
+               <span spantype="chords">A | A</span>
+               <span spantype="words">You've got the love I need to see me through</span>
+            </lyrics>
+         </section>
+         <section sectiontype="instrumental" part="Horns" feel="builds">
+            <chords>Em7 | F#m7 D | A | A | x 2</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">When food is gone you are my</span>
+               <span spantype="words">Daily meal</span>
+               <span spantype="words">When things go wrong I know my saviour's</span>
+               <span spantype="words">Love is real</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus">
+            <lyrics>
+               <span spantype="chords">Em7 | F#m7 D | A | A</span>
+               <span spantype="words">You got the love, You got the love, You got the love</span>
+               <span spantype="chords">Em7 | F#m7 D | A | A</span>
+               <span spantype="words">You got the love, You got the love, You got the love</span>
+            </lyrics>
+         </section>
+         <section sectiontype="instrumental" part="Horns" feel="hot">
+            <chords>Em7 | F#m7 D | A | A | x 4</chords>
+         </section>
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">Time after time I think "Oh Lord what's the use?</span>
+               <span spantype="words">Time after time I think it's just no good</span>
+               <span spantype="words">Sooner or later in life, the things you love you lose</span>
+               <span spantype="words">But you got the love I need to see me through</span>
+            </lyrics>
+         </section>
+         <section sectiontype="chorus"/>
+         <section sectiontype="chorus"/>
+         <section sectiontype="outro" part="Horns">
+            <lyrics>
+               <span spantype="chords">Em7 | F#m7 D | A | A</span>
+               <span spantype="words">You got the love...</span>
+            </lyrics>
+         </section>
+      </content>
+   </song>
+
+   <song>
+      <title>I Wanna Dance With Somebody</title>
+      <info key="F" style="Fast" artist="Whitney Houston" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=eH3giaIzONA</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=l6pUAxVN7hg</annotation>
+         
+         <section sectiontype="intro" part="Horns" numbars="10">
+            <chords>F | F | F | F</chords>
+            <chords>Dm7 | Dm7 | Dbmaj7 | Eb</chords>
+            <chords>F | F</chords>
+         </section>
+         
+         <section sectiontype="verse" numbars="15">
+            <lyrics>
+               <span spantype="chords">C | C | Dm7 | Dm7</span>
+               <span spantype="words">Clock strikes upon the hour And the sun begins to fade</span>
+               <span spantype="chords">C | C | Dm7 | Dm7</span>
+               <span spantype="words">Still enough time to figure out How to chase my blues away</span>
+               <span spantype="chords">Gm7 | C | F | Bbmaj7</span>
+               <span spantype="words">I've done alright up 'til now  It's the light of day that shows me how</span>
+               <span spantype="chords">Bbmaj7 Bbmaj7 Am7 Gsus4 | Gsus4 | Bb</span>
+               <span spantype="words">And when the night falls, loneliness calls</span>
+            </lyrics>
+         </section>
+         
+         <section sectiontype="chorus" numbars="18">
+            <lyrics>
+               <span spantype="chords">F | F | F | F</span>
+               <span spantype="words">Oh, I wanna dance with somebody I wanna feel the heat with somebody</span>
+               <span spantype="chords">Dm7 | Dm7 | Gm7 Am7 | Bb</span>
+               <span spantype="words">Yeah, I wanna dance with somebody With somebody who loves me</span>
+               <span spantype="chords">F | F | F | F</span>
+               <span spantype="words">Oh, I wanna dance with somebody I wanna feel the heat with somebody</span>
+               <span spantype="chords">Dm7 | Dm7 | Dbmaj7 | Eb</span>
+               <span spantype="words">Yeah, I wanna dance with somebody With somebody who loves me</span>
+               <span spantype="chords">F | F</span>
+            </lyrics>
+         </section>
+         
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">I've been in love and lost my senses Spinning through the town</span>
+               <span spantype="words">Sooner or later the fever ends And I wind up feeling down</span>
+               <span spantype="words">I need a man who'll take a chance On a love that burns hot enough to last</span>
+               <span spantype="words">So when the night falls, my lonely heart calls</span>
+            </lyrics>
+         </section>
+         
+         <section sectiontype="chorus"/>
+         
+         <section sectiontype="bridge" numbars="16">
+            <lyrics>
+               <span spantype="chords">Dm7 | Dm7 | Dbmaj7 | Eb</span>
+               <span spantype="words">Somebody who, somebody who Somebody who loves me</span>
+               <span spantype="chords">Dm7 | Dm7 | Dbmaj7 | Eb</span>
+               <span spantype="words">Somebody who, somebody who To hold me in his arms</span>
+               <span spantype="chords">Gm7 | C | F | Bbmaj7</span>
+               <span spantype="words">I need a man who'll take a chance On a love that burns hot enough to last</span>
+               <span spantype="chords">Bbmaj7 Bbmaj7 Am7 Gsus4 | Gsus4 | Bb</span>
+               <span spantype="words">So when the night falls, my lonely heart calls</span>
+            </lyrics>
+         </section>
+         
+         <section sectiontype="chorus">
+            <directions>Up 2 semitones</directions>
+            <lyrics>
+               <span spantype="chords">G | G | G | G</span>
+               <span spantype="chords">Em7 | Em7 | Am7 Bm7 | C</span>
+               <span spantype="chords">G | G | G | G</span>
+               <span spantype="chords">Em7 | Em7 | Ebmaj7 | F</span>
+               <span spantype="chords">G | G</span>
+            </lyrics>
+         </section>
+         
+         <section sectiontype="outro">
+            <comment>chorus in G</comment>
+         </section>
+      </content>
+   </song>
+   
+   <song>
+      <title>I Wanna Dance With Somebody (F#)</title>
+      <info key="F#" style="Fast" artist="Whitney Houston" genre="Pop" status="rehearsing"/>
+      <content>
+         <annotation type="video">https://www.youtube.com/watch?v=eH3giaIzONA</annotation>
+         <annotation type="bassline">https://www.youtube.com/watch?v=l6pUAxVN7hg</annotation>
+         
+         <section sectiontype="intro" part="Horns" numbars="10">
+            <chords>F♯ | F♯ | F♯ | F♯</chords>
+            <chords>Ebm7 | Ebm7 | Dmaj7 | E</chords>
+            <chords>F♯ | F♯</chords>
+         </section>
+         
+         <section sectiontype="verse" numbars="15">
+            <lyrics>
+               <span spantype="chords">C♯ | C♯ | Ebm7 | Ebm7</span>
+               <span spantype="words">Clock strikes upon the hour and the sun begins to fade</span>
+               <span spantype="chords">C♯ | C♯ | Ebm7 | Ebm7</span>
+               <span spantype="words">Still enough time to figure out how to chase my blues away</span>
+               <span spantype="chords">G♯m7 | C♯ | F♯ | Bmaj7</span>
+               <span spantype="words">I've done alright up 'til now, it's the light of day that shows me how</span>
+               <span spantype="chords">Bmaj7 | Bmaj7 | A♯m7 | G♯sus4 | G♯sus4 | B</span>
+               <span spantype="words">And when the night falls, loneliness calls</span>
+            </lyrics>
+         </section>
+         
+         <section sectiontype="chorus" numbars="18">
+            <lyrics>
+               <span spantype="chords">F♯ | F♯ | F♯ | F♯</span>
+               <span spantype="words">Oh, I wanna dance with somebody, I wanna feel the heat with somebody</span>
+               <span spantype="chords">Ebm7 | Ebm7 | G♯m7 A♯m7 | B</span>
+               <span spantype="words">Yeah, I wanna dance with somebody, with somebody who loves me</span>
+               <span spantype="chords">F♯ | F♯ | F♯ | F♯</span>
+               <span spantype="words">Oh, I wanna dance with somebody, I wanna feel the heat with somebody</span>
+               <span spantype="chords">Ebm7 | Ebm7 | Dmaj7 | E</span>
+               <span spantype="words">Yeah, I wanna dance with somebody, with somebody who loves me</span>
+               <span spantype="chords">F♯ | F♯</span>
+            </lyrics>
+         </section>
+         
+         <section sectiontype="verse">
+            <lyrics>
+               <span spantype="words">I've been in love and lost my senses, spinning through the town</span>
+               <span spantype="words">Sooner or later the fever ends and I wind up feeling down</span>
+               <span spantype="words">I need a man who'll take a chance on a love that burns hot enough to last</span>
+               <span spantype="words">So when the night falls, my lonely heart calls</span>
+            </lyrics>
+         </section>
+         
+         <section sectiontype="chorus"/>
+         
+         <section sectiontype="bridge" numbars="16">
+            <lyrics>
+               <span spantype="chords">Ebm7 | Ebm7 | Dmaj7 | E</span>
+               <span spantype="words">Somebody who, somebody who, somebody who loves me</span>
+               <span spantype="chords">Ebm7 | Ebm7 | Dmaj7 | E</span>
+               <span spantype="words">Somebody who, somebody who, to hold me in his arms</span>
+               <span spantype="chords">G♯m7 | C♯ | F♯ | Bmaj7</span>
+               <span spantype="words">I need a man who'll take a chance on a love that burns hot enough to last</span>
+               <span spantype="chords">Bmaj7 | Bmaj7 | A♯m7 | G♯sus4 | G♯sus4 | B</span>
+               <span spantype="words">So when the night falls, my lonely heart calls</span>
+            </lyrics>
+         </section>
+         
+         <section sectiontype="chorus">
+            <directions>Up 2 semitones</directions>
+            <lyrics>
+               <span spantype="chords">G♯ | G♯ | G♯ | G♯</span>
+               <span spantype="chords">Fm7 | Fm7 | B♭m7 Cm7 | D♭</span>
+               <span spantype="chords">G♯ | G♯ | G♯ | G♯</span>
+               <span spantype="chords">Fm7 | Fm7 | Emaj7 | F♯</span>
+               <span spantype="chords">G♯ | G♯</span>
+            </lyrics>
+         </section>
+         
+         <section sectiontype="outro">
+            <comment>chorus in G♯</comment>
+         </section>
+      </content>
+   </song>
+   
 
 
    <song>

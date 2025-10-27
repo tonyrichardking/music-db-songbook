@@ -3,13 +3,17 @@
     xmlns:fo="http://www.w3.org/1999/XSL/Format">
     <xsl:template name="songbook_setlist">
 
-
         <!--New-->
+
+    
+        <xsl:apply-templates select="//song[title = 'I Wanna Dance With Somebody']"/>    
         
-        <xsl:apply-templates select="//song[title = 'I Feel Love']"/>  
-        <xsl:apply-templates select="//song[title = 'Young Hearts Run Free']"/>  
-        <xsl:apply-templates select="//song[title = 'Master Blaster']"/>  
-        
+         <!--         
+        <xsl:apply-templates select="//song[title = 'Youve Got The Love']"/>         
+        <xsl:apply-templates select="//song[title = 'I Feel Love']"/>          
+        <xsl:apply-templates select="//song[title = 'Master Blaster']"/>         
+        -->
+
         <!--        
         <xsl:apply-templates select="//song[title = 'Part Time Lover']"/>   
         <xsl:apply-templates select="//song[title = 'Lady Marmalade']"/>   
@@ -19,60 +23,46 @@
         <xsl:apply-templates select="//song[title = 'Midnight Train to Georgia']"/>
         <xsl:apply-templates select="//song[title = 'D.I.S.C.O (en francais)']"/>
         -->
+
+        <!--Newnham 24/10/2025-->
         
-        <!--     
-        CamCRAG 28/11/2024
-        -->    
-      
         <!--
-        <xsl:apply-templates select="//song[title = 'Smooth Operator']"/>      
-        <xsl:apply-templates select="//song[title = 'Love Song']"/> 
-        <xsl:apply-templates select="//song[title = 'Sweet Child Of Mine 2']"/> 
-        <xsl:apply-templates select="//song[title = 'Valerie']"/>   
-        <xsl:apply-templates select="//song[title = 'To Make You Feel My Love']"/>       
-        <xsl:apply-templates select="//song[title = 'I Say a Little Prayer']"/>
-        <xsl:apply-templates select="//song[title = 'Get Lucky 2']"/> 
-        <xsl:apply-templates select="//song[title = 'Superstition']"/>         
-        -->  
-     
-        <!-- 
             
-        Rachel 22/6/2024
-        
-        <xsl:apply-templates select="//song[title = 'Disco Inferno (C)']"/>           
-        <xsl:apply-templates select="//song[title = 'September']"/>          
-        <xsl:apply-templates select="//song[title = 'Murder On The Dancefloor']"/>         
-        <xsl:apply-templates select="//song[title = 'Valerie']"/>   
-        <xsl:apply-templates select="//song[title = 'Back to Black']"/> 
-        <xsl:apply-templates select="//song[title = 'Love Song']"/> 
-        <xsl:apply-templates select="//song[title = 'Smooth Operator']"/>    
-        <xsl:apply-templates select="//song[title = 'I Will Survive']"/>          
-        <xsl:apply-templates select="//song[title = 'Im Coming Out']"/>         
-        
-        <xsl:apply-templates select="//song[title = 'Interval']"/>         
-        
-        <xsl:apply-templates select="//song[title = 'Upside Down']"/>                  
-        <xsl:apply-templates select="//song[title = 'I Wish']"/>  
-        <xsl:apply-templates select="//song[title = 'Superstition']"/>   
-        <xsl:apply-templates select="//song[title = 'Aint Nobody']"/> 
-        <xsl:apply-templates select="//song[title = 'Waterloo']"/>                 
-        <xsl:apply-templates select="//song[title = 'Proud Mary (DeepBlue Version)']"/>         
-        <xsl:apply-templates select="//song[title = 'D.I.S.C.O']"/>  
-        <xsl:apply-templates select="//song[title = 'Its Raining Men']"/>         
-        <xsl:apply-templates select="//song[title = 'Get Lucky']"/>        
-        <xsl:apply-templates select="//song[title = 'Lost In Music']"/>     
-        <xsl:apply-templates select="//song[title = 'We Are Family']"/>             
- 
+        <xsl:apply-templates select="//song[title = 'September']"/>
+        <xsl:apply-templates select="//song[title = 'Disco Inferno (C)']"/>
+        <xsl:apply-templates select="//song[title = 'Take Me To The River']"/>
+        <xsl:apply-templates select="//song[title = 'Superstition']"/>
+        <xsl:apply-templates select="//song[title = 'Aint Nobody']"/>
+        <xsl:apply-templates select="//song[title = 'I Wish']"/>
+        <xsl:apply-templates select="//song[title = 'Young Hearts Run Free']"/>
+        <xsl:apply-templates select="//song[title = 'Upside Down']"/>
+        <xsl:apply-templates select="//song[title = 'Interval']"/>
+        <xsl:apply-templates select="//song[title = 'Smooth Operator']"/>
+        <xsl:apply-templates select="//song[title = 'Master Blaster']"/>
+        <xsl:apply-templates select="//song[title = 'Im Coming Out']"/>
+        <xsl:apply-templates select="//song[title = 'Murder On The Dancefloor']"/>
+        <xsl:apply-templates select="//song[title = 'Waterloo']"/>
+        <xsl:apply-templates select="//song[title = 'Its Raining Men']"/>
+        <xsl:apply-templates select="//song[title = 'I Will Survive']"/>
+        <xsl:apply-templates select="//song[title = 'Lost In Music']"/>
+        <xsl:apply-templates select="//song[title = 'We Are Family']"/>
         <xsl:apply-templates select="//song[title = 'Encores / Extras']"/>
- 
-        <xsl:apply-templates select="//song[title = 'Happy']"/>     
-        <xsl:apply-templates select="//song[title = 'Sweet Home Chicago']"/>   
-        <xsl:apply-templates select="//song[title = 'Take Me To The River']"/>  
-          
-        -->   
+        <xsl:apply-templates select="//song[title = 'Get Lucky']"/>
+        <xsl:apply-templates select="//song[title = 'Valerie']"/>
         
+        -->
+
         <!-- 
+            <xsl:apply-templates select="//song[title = 'Happy']"/>     
+            <xsl:apply-templates select="//song[title = 'Sweet Home Chicago']"/>   
             
+                
+            <xsl:apply-templates select="//song[title = 'Proud Mary (DeepBlue Version)']"/>         
+            <xsl:apply-templates select="//song[title = 'D.I.S.C.O']"/>              
+             
+            <xsl:apply-templates select="//song[title = 'Back to Black']"/> 
+            <xsl:apply-templates select="//song[title = 'Love Song']"/>            
+           
             <xsl:apply-templates select="//song[title = 'Smooth Operator']"/>   
             <xsl:apply-templates select="//song[title = 'Love Song']"/>  
             <xsl:apply-templates select="//song[title = 'To Make You Feel My Love']"/>  
@@ -80,9 +70,9 @@
             <xsl:apply-templates select="//song[title = 'Murder On The Dancefloor']"/>            
             <xsl:apply-templates select="//song[title = 'Valerie']"/>  
 
-        -->   
-        
-           
+        -->
+
+
         <!-- 
             
         <xsl:apply-templates select="//song[title = 'Happy Birthday']"/>          
