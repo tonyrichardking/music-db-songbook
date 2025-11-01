@@ -6,7 +6,9 @@
         <!--New-->
 
     
-        <xsl:apply-templates select="//song[title = 'I Wanna Dance With Somebody']"/>    
+        <xsl:apply-templates select="//song[title = 'I Wanna Dance With Somebody']"/>  
+        <xsl:apply-templates select="//song[title = 'I Wanna Dance With Somebody (F#)']"/>  
+        <xsl:apply-templates select="//song[title = 'All I Want for Christmas Is You']"/>  
         
          <!--         
         <xsl:apply-templates select="//song[title = 'Youve Got The Love']"/>         
