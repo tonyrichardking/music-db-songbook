@@ -11151,7 +11151,7 @@
       <content>
          <annotation type="video">https://www.youtube.com/watch?v=bixuI_GV5I0</annotation>
          <section sectiontype="intro" numbars="8">
-            <chords>Emaj7 | Emaj7 | Emaj7 | Emaj7</chords>
+            <chords>Ebmaj7 | Ebmaj7 | Fm7 | Fm7</chords>
          </section>
          <section sectiontype="verse">
             <lyrics>
@@ -11164,7 +11164,7 @@
          </section>
          <section sectiontype="chorus">
             <lyrics>
-               <span spantype="chords">Ab | Em </span>
+               <span spantype="chords">Ab | Gm </span>
                <span spantype="words">'cos since I've come on home , well my body's been a mess</span>
                <span spantype="words">And I've missed your ginger hair and the way you like to dress</span>
                <span spantype="words">Won't you come on over stop making a fool out of</span>
@@ -20453,19 +20453,20 @@
          
          <section sectiontype="intro" part="Horns" numbars="10">
             <chords>F | F | F | F</chords>
-            <chords>Dm7 | Dm7 | Dbmaj7 | Eb</chords>
+            <chords>Dm7 | Dm7 | Gm7 Am7 | Bb C</chords>
             <chords>F | F</chords>
          </section>
          
          <section sectiontype="verse" numbars="15">
+            <comment>Gsus4 = X55533</comment>
             <lyrics>
                <span spantype="chords">C | C | Dm7 | Dm7</span>
                <span spantype="words">Clock strikes upon the hour And the sun begins to fade</span>
                <span spantype="chords">C | C | Dm7 | Dm7</span>
                <span spantype="words">Still enough time to figure out How to chase my blues away</span>
-               <span spantype="chords">Gm7 | C | F | Bbmaj7</span>
+               <span spantype="chords">Gm7 | C | F/A | Bbmaj7</span>
                <span spantype="words">I've done alright up 'til now  It's the light of day that shows me how</span>
-               <span spantype="chords">Gm7 Gm7 Am7 Gsus4 | Gsus4 | Bb</span>
+               <span spantype="chords">Gm7 Gm7 Am7 Gsus4/D | Gsus4/D | Bb</span>
                <span spantype="words">And when the night falls, loneliness calls</span>
             </lyrics>
          </section>
@@ -20474,11 +20475,11 @@
             <lyrics>
                <span spantype="chords">F | F | F | F</span>
                <span spantype="words">Oh, I wanna dance with somebody I wanna feel the heat with somebody</span>
-               <span spantype="chords">Dm7 | Dm7 | Gm7 Am7 | Bb</span>
+               <span spantype="chords">Dm7 | Dm7 | Gm7 Am7 | Bb C</span>
                <span spantype="words">Yeah, I wanna dance with somebody With somebody who loves me</span>
                <span spantype="chords">F | F | F | F</span>
                <span spantype="words">Oh, I wanna dance with somebody I wanna feel the heat with somebody</span>
-               <span spantype="chords">Dm7 | Dm7 | Dbmaj7 | Eb</span>
+               <span spantype="chords">Dm7 | Dm7 | Gm7 Am7 | Bb C</span>
                <span spantype="words">Yeah, I wanna dance with somebody With somebody who loves me</span>
                <span spantype="chords">F | F</span>
             </lyrics>
@@ -20497,13 +20498,13 @@
          
          <section sectiontype="bridge" numbars="16">
             <lyrics>
-               <span spantype="chords">Dm7 | Dm7 | Dbmaj7 | Eb</span>
+               <span spantype="chords">Dm7 | Dm7 | C | C</span>
                <span spantype="words">Somebody who, somebody who Somebody who loves me</span>
-               <span spantype="chords">Dm7 | Dm7 | Dbmaj7 | Eb</span>
+               <span spantype="chords">Dm7 | Dm7 | C | C</span>
                <span spantype="words">Somebody who, somebody who To hold me in his arms</span>
-               <span spantype="chords">Gm7 | C | F | Bbmaj7</span>
+               <span spantype="chords">Gm7 | C | F/A | Bbmaj7</span>
                <span spantype="words">I need a man who'll take a chance On a love that burns hot enough to last</span>
-               <span spantype="chords">Bbmaj7 Bbmaj7 Am7 Gsus4 | Gsus4 | Bb</span>
+               <span spantype="chords">Gm7 Gm7 Am7 Gsus4/D | Bb | C</span>
                <span spantype="words">So when the night falls, my lonely heart calls</span>
             </lyrics>
          </section>
@@ -20512,9 +20513,9 @@
             <directions>Up 2 semitones</directions>
             <lyrics>
                <span spantype="chords">G | G | G | G</span>
-               <span spantype="chords">Em7 | Em7 | Am7 Bm7 | C</span>
+               <span spantype="chords">Em7 | Em7 | Am7 Bm7 | C D</span>
                <span spantype="chords">G | G | G | G</span>
-               <span spantype="chords">Em7 | Em7 | Ebmaj7 | F</span>
+               <span spantype="chords">Em7 | Em7 | Am7 Bm7 | C D</span>
                <span spantype="chords">G | G</span>
             </lyrics>
          </section>
@@ -20525,7 +20526,7 @@
       </content>
    </song> 
    <song>
-      <title>I Wanna Dance With Somebody (F#)</title>
+      <title>I Wanna Dance With Somebody (F# - funky)</title>
       <info key="F#" style="Fast" artist="Whitney Houston" genre="Pop" status="rehearsing"/>
       <content>
          <annotation type="video">https://www.youtube.com/watch?v=eH3giaIzONA</annotation>
@@ -20609,32 +20610,35 @@
       <info key="G" style="Fast" artist="Mariah Carey" genre="Pop" status="rehearsing"/>
       <content>
          <annotation type="video">https://www.youtube.com/watch?v=aAkMkVFwAoo</annotation>
-         <section sectiontype="intro">
+         <section sectiontype="intro" feel="slow" part="Horns">
+            <comment>Glockentrumpet riff</comment>
+         </section>
+         <section sectiontype="intro" feel="slow">
             <comment>Cm6/Eb = x6558x</comment>
             <lyrics>
-               <span spantype="chords">G | G | B7 | B7</span>
+               <span spantype="chords">G | G/B</span>
                <span spantype="words">I don't want a lot for Cwistmas , There's just one thing I need</span>
-               <span spantype="chords">C | C | Cm6/Eb | Cm6/Eb</span>
+               <span spantype="chords">C | EB</span>
                <span spantype="words">I don't care about the pwesents, Underneath the Cwistmas twee</span>
-               <span spantype="chords">G | G B7 | Em | Em Cm6/Eb</span>
+               <span spantype="chords">G | Em Eb</span>
                <span spantype="words">I just want you for my own, More than you could ever know</span>
-               <span spantype="chords">G | E7 | Am7 | D7</span>
+               <span spantype="chords">G | E7 | Am | D</span>
                <span spantype="words">Make my wish come twue, All I want for Cwistmas  is...</span>
             </lyrics>
          </section>
          <section sectiontype="riff" part="Keys">
             <lyrics>
-               <span spantype="chords">G | G | G | G</span>
+               <span spantype="chords">G | Em | C | D</span>
                <span spantype="words">You</span>
             </lyrics>
          </section>
          <section sectiontype="verse">
             <lyrics>
-               <span spantype="chords">G | G | G | G B7</span>
+               <span spantype="chords">G | G | G | G A Bb B</span>
                <span spantype="words">I don't want a lot for Cwistmas , There is just one thing I need</span>
                <span spantype="chords">C | C | Cm6/Eb | Cm6/Eb</span>
                <span spantype="words">I don't care about the pwesents, Underneath the Cwistmas twee</span>
-               <span spantype="chords">G | G | G | G B7</span>
+               <span spantype="chords">G | G | G | G A Bb B</span>
                <span spantype="words">I don't need to hang my stocking, There upon the fireplace</span>
                <span spantype="chords">C | C | Cm6/Eb | Cm6/Eb</span>
                <span spantype="words">Santa Claus won't make me happy, With a toy on Cwistmas day</span>
@@ -20655,7 +20659,7 @@
                <span spantype="words">I won't ask for much this Cwistmas , I won't even wish for snow</span>
                <span spantype="words">I'm just gonna keep on waiting, Underneath the mistletoe</span>
                <span spantype="words">I won't make a list and send it, To the North Pole for Saint Nick</span>
-               <span spantype="words">I won't even stay awake to, Hear those magic reindeer click</span>
+               <span spantype="words">I won't even stay awake to, Hear those magic weindeer click</span>
             </lyrics>
          </section>
          <section sectiontype="chorus">
